@@ -118,7 +118,8 @@ body {
 
 .ukrMap {
     position: relative;
-    margin-left: 50px;
+    text-align: center;
+    margin-left: 60px;
 }
 
 .ukrMap img {

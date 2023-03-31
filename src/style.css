@@ -250,7 +250,8 @@ body {
 .donetsk {
     z-index: 1;
     width: 203px;
-    top: 397px;
+    height: 264px;
+    top: 404px;
     left: 1035px;
     transition: all 500ms ease;
 }

@@ -59,3 +59,7 @@ function changeLanguage() {
     }
 }
 changeLanguage();
+
+document.getElementById('navbarLogo').onclick = function () {
+    document.location.assign("index.html");
+}

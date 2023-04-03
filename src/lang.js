@@ -27,4 +27,8 @@ const langArr = {
         "ua": "Вибір мови:",
         "en": "Language change:",
     },
+    "petition": {
+        "ua": "Петиції",
+        "en": "Petition",
+    },
 }

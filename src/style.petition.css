@@ -1,0 +1,120 @@
+body {
+    background-image: url("./img/logo/background_logo.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navBar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navBar .conteiner {
+     height: inherit;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.navbarMenu{
+    margin-right: 70px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbarMenu li{
+    display: inline-block;
+}
+
+.navbarMenu li a{
+    display: inline-block;
+    font-weight: 600;
+    color: rgb(32, 2, 255);
+    background-color: rgb(255, 234, 0);
+    border-radius: 100px;
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 500ms ease;
+}
+
+.navbarMenu li a:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.navbarWrap {
+    flex-flow: row nowrap;
+}
+
+.navbarLogo {
+    border-radius: 500px;
+    border-color: black;
+    width: 65px;
+    height: 65px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+
+.navbarLogo:hover {
+    transform: scale(1.1);
+}
+
+.navbarWrap .change {
+    opacity: .8;
+    height: 40px;
+    width: 50px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: rgb(32, 2, 255);
+    background-color: rgb(255, 234, 0);
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+
+.navbarWrap .change:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.petitionBox {
+    position: relative;
+    width: 500px;
+    height: 550px;
+    background-color: gray;
+    opacity: .8;
+}
+
+.forCountext {
+    position: absolute;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+.forCount {
+    position: absolute;
+    margin-top: 300px;
+    font-size: 50px;
+    margin-left: 140px;
+}
+
+.petitionButton {
+    position: absolute;
+    margin-top: 310px;
+    font-size: 30px;
+    margin-left: 250px;
+    border-radius: 100px;
+    color: rgb(32, 2, 255);
+    background-color: rgb(255, 234, 0);
+}
+

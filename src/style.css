@@ -33,13 +33,13 @@ body {
 .navbarMenu li a{
     display: inline-block;
     font-weight: 600;
-    color: rgb(1, 213, 1);
-    background-color: rgb(1, 66, 1);
+    color: rgb(32, 2, 255);
+    background-color: rgb(255, 234, 0);
     border-radius: 100px;
     margin-left: 30px;
     margin-right: 200px;
     margin-bottom: 20px;
-    opacity: 0.6;
+    opacity: 0.8;
     text-decoration: none;
     padding: 10px;
     transition: all 500ms ease;

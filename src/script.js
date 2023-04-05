@@ -35,6 +35,10 @@ window.setInterval(function() {
     document.getElementById("clock").innerHTML = clock;
 })
 
+document.getElementById('navbarLogo').onclick = function () {
+    document.location.assign("index.html");
+}
+
 const select = document.querySelector('select');
 const allLang = ['ua', 'en'];
 
@@ -59,7 +63,3 @@ function changeLanguage() {
     }
 }
 changeLanguage();
-
-document.getElementById('navbarLogo').onclick = function () {
-    document.location.assign("index.html");
-}

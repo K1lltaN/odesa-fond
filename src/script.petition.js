@@ -3,6 +3,11 @@ const allLang = ['ua', 'en'];
 
 select.addEventListener('change', changeURLLanguage);
 
+document.getElementById('navbarLogo').onclick = function() {
+    document.location.assign('./index.html')
+}
+
+
 function changeURLLanguage() {
     let lang = select.value;
     location.href = window.location.pathname + '#' + lang;

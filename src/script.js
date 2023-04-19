@@ -4,6 +4,7 @@ document.getElementById('odessa').onclick = function() {
     let popUp = document.getElementById('popUp')
 
     openPopUp.addEventListener('click', function(e) {
+        e.preventDefault();
         popUp.classList.add('active');
     })
 
@@ -14,6 +15,17 @@ document.getElementById('odessa').onclick = function() {
 
 document.getElementById('navbarLogo').onclick = function() {
     document.location.assign('./index.html')
+}
+
+function readMore() {
+    let btn = document.getElementById('moreButton');
+    let aboutOwnerText = document.getElementById('aboutOwnerText');
+    // if(aboutOwnerText.style.display === "none") {
+    //     aboutOwnerText.style.dispaly = "inline";
+    //     btn.style.display = "none";
+    // }
+    aboutOwnerText.style.display = "inline";
+    btn.style.display = "none";
 }
 
 window.setInterval(function() {

@@ -33,7 +33,7 @@ const langArr = {
     },
     "fondName": {
         "ua": "РУХ НОВИХ ЗМІН",
-        "en": "RUH NOVYH ZMIN",
+        "en": "RUКH NOVYH ZMIN",
     },
     "aboutOwnerMainText": {
         "ua": "Мальцев Олександр Павлович",

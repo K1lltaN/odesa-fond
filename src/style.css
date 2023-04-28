@@ -1,5 +1,5 @@
 body {
-    background-image: url("./img/logo/background_logo.jpeg");
+    /* background-image: url("./img/logo/background_logo.jpeg"); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body {
 .navbarMenu li a{
     display: inline-block;
     font-weight: 600;
-    color: rgb(32, 2, 255);
+    color: rgb(30, 0, 255);
     background-color: rgb(255, 234, 0);
     border-radius: 100px;
     margin-left: 30px;
@@ -77,7 +77,7 @@ body {
     border-radius: 50px;
     font-weight: 600;
     color: rgb(32, 2, 255);
-    background-color: rgb(255, 234, 0);
+    background-color: rgb(0, 255, 17);
     text-align: center;
     transition: all 500ms ease-in-out;
 }
@@ -88,49 +88,22 @@ body {
 }
 
 .fondName {
+    position: relative;
     color: green;
     text-align: center;
     font-size: 80px;
 }
 
-.ownerPhoto {
-    height: 800px;
-    margin-top: 20px;
-    position: absolute;
-}
-
-.ownerInfomationBox{
-    background-color: black;
-    position: absolute;
-    width: 100%;
-    height: 800px;
-    margin-top: 20px;
-    opacity: .4;
-}
-
-.aboutOwnerMainText {
-    color: yellow;
-    position: absolute;
+.mapSectionName {
     text-align: center;
-    margin-left: 850px;
-}
-
-#aboutOwnerText {
-    display: none;
-    color: yellow;
-    width: 700px;
-    position: absolute;
-    margin-left: 700px;
-    margin-top: 90px;
-    font-size: 23px;
-    font-weight: 500;
+    margin-right: 40px;
 }
 
 .ukrMap {
     position: relative;
     text-align: center;
+    margin-top: 200px;
     margin-left: 60px;
-    margin-top: 5000px;
 }
 
 .ukrMap img {
@@ -501,7 +474,7 @@ body {
 .victoryClock {
     position: relative;
     position: absolute;
-    margin-top: 780px;
+    margin-top: 850px;
     margin-left: 500px;
     font-size: 80px;
     font-weight: 600;
@@ -514,27 +487,124 @@ body {
     bottom: 1px;
 }
 
-#moreButton {
+.donateSection {
     position: absolute;
-    display: inline;
-    background-color: yellow;
-    color: blue;
-    border-radius: 100px;
-    border: none;
-    width: 100px;
-    height: 40px;
-    margin-left: 1000px;
-    margin-top: 70px;
-    z-index: 10;
+    margin-top: 1300px;
+    font-size: 50px;
     text-align: center;
-    font-weight: 600;
-    font-size: 16px;
-    opacity: .7;
-    transition: all 500ms ease;
-    cursor: pointer;
+    margin-left: 520px;
 }
 
-#moreButton:hover {
+.secondBackground{
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    height: 500px;
+    margin-top: 1380px;
+    opacity: .4;
+}
+
+.doanteContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    margin-top: 1400px;
+    border-radius: 10px;
+}
+
+.doanteContainer div{
+    float: right;
+    text-align: center;
+    height: 400px;
+    width: 300px;
+    margin: 50px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+.doanteContainer div p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    width: 300px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.doanteContainer div button {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+    padding: 20px 30px;
+    margin-top: 322px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #ff0000 0%, #7c4040 51%, #02010c 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: all .5s ease;
+    font-size: 30px;
+}
+
+.doanteContainer div button:hover {
+    background-position: right center;
     transform: scale(1.2);
-    opacity: .9;
+}
+
+.doanteContainer .ZSUdonate {
+    background-image: url(./img/donate-background/ZSUbackground.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;   
+}
+
+.doanteContainer .childDonate {
+    background-image: url(./img/donate-background/childDondate-background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+
+.doanteContainer .childDonate {
+    background-image: url(./img/donate-background/childDondate-background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+
+.mainDonate {
+    background-image: url(./img/donate-background/donateMain-background.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+}
+
+.doanteContainer .mainDonate p {
+    color: #02010c;
+}
+
+.helpInformationSection {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.vault {
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
 }

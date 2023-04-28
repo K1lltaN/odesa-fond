@@ -32,7 +32,7 @@ const langArr = {
         "en": "RUКH NOVYH ZMIN",
     },
     "mapSectionName": {
-        "ua": "Бажаєте знайти нас? Клікніть на область та отримайте інформацію про штаб у цієй області!",
+        "ua": "Бажаєте знайти нас? Клікніть на область та отримайте інформацію про штаб у цій області!",
         "en": "Would you like to know us? Click on the region and take away information about the headquarters of this region!",
     },
     "donateSection": {

@@ -41,37 +41,179 @@ partners.onmouseleave = handleMouseLeave;
 partnersBox.onmousemove = handleMouseOver;
 partnersBox.onmouseleave = handleMouseLeave;
 
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderPatrul");
+  let prevArrow = document.querySelector(".prevArrowPatrul");
+  let nextArrow = document.querySelector(".nextArrowPatrul");
 
-const slider = document.querySelector(".slider");
-const slides = document.querySelector(".slides");
-const prev = document.querySelector(".prev");
-const next = document.querySelector(".next");
-let slideIndex = 0;
+  let currentPosition = 0;
+  let imageWidth = 600;
+  let totalImages = slider.querySelectorAll("img").length;
 
-function showSlides() {
-  slides.style.transform = `translateX(-${slideIndex * 600}px)`;
-}
-
-function nextSlide() {
-  if (slideIndex === 17) {
-    slideIndex = 0;
-  } else {
-    slideIndex++;
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
   }
-  showSlides();
-}
-
-function prevSlide() {
-  if (slideIndex === 0) {
-    slideIndex = 17;
-  } else {
-    slideIndex--;
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
   }
-  showSlides();
-}
 
-prev.addEventListener("click", prevSlide);
-next.addEventListener("click", nextSlide);
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderHelpToArmy");
+  let prevArrow = document.querySelector(".prevArrowHelpToArmy");
+  let nextArrow = document.querySelector(".nextArrowHelpToArmy");
+
+  let currentPosition = 0;
+  let imageWidth = 600;
+  let totalImages = slider.querySelectorAll("img").length;
+
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderArmor");
+  let prevArrow = document.querySelector(".prevArrowArmor");
+  let nextArrow = document.querySelector(".nextArrowArmor");
+
+  let currentPosition = 0;
+  let imageWidth = 600;
+  let totalImages = slider.querySelectorAll("img").length;
+
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderSignal");
+  let prevArrow = document.querySelector(".prevArrowSignal");
+  let nextArrow = document.querySelector(".nextArrowSignal");
+
+  let currentPosition = 0;
+  let imageWidth = 600;
+  let totalImages = slider.querySelectorAll("img").length;
+
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderInterhimHalp");
+  let prevArrow = document.querySelector(".prevArrowInterhimHalp");
+  let nextArrow = document.querySelector(".nextArrowInterhimHalp");
+
+  let currentPosition = 0;
+  let imageWidth = 600;
+  let totalImages = slider.querySelectorAll("img").length;
+
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
+document.getElementById('more').onclick = function () {
+  document.getElementById('moreText').style.display = "block";
+  document.getElementById('more').style.display = "none";
+  document.getElementById('ownerInformationMain').style.display = "none";
+}
 
 document.getElementById('facebookIcon').onclick = function () {
   window.open('https://www.facebook.com/groups/402095474610529/?ref=share_group_link', '_blank');

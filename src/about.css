@@ -1,97 +1,128 @@
-body {
-    background-image: url("./img/logo/background_logo.jpeg");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transform: translateX(0) translateY(120px);
+  min-width: 100%; 
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
 }
 
 .navBar {
-    width: 100%;
-    height: 70px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navBar .conteiner {
-     height: inherit;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+   height: inherit;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .navbarMenu{
-    margin-right: 70px;
-    list-style-type: none;
-    padding-left: 0;
-    margin-bottom: 0;
+  margin-right: 70px;
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
 }
 
 .navbarMenu li{
-    display: inline-block;
+  display: inline-block;
 }
 
 .navbarMenu li a{
-    display: inline-block;
-    cursor: pointer;
-    font-weight: 600;
-    color: rgb(30, 0, 255);
-    background-color: rgb(0, 255, 17);
-    border-color: #02010c;
-    border-radius: 100px;
-    margin-left: 30px;
-    margin-right: 200px;
-    margin-bottom: 20px;
-    opacity: 0.8;
-    text-decoration: none;
-    padding: 10px;
-    transition: all 500ms ease;
+  border: white;
+  border-style: groove;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  cursor: pointer;
+  font-weight: 600;
+  border-width: 2px;
+  border-color: #fff;
+  color: rgb(255, 255, 255);
+  background-color: green;    
+  border-radius: 100px;
+  margin-left: 170px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 500ms ease;
 }
 
 .navbarMenu li a:hover {
-    transform: scale(1.2);
-    opacity: 1;
+  transform: scale(1.2);
+}
+
+.navbarWrap {
+  flex-flow: row nowrap;
+}
+
+.navbarWrap .change {
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  border: white;
+  border-style: groove;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  transition: all 500ms ease-in-out;
+}
+
+.navbarWrap .change:hover {
+  transform: scale(1.2);
+  opacity: 1;
 }
 
 .navbarWrap {
     flex-flow: row nowrap;
 }
 
-.navbarLogo {
-    border-radius: 500px;
-    border-color: black;
-    width: 65px;
-    height: 65px;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    cursor: pointer;
-    transition: all 500ms ease;
+.partnersBox {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  margin-left: 440px;
+  background-color: gray;
+  border: white;
+  border-style: groove;
+  opacity: .9;
+  width: 400px;
+  height: 660px;
+  border-radius: 10px;
 }
 
-.navbarLogo:hover {
-    transform: scale(1.1);
+.partnersBox img{
+  display: inline-block;
+  position: inline;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 357px;
+  height: 150px;
+  transition: all 500ms ease;
 }
 
-.navbarWrap .change {
-    cursor: pointer;
-    opacity: .8;
-    height: 40px;
-    width: 50px;
-    margin-bottom: 25px;
-    border-radius: 50px;
-    font-weight: 600;
-    color: rgb(32, 2, 255);
-    background-color: rgb(0, 255, 17);
-    text-align: center;
-    transition: all 500ms ease-in-out;
-}
-
-.navbarWrap .change:hover {
-    transform: scale(1.2);
-    opacity: 1;
+.partnersBox img:hover {
+  transform: scale(1.1);
 }
 
 .header {
-    background-color: rgb(0, 255, 17);
+    background-color: green;
     text-align: center;
     border-radius: 20px;
     font-size: 70px;
@@ -101,7 +132,7 @@ body {
 
 .leftBox {
     position: relative;
-    background-color: rgb(0, 255, 17);
+    background-color: green;
     text-align: center;
     margin: 50px 30px 50px 400px;
     border-radius: 20px;
@@ -119,7 +150,7 @@ body {
 }
 
 .rightBox {
-    background-color: rgb(0, 255, 17);
+    background-color: green;
     margin: 50px 500px 50px 10px;
     border-radius: 20px;
     width: 1000px;
@@ -133,4 +164,251 @@ body {
     margin-left: 50px;
     width: 900px;
     font-weight: 600;
+}
+
+.reportTitle {
+    background-color: green;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 70px;
+    margin: 300px 350px 10px;
+    margin-bottom: 100px;
+}
+
+.slider {
+    position: relative;
+    width: 600px;
+    height: 750px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+  
+  .slides {
+    display: flex;
+    width: 10800px;
+    height: 750px;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slides img {
+    width: 600px;
+    height: 750px;
+  }
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    top: 700px;
+    margin-left: 50px;
+    background-color: green;
+    border-radius: 40px;
+    opacity: .7;
+    transition: all 600ms ease;
+  }
+
+  .prev:hover {
+    opacity: .9;
+  }
+  
+  .next {
+    top: 700px;
+    margin-left: 510px;
+    background-color: green;
+    border-radius: 40px;
+    opacity: .7;
+    transition: all 600ms ease;
+  }
+
+  .next:hover {
+    opacity: .9;
+  }
+
+  .patrulDescr {
+    background-color: green;
+    padding: 20px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .carDescr {
+    background-color: green;
+    padding: 20px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .armyHAlpDescr {
+    background-color: green;
+    padding: 40px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 110px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .armyHelpDescrarmor {
+    background-color: green;
+    padding: 10px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 45px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .armyHelpcabel {
+    background-color: green;
+    padding: 10px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 85px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .armyHalpWithOtherCompanyDescr {
+    background-color: green;
+    padding: 10px 30px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 96%;
+    height: 180px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .fondOwnerTitle {
+    background-color: green;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 70px;
+    margin: 110px 350px 40px;
+    margin-bottom: 100px;
+  }
+
+  .backgroundBox {
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    opacity: .5;
+    height: 800px;
+    border-radius: 10px;
+  }
+
+  .ownerPhoto {
+    position: absolute;
+    z-index: 2;
+    width: 600px;
+    height: 800px;
+    border-radius: 10px;
+  }
+
+  .fondOwnerName {
+    position: absolute;
+    margin-left: 620px;
+    font-weight: 600;
+    font-size: 40px;
+  }
+
+  .ownerInformation {
+    position: absolute;
+    z-index: 2;
+    width: 800px;
+    height: 800ox;
+    margin-top: 90px;
+    margin-left: 620px;
+    font-weight: 600;
+  }
+
+  .vault {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    opacity: .75;
+}
+
+.vault .telefoonNumer {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+}
+
+.vault .mail {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 40px;
+    color: white;
+}
+
+.vault .vaultLogo {
+    border-radius: 500px;
+    border-color: black;
+    width: 220px;
+    height: 160px;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+
+.vault #instagrammIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    transition: all 600ms ease;
+}
+
+.vault #facebookIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: 50px;
+    transition: all 600ms ease;
+
+}
+
+.vault #instagrammIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
+}
+
+.vault #facebookIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
 }

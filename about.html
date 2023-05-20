@@ -9,23 +9,33 @@
 <body>
     <script src="./src/lang.about.js"></script>
     <title id="unit">Про нас</title>
-    <div class="navBar">
-        <div class="conteiner">
-        <img src="./src/img/logo/navbarbrand_logo.jpeg" alt="logo" class="navbarLogo" id="navbarLogo">
-        <div class="navbarWrap">
-            <ul class="navbarMenu">
-                <li><a href="./about.html">Про нас</a></li>
-                <li><a href="./description.html">Наша праця</a></li>
-                <select class="change">
-                    <option id="change">Вибір мови</option>
-                    <option value="ua" class="ua">UA</option>
-                    <option value="en" class="en">EN</option>
-                </select>
-            </ul>
+    <video autoplay muted loop id="myVideo">
+        <source src="./src/backrgroundVideo.mp4" type="video/mp4">
+    </video>
+    <div class="content"> 
+        <div class="navBar">
+            <div class="conteiner">
+                <div class="navbarWrap">
+                <ul class="navbarMenu">
+                    <li><a id="aboutUs" href="./index.html">На головну</a></li>
+                    <li><a id="partners" href="#">Наші партнери</a></li>
+                    <li><a id="help" href="ʼ">Бажаю допомогти</a></li>
+                    <select class="change">
+                        <option id="change">Вибір мови</option>
+                        <option value="ua" class="ua">UA</option>
+                        <option value="en" class="en">EN</option>
+                    </select>
+                </ul>
+            </div>
         </div>
-    </div>
-    </div>
-    <h1 class="header">Опис нашої комании:</h1>
+        </div>
+        <div class="partnersBox" id="partnersBox">
+            <div class="partnersBoxBackground"></div>            <img src="./src/img/partners/interhimPartner.jpg" alt="interhimPartner" onclick="">
+            <img src="./src/img/partners/korydoruPartner.jpg" alt="korydoruPartner">
+            <img src="./src/img/partners/krainamasajuPartner.jpg" alt="krainamasajuPartner">
+            <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
+        </div>
+    <h1 class="header">Опис нашої команії:</h1>
     <div class="leftBox">
         <p>З 2014 року Олександ Мальцев як приватна особа займався волонтерською допомогою українській армії та переселенцям с Донецкої та Луганскої областей. У 2020 році він разом з командою cтворив благодійний фонд для надання допомоги людям з інвалідністю, хворим дітям та тваринам.</p>
     </div>
@@ -38,6 +48,85 @@
     <div class="rightBox">
         <p>-"Гуманітарний штаб" підтримує цивільне населення та надає можливість отримати необхідну допомогу для відновлення гідного життя.</p>
     </div>
+    <h1 class="reportTitle">Наш звіт</h1>
+    <div class="slider">
+        <div class="slides">
+            <img src="./src/img/descrPhotos/armyHalpMattreses.jpg" alt="armyHalpMattreses">
+            <img src="./src/img/descrPhotos/aboutBroadcast.jpg" alt="aboutBroadcast">
+            <img src="./src/img/descrPhotos/aboutCable.jpg" alt="aboutCable">
+            <img src="./src/img/descrPhotos/aboutCar.jpg" alt="aboutCar">
+            <img src="./src/img/descrPhotos/aboutDevice.jpg" alt="aboutDevice">
+            <img src="./src/img/descrPhotos/armyHalpMattress.jpg" alt="armyHalpSigarets">
+            <img src="./src/img/descrPhotos/armyHalpSigarets.jpg" alt="armyHalpSigarets">
+            <img src="./src/img/descrPhotos/patrul.jpg" alt="armyHalpSigarets">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_1.jpg" alt="armyHalpWithOtherCompanyPhoto_1">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_3.jpg" alt="armyHalpWithOtherCompanyPhoto_3">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_4.jpg" alt="armyHalpWithOtherCompanyPhoto_4">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_5.jpg" alt="armyHalpWithOtherCompanyPhoto_5">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_6.jpg" alt="armyHalpWithOtherCompanyPhoto_6">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_7.jpg" alt="armyHalpWithOtherCompanyPhoto_7">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_8.jpg" alt="armyHalpWithOtherCompanyPhoto_8">
+            <img src="./src/img/descrPhotos/armyHalpWithOtherCompanyPhoto_9.jpg" alt="armyHalpWithOtherCompanyPhoto_9">
+            <img src="./src/img/descrPhotos/aboutOtherArmors.jpg" alt="aboutOtherArmors">
+            <img src="./src/img/descrPhotos/aboutArmor.jpg" alt="aboutArmor">
+        </div>
+        <button class="prev">&#8249;</button>
+        <button class="next">&#8250;</button>
+      </div>
+      <p class="patrulDescr">Команда БФ "НОВИХ ЗМІН" з початком повномасштабного вторгнення стала на оборону м.Одеси. Вдень та вночі патрулювали місто задля безпеки громадян.</p>
+      <p class="carDescr">Благодійний фонд придбав та передав військовим 2 автомобілі</p>
+      <p class="armyHAlpDescr">Силами небайдужих людей було зібрано та передано для наших бійців термобілизну, ковдри, матраци, подушки, мікрохвильові печі та інше приладдя для поліпшення перебування на передовій.</p>
+      <p class="armyHelpDescrarmor">Пошили та зкомплектували 62 бронежелети 4 класу для наших захисників</p>
+      <p class="armyHelpcabel">Для поліпшення сигналу, та можливості прослуховування ворожих переговорів нами було придбано та передано посилювач радіосигналу Motorola </p>
+      <p class="armyHalpWithOtherCompanyDescr">Завдяки нашому партнеру компанії "ІНТЕРХІМ" ми змогли забезпечити наших захисників високоякісними препаратами для підтримки імунітету та боротьби з простудних та вірусними захворюваннями. 
+        Наші співвітчизники за кордоном не сиділи склавши руки, звичайні небайдужі люди та  Європейські партнери допомогли  перев'язочними матеріалами военним госпіталям Миколаївської та Одеської областей.</p>
+        <h1 class="fondOwnerTitle">Наші засновники</h1>
+            <div class="backgroundBox"></div>
+            <img src="./src/img/ownerPhoto.jpg" 
+            alt="ownerPhoto" class="ownerPhoto">
+            <h1 class="fondOwnerName">Мальцев Олександр Павлович</h1>
+            <p class="ownerInformation">Батько- Курочкін Павло Дмитрович, військовий в званні прапорщика ВПС, в даний час на пенсії.
+                Мати- Курочкіна Валентина Іванівна  вчитель російської мови та літератури, в даний час на пенсії.
+                Олександр Павлович закінчив дошкільний навчальний заклад №4 ЯСЛА-САДОК "СОНЕЧКО " в м. Арциз.
+                в 1991 році в віці 7 років Олександр вступив в Арцизький заклад загальної середньої освіти № 4. В шкільні роки займався вуличними танцями «брей-данс»,  Таеквон-До, боксом,  грав у баскетбол. Приймав участь в шкільній самодіяльності, грав у команді КВК.
+                в 2001 році вступив до Харківського  національного університету Повітряних Сил імені Івана Кожедуба, 2006 році здобув вищу освіту за спеціальністю інженера по експлуатаціi та проектуванню лiтаючих засобів.
+                Під час навчання в університеті двічі був нагороджений подякою від Міністра оборони України.
+                Відмінник політичної та бойової підготовки.
+                Переможець змагань зі стрілкової підготовки збройних сил України в Харківській області
+                З 2006 року працював на ЗАТ «Харкiвiнструментпiдшипник» м.Харків, починаючи з рядового слюсара-римонтника, домігся підвищення до Менеджера зі сбуту. Показавши свої професійні навички та цілеспрямованість направлену на результат був запрошений на таку ж посаду на Завод iменi Фрунзе м.Харків, вже на прикінці 2006 році отримав підвищення до Економiста вiддiлу продажу, з 2007 року працював ведучім економістом.
+                В 2008 році звільнився з посади ведучого економіста с Завода iменi Фрунзе, та почав власну справу відкривши СТО (станція технічного обслуговування) «АвтопроТранс» з 2008 року до 2023 року ФОП Мальцев О.П.
+                З 2012-2013 працював заступником директора філії  ПП АТП «Транс-ТехСервiс Фаворит» м.Київ. в 2013 році був переведений до філії в м.Харків Директором  ПП АТП «Транс-ТехСервiс Фаворит» м.Харкiв.
+                В 2014 Олександр Павлович заснував «Всеукраїнське Таксi 306» в найбільших містах України: м.Харків, м.Київ, м. Одеса, м.Дніпропетровськ, а також у своєму рідному місті Арциз. До 2018 року працював директором власного таксі.
+                В 2019 році заснував ТОВ «ДіНас ГРУПП»
+                В 2020 році заснував  «БЛАГОДІЙНИЙ ФОНД Олександра Мальцева «НОВИХ ЗМІН»
+                В 2022 р. Вступив до МГУ (Міжнародний гуманітарний університет) з метою отримання 2-ї вищої освіти на факультет Міжнародних економічних відносин.
+                В 2023 році став лідером Народного руху "Нових змін", який націлений на поліпшення життя українського народу та боротьбу з корумпованою владою.
+                Знання мов: Російська – вільно, Українська – вільно,  Англiйська-зi словником
+                Член групи активiстiв з написання та впровадження закону «Про лiцензуванню та оподаткуванню сфери таксi»
+                Волонтер, активiст з 2014 (Розселення біженців в Харківській області, збір і відправлення продуктів харчування в зону АТО)
+                Постійна допомога хворим дітям на території України
+                Постійна допомога ветеранам, пенсіонерам та інвалідам України
+                Член правлiння ОСББ "Альянс 2007" з 2014-2019 р.р.
+                Член правлiння ГБК (гаражно-будівельний кооператив)  «Сiрiус Плюс»  з 2019 р.
+                Голова екзаменаційної комісії в ПТУ №76 з 2011-2016 р.р.
+                Активний член «Всеукраїнської  професійної асоціації підприємців» з 2020 року.
+                З 2020-2023 Директор Благодійної організації "Благодійний фонд "НОВИХ ЗМІН".
+                На початку повномасштабного вторгнення очолював добровольчиц батальйон та з командою патрулював Суворовський район м.Одеси.
+                Під командуванням Олександра будувалися захисні та протитанкові споруди, також батальйон виявляв колоборантів та диверсійні групи.
+                Під час патрулювання перешкоджав розкрадання майна у місцевого населення.
+                Боровся з розкраданням гуманітарної допомоги.
+                Березень-квітень 2022р. Частина добровольців з батальону під командуванням Олександра захищали м.Миколаїв від Російських окупантів.
+                До теперішнього часу допомагає ЗСУ та мирному населенню постраждалому від окупанта.
+                Неодружений, маю двох доньок
+            </p>
+            <div class="vault">
+                <p class="telefoonNumer">+3809331397777</p>
+                <p class="mail">bf.novihzmin@gmail.com</p>
+                <img src="./src/img/logo/logo.png" alt="logo" class="vaultLogo">
+                <img src="./src/img/icons/facebookIcon.png" alt="facebookIcon" id="facebookIcon">
+                <img src="./src/img/icons/instagrammIcon.png" alt="instagrammIcon" id="instagrammIcon">
+            </div>
+        </div>
     <script src="./src/about.js"></script>
 </body>
 </html>

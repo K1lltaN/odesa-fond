@@ -12,9 +12,31 @@ document.getElementById('odessa').onclick = function() {
         popUp.classList.remove('active')
     })
 }
+const partners = document.getElementById('partners');
+const partnersBox = document.getElementById('partnersBox');
 
-document.getElementById('navbarLogo').onclick = function() {
-    document.location.assign('./index.html')
+function handleMouseOver() {
+    partnersBox.style.display = "block";
+    partners.style.transform = "scale(1.6)";
+}
+
+function handleMouseLeave() {
+    partnersBox.style.display = "none";
+    partners.style.transform = "scale(1)";
+}
+
+partners.onmousemove = handleMouseOver;
+partners.onmouseleave = handleMouseLeave;
+partnersBox.onmousemove = handleMouseOver;
+partnersBox.onmouseleave = handleMouseLeave;
+
+
+document.getElementById('interhimPartner').onclick = function() {
+    window.open('https://interchem.ua/', '_blank');
+}
+
+document.getElementById('korydoruPartner').onclick = function() {
+    window.open('https://koridorua.cz/ua/', '_blank');
 }
 
 window.setInterval(function() {
@@ -35,10 +57,6 @@ window.setInterval(function() {
     let clock = hours + ':' + minutes + ':' + seconds;
     document.getElementById("clock").innerHTML = clock;
 })
-
-document.getElementById('navbarLogo').onclick = function () {
-    document.location.assign("index.html");
-}
 
 const select = document.querySelector('select');
 const allLang = ['ua', 'en'];
@@ -64,3 +82,11 @@ function changeLanguage() {
     }
 }
 changeLanguage();
+
+document.getElementById('facebookIcon').onclick = function () {
+    window.open('https://www.facebook.com/groups/402095474610529/?ref=share_group_link', '_blank');
+}
+
+document.getElementById('instagrammIcon').onclick = function () {
+    window.open('https://instagram.com/novih_zmin?igshid=ZGUzMzM3NWJiOQ==', '_blank');
+}

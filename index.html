@@ -18,8 +18,8 @@
                     <div class="navbarWrap">
                     <ul class="navbarMenu">
                         <li><a id="aboutUs" href="./about.html">Про нас</a></li>
-                        <li><a id="partners" href="#">Наші партнери</a></li>
-                        <li><a id="help" href="ʼ">Бажаю допомогти</a></li>
+                        <li><a id="partners">Наші партнери</a></li>
+                        <li><a id="help">Бажаю допомогти</a></li>
                         <select class="change">
                             <option id="change">Вибір мови</option>
                             <option value="ua" class="ua">UA</option>
@@ -29,6 +29,47 @@
                 </div>
             </div>
         </div>
+        <div class="partnersBox" id="partnersBox">
+            <img src="./src/img/partners/interhimPartner.jpg" alt="interhimPartner" id="interhimPartner">
+            <img src="./src/img/partners/korydoruPartner.jpg" alt="korydoruPartner" id="korydoruPartner">
+            <img src="./src/img/partners/krainamasajuPartner.jpg" alt="krainamasajuPartner">
+            <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
+        </div>
+        <div class="donate" id="formDonate"> 
+            <form action="#" id="donameForm" class="formBody">
+                <h1 class="formTitle">Будь ласка заповніть форму</h1>
+                <div class="formItem">
+                    <label for="labelName" class="formLabel">Імʼя</label>
+                    <input id="labelName"type="text" name="name" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labelfamilyname" class="formLabel">Прізвище</label>
+                    <input id="labelFamilyname"type="text" name="familynmae" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labeltelefonnumber" class="formLabel">Номер телефону</label>
+                    <input id="labelTelefonnumber"type="text" name="telefonnumber" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labelMail" class="formLabel">E-Mail</label>
+                    <input id="labelMail"type="text" name="mail" class="formInput">
+                </div>
+                <div class="formItem">
+                    <p class="formLabel">Як би ви хотіли допомогати?</p>
+                    <select name="halp" id="selectHapl" class="selectHalp">
+                        <option value="1" selected="selected">Волонтер</option>
+                        <option value="2">Меценат</option>
+                        <option value="3">Інша хуйня</option>
+                    </select>
+                </div>
+                <div class="checkBox">
+                    <input id="ageCheck" type="checkbox" name="ageCheck" class="ageCheck">
+                    <label for="ageCheck" class="labelAgeCheck">Мені є 18, та я даю згоду на обрробку персональних данних</label>
+                </div>
+                <button type="submit" class="formButton">Відправити форму</button>
+                <p class="formButton" id="formCansel">Відмінити</p>
+            </fomm>
+        </div>
         <div class="fondName">
             <h1 class="fondNameText" id="fondNameText">Благодійний фонд "НОВИХ ЗМIH"</h1>
             <img class="logo" src="./src/img/logo/logo.png" alt="logo">
@@ -36,12 +77,6 @@
         <div class="victoryClock">
                 <p class="victoryClockText" id="victoryClockText">Ми єдині вже:</p>
                 <div class="clock" id="clock"></div>
-        </div>
-        <div class="partnersBox" id="partnersBox">
-            <img src="./src/img/partners/interhimPartner.jpg" alt="interhimPartner" id="interhimPartner">
-            <img src="./src/img/partners/korydoruPartner.jpg" alt="korydoruPartner" id="korydoruPartner">
-            <img src="./src/img/partners/krainamasajuPartner.jpg" alt="krainamasajuPartner">
-            <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
         </div>
         <div class="ukrMap">
             <img src="./src/img/regions/cherkasy.png" alt="cherkasy" class="cherkasy">

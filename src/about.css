@@ -197,7 +197,7 @@
     border-radius: 20px;
     position: absolute;
     width: 100%;
-    height: 4853px;
+    height: 5865px;
     background-color: gray;
     opacity: .6;
   }
@@ -261,8 +261,14 @@
   .nextArrowPatrul {
     border-radius: 10px;
     font-size: 14px;
+    transition: all 600ms ease;
   }
-  
+
+  .prevArrowPatrul:hover,
+  .nextArrowPatrul:hover {
+    background-color: rgb(133, 190, 49);
+    transform: scale(1.2);
+  }
   
   .carText {
     position: absolute;
@@ -281,7 +287,6 @@
   }
 
   .carPhoto {
-    position: absolute;
     z-index: 1;
     width: 600px;
     height: 800px;
@@ -351,8 +356,16 @@
   .prevArrowHelpToArmy,
   .nextArrowHelpToArmy {
     font-size: 14px;
+    border-radius: 10px;
+    transition: all 600ms ease;
   }
   
+  .prevArrowHelpToArmy:hover,
+  .nextArrowHelpToArmy:hover {
+    background-color: rgb(133, 190, 49);
+    transform: scale(1.2);
+  }
+
   .armorText {
     position: absolute;
     text-align: center;
@@ -414,6 +427,13 @@
   .nextArrowArmor {
     border-radius: 10px;
     font-size: 14px;
+    transition: all 600ms ease;
+  }
+
+  .prevArrowArmor:hover,
+  .nextArrowArmor:hover {
+    background-color: rgb(133, 190, 49);
+    transform: scale(1.2);
   }
   
   .signalText {
@@ -477,6 +497,13 @@
   .nextArrowSignal {
     border-radius: 10px;
     font-size: 14px;
+    transition: all 600ms ease;
+  }
+
+  .prevArrowSignal:hover,
+  .nextArrowSignal:hover {
+    background-color: rgb(133, 190, 49);
+    transform: scale(1.2);
   }
   
   .interhimHalpText {
@@ -540,8 +567,14 @@
   .nextArrowInterhimHalp {
     border-radius: 10px;
     font-size: 14px;
+    transition: all 600ms ease;
   }
-  
+
+  .prevArrowInterhimHalp:hover,
+  .nextArrowInterhimHalp:hover {
+    background-color: rgb(133, 190, 49);
+    transform: scale(1.2);
+  }
 
   .fondOwnerTitle {
     background-color: rgb(133, 190, 49);
@@ -560,7 +593,7 @@
     width: 100%;
     background-color: gray;
     opacity: .5;
-    height: 800px;
+    height: 850px;
     border-radius: 10px;
   }
 
@@ -568,7 +601,7 @@
     position: absolute;
     z-index: 2;
     width: 600px;
-    height: 800px;
+    height: 850px;
     border-radius: 10px;
   }
 
@@ -609,8 +642,8 @@
     position: absolute;
     width: 100px;
     height: 30px;
-    margin-left: 925px;
-    margin-top: 210px;
+    margin-left: 950px;
+    margin-top: 250px;
   }
 
   .vault {

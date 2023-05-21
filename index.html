@@ -36,7 +36,7 @@
             <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
         </div>
         <div class="donate" id="formDonate"> 
-            <form action="#" id="donameForm" class="formBody">
+            <form action="./src/form.php" method="post" id="donameForm" class="formBody">
                 <h1 class="formTitle">Будь ласка заповніть форму</h1>
                 <div class="formItem">
                     <label for="labelName" class="formLabel">Імʼя</label>
@@ -57,9 +57,9 @@
                 <div class="formItem">
                     <p class="formLabel">Як би ви хотіли допомогати?</p>
                     <select name="halp" id="selectHapl" class="selectHalp">
-                        <option value="1" selected="selected">Волонтер</option>
-                        <option value="2">Меценат</option>
-                        <option value="3">Інша хуйня</option>
+                        <option value="Волонтер" selected="selected">Волонтер</option>
+                        <option value="Меценат">Меценат</option>
+                        <option value="Інша хуйня">Інша хуйня</option>
                     </select>
                 </div>
                 <div class="checkBox">
@@ -143,5 +143,6 @@
         </div>
       </div>
     <script src="./src/script.js"></script>
+    <script src="./src/form.js"></script>
 </body>
 </html>

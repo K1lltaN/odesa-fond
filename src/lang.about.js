@@ -19,6 +19,26 @@ const langArr = {
         "ua": "Бажаю допомогти",
         "en": "I want to help",
     },
+    "descrHeader": {
+        "ua": "Опис нашої команії:",
+        "en": "Description of our company:",
+    },
+    "descrTitle_1": {
+        "ua": "З 2014 року Олександ Мальцев як приватна особа займався волонтерською допомогою українській армії та переселенцям с Донецкої та Луганскої областей. У 2020 році він разом з командою cтворив благодійний фонд для надання допомоги людям з інвалідністю, хворим дітям та тваринам.",
+        "en": "Since 2014, Oleksand Maltsev, as a private individual, has been engaged in volunteer assistance to the Ukrainian army and displaced persons from the Donetsk and Luhansk regions. In 2020, together with his team, he created a charity fund to help people with disabilities, sick children and animals.",
+    },
+    "descrTitle_2": {
+        "ua": "Після початку повномасштабного вторгнення росії, спротив ворогу став основним завданням всієї країни. Тож благодійний фонд сфокусувався на допомозі Силам Оборони України та цивільним, які постраждали від російської агресії. Наразі фонд веде роботу за двома напрямами:",
+        "en": "After the beginning of the full-scale invasion of Russia, the enemy's resistance became the main task of the entire country. So the charity fund focused on helping the Defense Forces of Ukraine and civilians who suffered from Russian aggression. Currently, the fund is working in two directions:",
+    },
+    "descrTitle_3": {
+        "ua": "'Військово-волонтерський штаб' забезпечує бойові підрозділи на передовій засобами зв’язку, оптичними пристроями, дронами, транспортом та засобами тактичної медицини.",
+        "en": "The 'Volunteer Military Headquarters' provides front-line combat units with communications, optical devices, drones, transport and tactical medicine.",
+    },
+    "descrTitle_4": {
+        "ua": "'Гуманітарний штаб' підтримує цивільне населення та надає можливість отримати необхідну допомогу для відновлення гідного життя.",
+        "en": "'Humanitarian headquarters' supports the civilian population and provides the opportunity to receive the necessary assistance to restore a dignified life.",
+    },
     "reportTitle": {
         "ua": "Наш звіт",
         "en": "Our report",
@@ -27,13 +47,9 @@ const langArr = {
         "ua": "Команда БФ 'НОВИХ ЗМІН' з початком повномасштабного вторгнення стала на оборону м.Одеси. Вдень та вночі патрулювали місто задля безпеки громадян.",
         "en": "With the beginning of a full-scale invasion, the team of the CF 'NOVYH ZMIN' began to defend the city of Odessa. They patrolled the city day and night for the safety of citizens.",
     },
-    "carText": {
-        "ua": "Благодійний фонд придбав та передав військовим 2 автомобілі",
-        "en": "The charity foundation purchased and handed over 2 cars to the military",
-    },
     "helpToArmyText": {
-        "ua": "Силами небайдужих людей було зібрано та передано для наших бійців термобілизну, ковдри, матраци, подушки, мікрохвильові печі та інше приладдя для поліпшення перебування на передовій.",
-        "en": "Thanks to the efforts of caring people, thermal clothing, blankets, mattresses, pillows, microwave ovens and other supplies were collected and handed over to our soldiers to improve their stay on the front lines.",
+        "ua": "Силами небайдужих людей було зібрано та передано для наших бійців термобілизну, ковдри, матраци, подушки, мікрохвильові печі та інше приладдя для поліпшення перебування на передовій. Також Благодійний фонд придбав та передав військовим 2 автомобілі.",
+        "en": "Thanks to the efforts of caring people, thermal clothing, blankets, mattresses, pillows, microwave ovens and other supplies were collected and handed over to our soldiers to improve their stay on the front lines. The Charitable Fund also purchased and handed over 2 cars to the military.",
     },
     "armorText": {
         "ua": "Пошили та зкомплектували 62 бронежелети 4 класу для наших захисників",

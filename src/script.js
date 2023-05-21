@@ -30,14 +30,6 @@ partners.onmouseleave = handleMouseLeave;
 partnersBox.onmousemove = handleMouseOver;
 partnersBox.onmouseleave = handleMouseLeave;
 
-document.getElementById('formCansel').onclick = function() {
-    document.getElementById('formDonate').style.display = "none";
-}
-
-document.getElementById('help').onclick = function() {
-    document.getElementById('formDonate').style.display = "block";
-}
-
 document.getElementById('interhimPartner').onclick = function() {
     window.open('https://interchem.ua/', '_blank');
 }

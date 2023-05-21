@@ -15,6 +15,10 @@ const langArr = {
         "ua": "Наші партнери",
         "en": "Our partners",
     },
+    "bankAccounts": {
+        "ua": "Наші ревізити",
+        "en": "Donate details",
+    },
     "help": {
         "ua": "Бажаю допомогти",
         "en": "I want to help",

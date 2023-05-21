@@ -53,7 +53,7 @@
   color: rgb(255, 255, 255);
   background-color: green;    
   border-radius: 100px;
-  margin-left: 170px;
+  margin-left: 65px;
   margin-right: 100px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -100,7 +100,7 @@
   display: none;
   position: absolute;
   z-index: 5;
-  margin-left: 520px;
+  margin-left: 310px;
   background-color: gray;
   border: white;
   border-style: groove;

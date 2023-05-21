@@ -48,7 +48,7 @@
     color: rgb(255, 255, 255);
     background-color: green;    
     border-radius: 100px;
-    margin-left: 170px;
+    margin-left: 73px;
     margin-right: 100px;
     margin-bottom: 20px;
     font-weight: 600;
@@ -91,7 +91,7 @@
     display: none;
     position: absolute;
     z-index: 5;
-    margin-left: 489px;
+    margin-left: 294px;
     background-color: gray;
     border: white;
     border-style: groove;
@@ -119,7 +119,7 @@
 .donate {
     display: none;
     position: absolute;
-    margin-left: 800px;
+    margin-left: 840px;
 }
 
 form {
@@ -713,14 +713,15 @@ form {
     color: white;
 }
 
-.doanteContainer div button {
+.doanteContainer div .donateButton {
     position: relative;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     font-weight: 800;
     color: white;
-    width: 100%;
+    width: 80%;
+    height: 38px;
     padding: 20px 30px;
     margin-top: 322px;
     border-radius: 10px;
@@ -734,9 +735,9 @@ form {
     font-size: 30px;
 }
 
-.doanteContainer div button:hover {
+.doanteContainer div .donateButton:hover {
     background-position: right center;
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 .doanteContainer .ZSUdonate {

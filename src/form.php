@@ -1,13 +1,13 @@
 <?php
 // Проверяем, является ли запрос POST-запросом
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
   // Получаем данные из формы
   $name = $_POST["name"];
   $familyname = $_POST["familynmae"];
   $telefonnumber = $_POST["telefonnumber"];
   $mail = $_POST["mail"];
   $halp = $_POST["halp"];
-  $ageCheck = isset($_POST["ageCheck"]) ? "Да" : "Нет";
+  $ageCheck = isset($_POST["ageCheck"]) ? "Так" : "Ні";
 
   // Формируем сообщение электронной почты
   $subject = "Новая форма от $name";
@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $message .= "Номер телефону: $telefonnumber\n";
   $message .= "E-Mail: $mail\n";
   $message .= "Як би ви хотіли допомогати?: $halp\n";
-  $message .= "Согласие на обработку персональных данных: $ageCheck\n";
+  $message .= "Є 18 років та згоден на обробку персональних даних: $ageCheck\n";
 
   // Устанавливаем адрес электронной почты для получения формы
   $to = "maxi31034@gmail.com";
@@ -37,5 +37,5 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Произошла ошибка при отправке письма
     echo "Произошла ошибка при отправке формы!";
   }
-}
+
 ?>

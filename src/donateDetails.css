@@ -1,0 +1,257 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+.navBar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navBar .conteiner {
+     height: inherit;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.navbarMenu{
+    margin-right: 70px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.navbarMenu li{
+    display: inline-block;
+}
+
+.navbarMenu li a{
+    border: white;
+    border-style: groove;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    border-width: 2px;
+    border-color: #fff;
+    color: rgb(255, 255, 255);
+    background-color: green;    
+    border-radius: 100px;
+    margin-left: 83px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 500ms ease;
+}
+
+.navbarMenu li a:hover {
+    transform: scale(1.2);
+}
+
+.navbarWrap {
+    flex-flow: row nowrap;
+}
+
+.navbarWrap .change {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border: white;
+    border-style: groove;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+}
+
+.navbarWrap .change:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.partnersBox {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    margin-left: 314px;
+    background-color: gray;
+    border: white;
+    border-style: groove;
+    opacity: .9;
+    width: 260px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.partnersBox img{
+    display: inline-block;
+    position: inline;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 217px;
+    height: 110px;
+    transition: all 500ms ease;
+}
+
+.partnersBox img:hover {
+    transform: scale(1.1);
+}
+
+.donateInformation {
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgb(133, 190, 49);
+    border: 5px white;
+    border-style: groove;
+    width: 99.3%;
+    height: 500px;
+}
+
+.donateInformationMainText {
+    -webkit-text-stroke: .7px black;
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    height: 100%;
+    margin: auto;
+}
+
+.informationConteiner {
+    font-size: 25px;
+    -webkit-text-stroke: .2px black;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.dollarDonate {
+    background-color: rgb(133, 190, 49);
+    border-radius: 20px;
+    border: 5px white;
+    width: 40%;
+    margin-left: 70px;
+    border-style: groove;
+}
+
+.dollarDonate h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.dollarDonate p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.euroDonate {
+    background-color: rgb(133, 190, 49);
+    border-radius: 20px;
+    border: 5px white;
+    width: 40%;
+    margin-right: 70px;
+    border-style: groove;
+}
+
+.euroDonate h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.euroDonate p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.vault {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    margin-top: 1000px;
+    border-radius: 10px;
+    opacity: .75;
+}
+
+.vault .telefoonNumer {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: white;
+}
+
+.vault .mail {
+    font-size: 25px;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 40px;
+    color: white;
+}
+
+.vault .vaultLogo {
+    border-radius: 500px;
+    border-color: black;
+    width: 220px;
+    height: 160px;
+    margin-left: 630px;
+    margin-top: 20px;
+}
+
+.vault #instagrammIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    margin-left: 300px;
+    margin-top: 50px;
+    transition: all 600ms ease;
+}
+
+.vault #facebookIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 450px;
+    margin-top: 50px;
+    transition: all 600ms ease;
+
+}
+
+.vault #instagrammIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
+}
+
+.vault #facebookIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
+}

@@ -1,6 +1,21 @@
 <?php
-// Проверяем, является ли запрос POST-запросом
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+
+$mail = new PHPMailer(true);
+$mail->CharSet =  'UTF-8';
+$mail->setLanguage('ru', 'phpmailer/language');
+$mail->isHTML(true);
+
+$mail->setFrom('info@fls.guru', 'Новий бажаючий приєднатись до БФ');
+$mail->addAddress('maxi31034@gmail.com');
+$mail->Subject = 'Я хочу приєднатися до БФ!';
+
+// Проверяем, является ли запрос POST-запросом
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
   // Получаем данные из формы
   $name = $_POST["name"];
   $familyname = $_POST["familynmae"];
@@ -10,7 +25,6 @@
   $ageCheck = isset($_POST["ageCheck"]) ? "Так" : "Ні";
 
   // Формируем сообщение электронной почты
-  $subject = "Новая форма от $name";
   $message = "Имя: $name\n";
   $message .= "Прізвище: $familyname\n";
   $message .= "Номер телефону: $telefonnumber\n";
@@ -25,10 +39,6 @@
   $headers = "MIME-Version: 1.0" . "\r\n";
   $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-  // Опционально: добавляем дополнительные заголовки
-  $headers .= "From: $name <$mail>" . "\r\n";
-  $headers .= "Reply-To: $mail" . "\r\n";
-
   // Отправляем письмо
   if (mail($to, $subject, $message, $headers)) {
     // Письмо успешно отправлено
@@ -37,5 +47,5 @@
     // Произошла ошибка при отправке письма
     echo "Произошла ошибка при отправке формы!";
   }
-
+}
 ?>

@@ -849,3 +849,838 @@
         background-color: green;
     }
 }
+
+@media screen and (max-width: 390px){
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform: translateX(0) translateY(120px);
+        min-width: 100%; 
+        min-height: 100%;
+      }
+    
+      .content {
+        position: relative;
+        z-index: 1;
+      }
+    
+    .navBar {
+        width: 335px;
+        height: 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navBar .conteiner {
+         height: inherit;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+    }
+    
+    .navbarMenu{
+        margin-right: 1px;
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    
+    .navbarMenu li{
+        display: inline-block;
+    }
+    
+    .navbarMenu li a{
+        border: white;
+        border-style: groove;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 600;
+        border-width: 2px;
+        border-color: #fff;
+        color: rgb(255, 255, 255);
+        background-color: green;    
+        border-radius: 100px;
+        margin-left: 1px;
+        margin-right: 14px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 5px;
+        text-decoration: none;
+        padding: 10px;
+        transition: all 500ms ease;
+    }
+    
+    .navbarMenu li a:hover {
+        transform: scale(1.2);
+    }
+    
+    .navbarWrap {
+        flex-flow: row nowrap;
+    }
+    
+    .navbarWrap .change {
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        border: white;
+        border-style: groove;
+        margin-bottom: 25px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 5px;
+        color: white;
+        background-color: green;
+        text-align: center;
+        transition: all 500ms ease-in-out;
+    }
+    
+    .navbarWrap .change:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    
+    .partnersBox {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        margin-left: 50px;
+        background-color: gray;
+        border: white;
+        border-style: groove;
+        opacity: .9;
+        width: 82px;
+        height: 160px;
+        border-radius: 10px;
+    }
+    
+    .partnersBox img{
+        display: inline-block;
+        position: inline;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 6px;
+        width: 70px;
+        height: 30px;
+        transition: all 500ms ease;
+    }
+    
+    .partnersBox img:hover {
+        transform: scale(1.1);
+    }
+    
+    .donate {
+        display: none;
+        position: absolute;
+        margin-left: 840px;
+    }
+    
+    form {
+        opacity: .9;
+        position: absolute;
+        margin-left: 200px;
+        z-index: 6;
+        color: white;
+        width: 600px;
+        background-color: green;
+        border-radius: 20px;
+        border: white;
+        border-style: groove;
+    }
+    
+    .formBody {
+        max-width: 550px;
+        margin: 0px auto;
+        padding: 30px 0;
+    }
+    
+    .formTitle {
+        -webkit-text-stroke: .7px black;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 30px 0;
+    }
+    
+    .formItem {
+        margin: 0 0 20px 0;
+    }
+    
+    .formLabel {
+        -webkit-text-stroke: .3px black;
+        text-align: center;
+        font-size: 28px;
+        display: block;
+        margin: 0 0 10px 0;
+    }
+    
+    .formInput {
+        height: 50px;
+        padding: 0px 20px;
+        border-radius: 50px;
+        width: 92%;
+        font-size: 18px;
+    }
+    
+    .ageCheck {
+        display: none;
+    }
+    
+    .ageCheck:checked + .labelAgeCheck::after {
+        transform: scale(1);
+    }
+    
+    .labelAgeCheck {
+        font-size: 16px;
+        line-height: 140%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .labelAgeCheck::before {
+        content: "";
+        align-self: flex-start;
+        flex: 0 0 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 4px;
+        margin: 0px 10px 0px 10px;
+    }
+    
+    .labelAgeCheck::after {
+        transition: transform 400ms ease-in-out;
+        content: "";
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 4px;
+        left: 14px;
+        background-color: green;
+        border-radius: 4px;
+        transform: scale(0);
+    }
+    
+    .selectHalp {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+    
+    .formButton {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: yellow;
+        background-color: rgb(0, 0, 255);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    
+    .formButtonCansel {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: blue;
+        background-color: rgb(255, 255, 0);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    
+    .fondName {
+        position: absolute;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .logo {
+        width: 150px;
+        height: 120px;
+    }
+    
+    .fondNameText {
+        -webkit-text-stroke: .5px rgb(0, 0, 0);
+        position: absolute;
+        color: white;
+        margin-top: 40px;
+        margin-left: 150px;
+        width: 170px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    
+    .ukrMap {
+        display: none;
+        position: relative;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+    
+    .ukrMap img {
+        position: absolute;
+    }
+    
+    .lutsk {
+        width: 170px;
+        left: 150px;
+        top: 100px;
+        transition: all 500ms ease;
+    }
+    
+    .lutsk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .rivne {
+        width: 190px;
+        top: 107px;
+        left: 241px;
+        transition: all 500ms ease;
+    }
+    
+    .rivne:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .zhytomyr {
+        width: 181px;
+        top: 146px;
+        left: 378px;
+        transition: all 500ms ease;
+    }
+    
+    .zhytomyr:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kiev {
+        width: 207px;
+        top: 162px;
+        left: 519px;
+        transition: all 500ms ease;
+    }
+    
+    .kiev:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .chernihiv {
+        width: 204px;
+        top: 74px;
+        left: 610px;
+        transition: all 500ms ease;
+    }
+    
+    .chernihiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .sumy {
+        width: 188px;
+        top: 77px;
+        left: 778px;
+        transition: all 500ms ease;
+    }
+    
+    .sumy:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kharkiv {
+        width: 238px;
+        top : 270px;
+        left: 907px;
+        transition: all 500ms ease;
+    }
+    
+    .kharkiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .luhansk {
+        width: 178px;
+        top: 309px;
+        left: 1125px;
+        transition: all 500ms ease;
+    }
+    
+    .luhansk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .poltava {
+        width: 242px;
+        top: 273px;
+        left: 717px;
+        transition: all 500ms ease;
+    }
+    
+    .poltava:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .cherkasy {
+        z-index: 1;
+        width: 235px;
+        top: 311px;
+        left: 540px;
+        transition: all 500ms ease;
+    }
+    
+    .cherkasy:hover {
+        z-index: 2;
+        transform: scale(1.3);
+    }
+    
+    .donetsk {
+        z-index: 1;
+        width: 203px;
+        height: 264px;
+        top: 404px;
+        left: 1035px;
+        transition: all 500ms ease;
+    }
+    
+    .donetsk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kirovohrad {
+        z-index: 1;
+        width: 300px;
+        top: 429px;
+        left: 546px;
+        transition: all 500ms ease;
+    }
+    
+    .kirovohrad:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .dnipro {
+        width: 296px;
+        top: 415px;
+        left: 776px;
+        transition: all 500ms ease;
+    }
+    
+    .dnipro:hover {
+        z-index: 2;
+        transform: scale(1.2);
+    }
+    
+    .zaporishia {
+        width: 228px;
+        top: 528px;
+        left: 872px;
+        transition: all 500ms ease;
+    }
+    
+    .zaporishia:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kherson {
+        width: 242px;
+        top: 598px;
+        left: 703px;
+        transition: all 500ms ease;
+    }
+    
+    .kherson:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .mykolaiv {
+        width: 220px;
+        top: 521px;
+        left: 574px;
+        transition: all 500ms ease;
+    }
+    
+    .mykolaiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .odessa {
+        width: 237px;
+        top: 520px;
+        left: 418px;
+        transition: all 500ms ease;
+    }
+    
+    .odessa:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .vinnysia {
+        width: 192px;
+        top: 340px;
+        left: 377px;
+        transition: all 500ms ease;
+    }
+    
+    .vinnysia:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .khmelnytskyi {
+        width: 126px;
+        top: 259px;
+        left: 297px;
+        transition: all 500ms ease;
+    }
+    
+    .khmelnytskyi:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .chernivtsi {
+        width: 200px;
+        top: 463px;
+        left: 196px;
+        transition: all 500ms ease;
+    }
+    
+    .chernivtsi:hover {
+        z-index: 3;
+        transform: scale(1.3);
+    }
+    
+    .ternopil {
+        width: 122px;
+        top: 285px;
+        left: 197px;
+        transition: all 500ms ease;
+    }
+    
+    .ternopil:hover {
+        z-index: 3;
+        transform: scale(1.3);
+    }
+    
+    .lviv {
+        width: 203px;
+        top: 235px;
+        left: 61px;
+        transition: all 500ms ease;
+    }
+    
+    .lviv:hover {
+        z-index: 2;
+        transform: scale(1.3);
+    }
+    
+    .ivano-frankivsk {
+        z-index: 2;
+        width: 140px;
+        height: 210px;
+        top: 353px;
+        left: 117px;
+        transition: all 500ms ease;
+    }
+    
+    .ivano-frankivsk:hover {
+        z-index: 4;
+        transform: scale(1.3);
+    }
+    
+    .uzhhorod {
+        width: 175px;
+        top: 382px;
+        left: 20px;
+        transition: all 500ms ease;
+    }
+    
+    .uzhhorod:hover {
+        z-index: 5;
+        transform: scale(1.3);
+    }
+    
+    .crimea {
+        width: 300px;
+        top: 744px;
+        left: 753px;
+        transition: all 500ms ease;
+    }
+    
+    .crimea:hover {
+        z-index: 1;
+        transform: scale(1.3);
+    }
+    
+    .popUp {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 300px;
+        right: 0;
+        z-index: 10;
+        transform: translate(-7%, 25%) scale(0);
+        transition: .4s ease-in-out ;
+    }
+    
+    .popUp.active {
+        transform: translateY(0) scale(100%);
+    }
+    
+    .popUpConteiner {
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .popUpBody {
+        background-image: url("./img/logo/popUp_logo.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 365px;
+        border-width: 600;
+        border-style: groove;
+        border-color: black;
+        margin: auto;
+        width: 500px;
+        background-color: #fff;
+        border-radius: 10px;
+        font-size: 12px;
+        text-align: end;
+        padding: 100px 15px 110px 15px;
+        position: relative;
+    }
+    
+    .popUpClose {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 21px;
+        cursor: pointer;
+        transition: all 500ms ease;
+    }
+    
+    .popUpClose:hover {
+        color: red;
+        transform: scale(1.2);
+    }
+    
+    .victoryClock {
+        position: relative;
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 10px;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+    
+    .victoryClockText {
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+    
+    .clock {
+        border-radius: 10px;
+        position: absolute;
+        left: 65px;
+        bottom: 1px;
+    }
+    
+    .secondBackground{
+        position: absolute;
+        background-color: gray;
+        width: 335px;
+        height: 300px;
+        border-radius: 10px;;
+        margin-top: 380px;
+        opacity: .4;
+    }
+    
+    .doanteContainer {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 500px;
+        margin-top: 340px;
+        border-radius: 10px;
+    }
+    
+    .doanteContainer div{
+
+        text-align: center;
+        height: 150px;
+        width: 70px;
+        margin: 50px 1px;
+        border-radius: 10px;
+        background-color: #fff;
+    
+    }
+    
+    .doanteContainer div p{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: absolute;
+        width: 30px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .doanteContainer div .donateButton {
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 800;
+        color: white;
+        width: 10px;
+        height: 1px;
+        padding: 20px 30px;
+        margin-top: 112px;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-image: linear-gradient(to right, #ff0000 0%, #7c4040 51%, #02010c 100%);
+        background-size: 200% auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+        transition: all .5s ease;
+        font-size: 5px;
+    }
+    
+    .doanteContainer div .donateButton:hover {
+        background-position: right center;
+        transform: scale(1.05);
+    }
+    
+    .doanteContainer .ZSUdonate {
+        background-image: url(./img/donate-background/ZSUbackground.jpeg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 150px 150px;   
+    }
+    
+    .donateText {
+        border-radius: 40px;
+        -webkit-text-stroke: .5px green;
+        color: white;
+        opacity: .9;
+    }
+    
+    .doanteContainer .childDonate {
+        background-image: url(./img/donate-background/childDondate-background.jpeg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 150px 150px;   
+    }
+    
+    .mainDonate {
+        background-image: url(./img/donate-background/donateMain-background.jpeg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-size: 150px 150px;   
+    }
+    
+    .vault {
+        background-color: black;
+        width: 100%;
+        height: 200px;
+        margin-top: 25px;
+        border-radius: 10px;
+        opacity: .75;
+    }
+    
+    .vault .telefoonNumer {
+        font-size: 25px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 40px;
+        color: white;
+    }
+    
+    .vault .mail {
+        font-size: 25px;
+        position: absolute;
+        margin-top: 110px;
+        margin-left: 40px;
+        color: white;
+    }
+    
+    .vault .vaultLogo {
+        border-radius: 500px;
+        border-color: black;
+        width: 220px;
+        height: 160px;
+        margin-left: 630px;
+        margin-top: 20px;
+    }
+    
+    .vault #instagrammIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 30px;
+        margin-left: 300px;
+        margin-top: 50px;
+        transition: all 600ms ease;
+    }
+    
+    .vault #facebookIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-left: 450px;
+        margin-top: 50px;
+        transition: all 600ms ease;
+    
+    }
+    
+    .vault #instagrammIcon:hover {
+        transform: scale(1.2);
+        background-color: green;
+    }
+    
+    .vault #facebookIcon:hover {
+        transform: scale(1.2);
+        background-color: green;
+    }
+}

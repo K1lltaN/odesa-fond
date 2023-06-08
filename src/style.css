@@ -944,7 +944,7 @@
         display: none;
         position: absolute;
         z-index: 5;
-        margin-left: 50px;
+        margin-left: 60px;
         background-color: gray;
         border: white;
         border-style: groove;
@@ -1531,7 +1531,6 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        height: 500px;
         margin-top: 340px;
         border-radius: 10px;
     }
@@ -1630,17 +1629,17 @@
     }
     
     .vault .telefoonNumer {
-        font-size: 8px;
+        font-size: 10px;
         position: absolute;
-        margin-top: 80px;
+        margin-top: 70px;
         margin-left: 20px;
         color: white;
     }
     
     .vault .mail {
-        font-size: 8px;
+        font-size: 10px;
         position: absolute;
-        margin-top: 110px;
+        margin-top: 100px;
         margin-left: 20px;
         color: white;
     }
@@ -1651,7 +1650,7 @@
         width: 120px;
         height: 100px;
         margin-left: 150px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
     
     .vault #instagrammIcon {
@@ -1660,9 +1659,9 @@
         background-color: white;
         width: 50px;
         height: 50px;
-        border-radius: 30px;
+        border-radius: 15px;
         margin-left: 25px;
-        margin-top: 50px;
+        margin-top: 30px;
         transition: all 600ms ease;
     }
     
@@ -1674,7 +1673,7 @@
         height: 50px;
         border-radius: 50px;
         margin-left: 25px;
-        margin-top: 110px;
+        margin-top: 90px;
         transition: all 600ms ease;
     
     }

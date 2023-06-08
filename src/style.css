@@ -970,9 +970,8 @@
     }
     
     .donate {
-        display: none;
         position: absolute;
-        margin-left: 840px;
+        margin-left: 1px;
     }
     
     form {
@@ -981,7 +980,7 @@
         margin-left: 200px;
         z-index: 6;
         color: white;
-        width: 600px;
+        width: 370px;
         background-color: green;
         border-radius: 20px;
         border: white;
@@ -1018,7 +1017,7 @@
         height: 50px;
         padding: 0px 20px;
         border-radius: 50px;
-        width: 92%;
+        width: 88%;
         font-size: 18px;
     }
     
@@ -1625,7 +1624,7 @@
     .vault {
         background-color: black;
         width: 100%;
-        height: 200px;
+        height: 180px;
         border-radius: 10px;
         opacity: .75;
     }
@@ -1651,7 +1650,7 @@
         border-color: black;
         width: 120px;
         height: 100px;
-        margin-left: 160px;
+        margin-left: 150px;
         margin-top: 40px;
     }
     
@@ -1662,7 +1661,7 @@
         width: 50px;
         height: 50px;
         border-radius: 30px;
-        margin-left: 30px;
+        margin-left: 25px;
         margin-top: 50px;
         transition: all 600ms ease;
     }
@@ -1674,8 +1673,8 @@
         width: 50px;
         height: 50px;
         border-radius: 50px;
-        margin-left: 30px;
-        margin-top: 50px;
+        margin-left: 25px;
+        margin-top: 110px;
         transition: all 600ms ease;
     
     }

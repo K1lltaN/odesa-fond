@@ -452,6 +452,7 @@
     
     .vault {
         background-color: black;
+        margin-top: 1120px;
         width: 100%;
         height: 180px;
         border-radius: 10px;

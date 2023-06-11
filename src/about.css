@@ -716,7 +716,7 @@
       min-width: 100%; 
       min-height: 100%;
     }
-  
+
     .content {
       position: relative;
       z-index: 1;
@@ -1045,7 +1045,9 @@
       text-align: center;
       border-radius: 20px;
       font-size: 70px;
-      margin: 4200px 350px 40px;
+      margin-top: 4200px;
+      margin-left: 1px;
+      margin-right: 1px;
       margin-bottom: 100px;
     }
 

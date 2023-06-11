@@ -25,6 +25,15 @@ function handleMouseLeave() {
     partners.style.transform = "scale(1)";
 }
 
+document.getElementById('odessaMobile').onclick = function() {
+    document.getElementById('popUpMobile').style.display = "block";
+}
+
+document.getElementById('popUpCloseMobile').onclick = function() {
+    document.getElementById('popUpMobile').style.display = "none";
+}
+
+
 partners.onmousemove = handleMouseOver;
 partners.onmouseleave = handleMouseLeave;
 partnersBox.onmousemove = handleMouseOver;

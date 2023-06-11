@@ -209,6 +209,39 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(slideRight, 10000);
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  let slider = document.querySelector(".sliderMobile");
+  let prevArrow = document.querySelector(".prevArrowMobile");
+  let nextArrow = document.querySelector(".nextArrowMobile");
+
+  let currentPosition = 0;
+  let imageWidth = 365;
+  let totalImages = slider.querySelectorAll("img").length;
+
+  function slideLeft() {
+    if (currentPosition === 0) {
+      currentPosition = -(imageWidth * (totalImages - 1));
+    } else {
+      currentPosition += imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+
+  function slideRight() {
+    if (currentPosition === -(imageWidth * (totalImages - 1))) {
+      currentPosition = 0;
+    } else {
+      currentPosition -= imageWidth;
+    }
+    slider.style.transform = `translateX(${currentPosition}px)`;
+  }
+  prevArrow.addEventListener("click", slideLeft);
+
+  nextArrow.addEventListener("click", slideRight);
+
+  setInterval(slideRight, 10000);
+});
+
 document.getElementById('more').onclick = function () {
   document.getElementById('moreText').style.display = "block";
   document.getElementById('more').style.display = "none";

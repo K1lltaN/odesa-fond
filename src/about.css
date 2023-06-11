@@ -1,168 +1,866 @@
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transform: translateX(0) translateY(120px);
-  min-width: 100%; 
-  min-width: 100%; 
-  min-height: 100%;
-}
+@media screen and (max-width: 1470px){
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-width: 100%; 
+    min-height: 100%;
+  }
 
-.boxy {
-  font-family: 'Times New Roman', Times, serif;
-}
+  .boxy {
+    font-family: 'Times New Roman', Times, serif;
+  }
 
-.content {
-  position: relative;
-  z-index: 1;
-}
+  .content {
+    position: relative;
+    z-index: 1;
+  }
 
-.navBar {
-  width: 100%;
-  height: 70px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+  .navBar {
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
 
-.navBar .conteiner {
-   height: inherit;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
+  .navBar .conteiner {
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.navbarMenu{
-  margin-right: 70px;
-  list-style-type: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
+  .navbarMenu{
+    margin-right: 70px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
 
-.navbarMenu li{
-  display: inline-block;
-}
+  .navbarMenu li{
+    display: inline-block;
+  }
 
-.navbarMenu li a{
-  border: white;
-  border-style: groove;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  display: inline-block;
-  cursor: pointer;
-  font-weight: 600;
-  border-width: 2px;
-  border-color: #fff;
-  color: rgb(255, 255, 255);
-  background-color: green;    
-  border-radius: 100px;
-  margin-left: 65px;
-  margin-right: 100px;
-  margin-bottom: 20px;
-  font-weight: 600;
-  font-size: 20px;
-  text-decoration: none;
-  padding: 10px;
-  transition: all 500ms ease;
-}
+  .navbarMenu li a{
+    border: white;
+    border-style: groove;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 600;
+    border-width: 2px;
+    border-color: #fff;
+    color: rgb(255, 255, 255);
+    background-color: green;    
+    border-radius: 100px;
+    margin-left: 65px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 500ms ease;
+  }
 
-.navbarMenu li a:hover {
-  transform: scale(1.2);
-}
+  .navbarMenu li a:hover {
+    transform: scale(1.2);
+  }
 
-.navbarWrap {
-  flex-flow: row nowrap;
-}
-
-.navbarWrap .change {
-  cursor: pointer;
-  height: 60px;
-  width: 60px;
-  border: white;
-  border-style: groove;
-  margin-bottom: 25px;
-  border-radius: 50px;
-  font-weight: 600;
-  font-size: 20px;
-  color: white;
-  background-color: green;
-  text-align: center;
-  transition: all 500ms ease-in-out;
-}
-
-.navbarWrap .change:hover {
-  transform: scale(1.2);
-  opacity: 1;
-}
-
-.navbarWrap {
+  .navbarWrap {
     flex-flow: row nowrap;
-}
+  }
 
-.partnersBox {
-  display: none;
-  position: absolute;
-  z-index: 5;
-  margin-left: 310px;
-  background-color: gray;
-  border: white;
-  border-style: groove;
-  opacity: .9;
-  width: 260px;
-  height: 500px;
-  border-radius: 10px;
-}
+  .navbarWrap .change {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    border: white;
+    border-style: groove;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    transition: all 500ms ease-in-out;
+  }
 
-.partnersBox img{
-  display: inline-block;
-  position: inline;
-  cursor: pointer;
-  margin-top: 10px;
-  margin-left: 20px;
-  width: 217px;
-  height: 110px;
-  transition: all 500ms ease;
-}
+  .navbarWrap .change:hover {
+    transform: scale(1.2);
+    opacity: 1;
+  }
 
-.partnersBox img:hover {
-  transform: scale(1.1);
-}
+  .navbarWrap {
+      flex-flow: row nowrap;
+  }
 
-.descrHeader {
+  .partnersBox {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    margin-left: 310px;
+    background-color: gray;
+    border: white;
+    border-style: groove;
+    opacity: .9;
+    width: 260px;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  .partnersBox img{
+    display: inline-block;
+    position: inline;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 217px;
+    height: 110px;
+    transition: all 500ms ease;
+  }
+
+  .partnersBox img:hover {
+    transform: scale(1.1);
+  }
+
+  .descrHeader {
+      background-color: rgb(133, 190, 49);
+      border: 5px #fff;
+      color: #fff;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 40px 350px;
+      margin-bottom: 100px;
+  }
+
+  .descrBackground {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    background-color: gray;
+    opacity: .8;
+  }
+
+  .logoAboutDescr {
+    position: absolute;
+    width: 700px;
+    margin-top: 100px;
+  }
+
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 700px;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 730px;
+  }
+
+  .reportTitle {
+      background-color: rgb(133, 190, 49);
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      border: 5px #fff;
+      border-style: groove;
+      font-size: 70px;
+      margin: 200px 350px 10px;
+      margin-bottom: 100px;
+  }
+
+    .reportBackground {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 5900px;
+      background-color: gray;
+      border-radius: 20px;
+      opacity: .5;
+    }
+    
+    .slidersBackground {
+      z-index: 0;
+      border-radius: 20px;
+      position: absolute;
+      width: 100%;
+      height: 4851px;
+      background-color: gray;
+      opacity: .6;
+    }
+
+    .patrulText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+      font-size: 50px;
+      margin-left: 750px;
+      background-color: rgb(133, 190, 49);
+      width: 600px;
+      height: 410px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerPatrul {
+      border: 5px white;
+      border-style: groove;
+      border-radius: 20px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderPatrul {
+      display: flex;
+      width: 1800px; /* 600px * 3 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderPatrul img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationPatrul {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationPatrul span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowPatrul,
+    .nextArrowPatrul {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowPatrul:hover,
+    .nextArrowPatrul:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .carText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 400px;
+      font-weight: 600;
+      font-size: 50px;
+      margin-left: 750px;
+      background-color: rgb(133, 190, 49);
+      width: 600px;
+      height: 200px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+    
+    .helpToArmyText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 250px;
+      font-weight: 600;
+      font-size: 50px;
+      margin-left: 750px;
+      background-color: rgb(133, 190, 49);
+      width: 600px;
+      height: 690px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerHelpToArmy {
+      position: relative;
+      margin-top: 200px;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderHelpToArmy {
+      display: flex;
+      width: 3600px;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderHelpToArmy img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationHelpToArmy {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationHelpToArmy span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowHelpToArmy,
+    .nextArrowHelpToArmy {
+      font-size: 14px;
+      border-radius: 10px;
+      transition: all 600ms ease;
+    }
+    
+    .prevArrowHelpToArmy:hover,
+    .nextArrowHelpToArmy:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .armorText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 400px;
+      font-weight: 600;
+      font-size: 50px;
+      margin-left: 750px;
+      background-color: rgb(133, 190, 49);
+      width: 600px;
+      height: 250px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerArmor {
+      margin-top: 200px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderArmor {
+      display: flex;
+      width: 2400px; /* 600px * 4 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderArmor img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationArmor {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationArmor span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowArmor,
+    .nextArrowArmor {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowArmor:hover,
+    .nextArrowArmor:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .signalText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 400px;
+      font-weight: 600;
+      font-size: 50px;
+      margin-left: 750px;
+      background-color: rgb(133, 190, 49);
+      width: 600px;
+      height: 400px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    } 
+
+    .sliderContainerSignal {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderSignal {
+      display: flex;
+      width: 4200px; /* 600px * 7 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderSignal img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationSignal {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationSignal span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowSignal,
+    .nextArrowSignal {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowSignal:hover,
+    .nextArrowSignal:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .interhimHalpText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 250px;
+      font-weight: 600;
+      font-size: 44px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 750px;
+      height: 630px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerInterhimHalp {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderInterhimHalp {
+      display: flex;
+      width: 6000px; /* 600px * 10 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderInterhimHalp img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationInterhimHalp {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationInterhimHalp span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowInterhimHalp,
+    .nextArrowInterhimHalp {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowInterhimHalp:hover,
+    .nextArrowInterhimHalp:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .sliderContainerMobile {
+      display: none;
+    }
+
+    .fondOwnerTitle {
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 110px 350px 40px;
+      margin-bottom: 100px;
+    }
+
+    .backgroundBox {
+      position: absolute;
+      width: 100%;
+      background-color: gray;
+      opacity: .5;
+      height: 850px;
+      border-radius: 10px;
+    }
+
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 600px;
+      height: 850px;
+      border-radius: 10px;
+    }
+
+    .fondOwnerName {
+      position: absolute;
+      margin-left: 620px;
+      font-weight: 600;
+      font-size: 40px;
+    }
+
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      width: 800px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 620px;
+      font-weight: 600;
+    }
+
+    .ownerInformationMore {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      width: 800px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 620px;
+      font-weight: 600;
+    }
+
+    .more {
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 950px;
+      margin-top: 250px;
+      transition: transform 600ms ease-in-out;
+    }
+
+    .more:hover {
+      transform: scale(1.2);
+    }
+
+    .vault {
+      background-color: black;
+      width: 100%;
+      height: 200px;
+      margin-top: 1000px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+
+  .vault .telefoonNumer {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .mail {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 220px;
+      height: 160px;
+      margin-left: 630px;
+      margin-top: 20px;
+  }
+
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      margin-left: 300px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+  }
+
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin-left: 450px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+
+  }
+
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+}
+@media screen and (max-width: 390px){
+  #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      transform: translateX(0) translateY(120px);
+      min-width: 100%; 
+      min-height: 100%;
+    }
+  
+    .content {
+      position: relative;
+      z-index: 1;
+    }
+  
+  .navBar {
+      width: 100%;
+      height: 40px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navBar .conteiner {
+       height: inherit;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+  }
+  
+  .navbarMenu{
+      margin-right: 1px;
+      list-style-type: none;
+      padding-left: 0;
+      margin-bottom: 0;
+  }
+  
+  .navbarMenu li{
+      display: inline-block;
+  }
+  
+  .navbarMenu li a{
+      border: white;
+      border-style: groove;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      display: inline-block;
+      cursor: pointer;
+      font-weight: 600;
+      border-width: 2px;
+      border-color: #fff;
+      color: rgb(255, 255, 255);
+      background-color: green;    
+      border-radius: 100px;
+      margin-left: 6px;
+      margin-right: 14px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 5px;
+      text-decoration: none;
+      padding: 10px;
+      transition: all 500ms ease;
+  }
+  
+  .navbarMenu li a:hover {
+      transform: scale(1.2);
+  }
+  
+  .navbarWrap {
+      flex-flow: row nowrap;
+  }
+  
+  .navbarWrap .change {
+      cursor: pointer;
+      height: 30px;
+      width: 30px;
+      border: white;
+      border-style: groove;
+      margin-bottom: 25px;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 5px;
+      color: white;
+      background-color: green;
+      text-align: center;
+      transition: all 500ms ease-in-out;
+  }
+  
+  .navbarWrap .change:hover {
+      transform: scale(1.1);
+      opacity: 1;
+  }
+  
+  .partnersBox {
+      display: none;
+      position: absolute;
+      z-index: 5;
+      margin-left: 60px;
+      background-color: gray;
+      border: white;
+      border-style: groove;
+      opacity: .9;
+      width: 82px;
+      height: 160px;
+      border-radius: 10px;
+  }
+  
+  .partnersBox img{
+      display: inline-block;
+      position: inline;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-left: 6px;
+      width: 70px;
+      height: 30px;
+      transition: all 500ms ease;
+  }
+  
+  .partnersBox img:hover {
+      transform: scale(1.1);
+  }
+
+  .descrHeader {
     background-color: rgb(133, 190, 49);
     border: 5px #fff;
     color: #fff;
     border-style: groove;
     text-align: center;
     border-radius: 20px;
-    font-size: 70px;
-    margin: 40px 350px;
+    font-size: 100px;
+    margin: 40px 5px;
     margin-bottom: 100px;
 }
 
-.descrBackground {
-  border-radius: 20px;
-  position: absolute;
-  width: 100%;
-  height: 750px;
-  z-index: 0;
-  background-color: gray;
-  opacity: .8;
-}
+  .logoAboutDescr {
+    position: absolute;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+  }
 
-.logoAboutDescr {
-  position: absolute;
-  width: 700px;
-  margin-top: 100px;
-}
+  .descrBoxText {
+    position: relative;
+    width: 350px;
+    margin-top: 400px;
+  }
 
-.descrBox p {
-  position: relative;
-  z-index: 1;
-  width: 700px;
-  color: #fff;
-  font-size: 30px;
-  margin-left: 730px;
-}
-
-.reportTitle {
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  
+  .reportTitle {
     background-color: rgb(133, 190, 49);
     text-align: center;
     border-radius: 30px;
@@ -170,7 +868,7 @@
     border: 5px #fff;
     border-style: groove;
     font-size: 70px;
-    margin: 200px 350px 10px;
+    margin: 200px 5px 10px;
     margin-bottom: 100px;
 }
 
@@ -189,7 +887,7 @@
     border-radius: 20px;
     position: absolute;
     width: 100%;
-    height: 4851px;
+    height: 4990px;
     background-color: gray;
     opacity: .6;
   }
@@ -199,341 +897,132 @@
     text-align: center;
     color: white;
     font-weight: 600;
-    font-size: 50px;
-    margin-left: 750px;
+    font-size: 40px;
+    margin-left: 5px;
+    margin-top: 700px;
     background-color: rgb(133, 190, 49);
-    width: 600px;
-    height: 410px;
+    width: 94.5%;
+    height: 470px;
     border-radius: 10px;
     border: 5px white;
     border-style: groove;
   }
 
   .sliderContainerPatrul {
-    border: 5px white;
-    border-style: groove;
-    border-radius: 20px;
-    position: relative;
-    width: 600px;
-    height: 800px;
-    overflow: hidden;
-  }
-  
-  .sliderPatrul {
-    display: flex;
-    width: 1800px; /* 600px * 3 images */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .sliderPatrul img {
-    width: 600px;
-    height: 800px;
-  }
-  
-  .sliderNavigationPatrul {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sliderNavigationPatrul span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    margin: 0 5px;
-    line-height: 20px;
-  }
-  
-  .prevArrowPatrul,
-  .nextArrowPatrul {
-    border-radius: 10px;
-    font-size: 14px;
-    transition: all 600ms ease;
-  }
-
-  .prevArrowPatrul:hover,
-  .nextArrowPatrul:hover {
-    background-color: rgb(133, 190, 49);
-    transform: scale(1.2);
-  }
-  
-  .carText {
-    position: absolute;
-    text-align: center;
-    color: white;
-    margin-top: 400px;
-    font-weight: 600;
-    font-size: 50px;
-    margin-left: 750px;
-    background-color: rgb(133, 190, 49);
-    width: 600px;
-    height: 200px;
-    border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
+    display: none;
   }
   
   .helpToArmyText {
     position: absolute;
     text-align: center;
     color: white;
-    margin-top: 250px;
+    margin-top: 2850px;
     font-weight: 600;
     font-size: 50px;
-    margin-left: 750px;
+    margin-left: 5px;
     background-color: rgb(133, 190, 49);
-    width: 600px;
-    height: 690px;
+    width: 94.5%;
+    height: 1290px;
     border-radius: 10px;
     border: 5px white;
     border-style: groove;
   }
 
   .sliderContainerHelpToArmy {
-    position: relative;
-    margin-top: 200px;
-    width: 600px;
-    height: 800px;
-    border-radius: 20px;
-    border: 5px white;
-    border-style: groove;
-    overflow: hidden;
-  }
-  
-  .sliderHelpToArmy {
-    display: flex;
-    width: 3600px;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .sliderHelpToArmy img {
-    width: 600px;
-    height: 800px;
-  }
-  
-  .sliderNavigationHelpToArmy {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sliderNavigationHelpToArmy span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    margin: 0 5px;
-    line-height: 20px;
-  }
-  
-  .prevArrowHelpToArmy,
-  .nextArrowHelpToArmy {
-    font-size: 14px;
-    border-radius: 10px;
-    transition: all 600ms ease;
-  }
-  
-  .prevArrowHelpToArmy:hover,
-  .nextArrowHelpToArmy:hover {
-    background-color: rgb(133, 190, 49);
-    transform: scale(1.2);
+    display: none;
   }
 
   .armorText {
     position: absolute;
     text-align: center;
     color: white;
-    margin-top: 400px;
+    margin-top: 4160px;
     font-weight: 600;
-    font-size: 50px;
-    margin-left: 750px;
+    font-size: 45px;
+    margin-left: 5px;
     background-color: rgb(133, 190, 49);
-    width: 600px;
-    height: 250px;
+    width: 94.5%;
+    height: 280px;
     border-radius: 10px;
     border: 5px white;
     border-style: groove;
   }
 
   .sliderContainerArmor {
-    margin-top: 200px;
-    position: relative;
-    width: 600px;
-    height: 800px;
-    border-radius: 20px;
-    border: 5px white;
-    border-style: groove;
-    overflow: hidden;
-  }
-  
-  .sliderArmor {
-    display: flex;
-    width: 2400px; /* 600px * 4 images */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .sliderArmor img {
-    width: 600px;
-    height: 800px;
-  }
-  
-  .sliderNavigationArmor {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sliderNavigationArmor span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    margin: 0 5px;
-    line-height: 20px;
-  }
-  
-  .prevArrowArmor,
-  .nextArrowArmor {
-    border-radius: 10px;
-    font-size: 14px;
-    transition: all 600ms ease;
-  }
-
-  .prevArrowArmor:hover,
-  .nextArrowArmor:hover {
-    background-color: rgb(133, 190, 49);
-    transform: scale(1.2);
+    display: none;
   }
   
   .signalText {
     position: absolute;
     text-align: center;
     color: white;
-    margin-top: 400px;
+    margin-top: 4460px;
     font-weight: 600;
-    font-size: 50px;
-    margin-left: 750px;
+    font-size: 40px;
+    margin-left: 5px;
     background-color: rgb(133, 190, 49);
-    width: 600px;
-    height: 400px;
+    width: 94.5%;
+    height: 510px;
     border-radius: 10px;
     border: 5px white;
     border-style: groove;
   } 
 
   .sliderContainerSignal {
-    position: relative;
-    margin-top: 200px;
-    border-radius: 20px;
-    border: 5px white;
-    border-style: groove;
-    width: 600px;
-    height: 800px;
-    overflow: hidden;
-  }
-  
-  .sliderSignal {
-    display: flex;
-    width: 4200px; /* 600px * 7 images */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .sliderSignal img {
-    width: 600px;
-    height: 800px;
-  }
-  
-  .sliderNavigationSignal {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sliderNavigationSignal span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    margin: 0 5px;
-    line-height: 20px;
-  }
-  
-  .prevArrowSignal,
-  .nextArrowSignal {
-    border-radius: 10px;
-    font-size: 14px;
-    transition: all 600ms ease;
+    display: none;
   }
 
-  .prevArrowSignal:hover,
-  .nextArrowSignal:hover {
-    background-color: rgb(133, 190, 49);
-    transform: scale(1.2);
-  }
-  
   .interhimHalpText {
     position: absolute;
     text-align: center;
     color: white;
-    margin-top: 250px;
     font-weight: 600;
     font-size: 44px;
-    margin-left: 650px;
+    margin-left: 5px;
+    margin-top: 1200px;
     background-color: rgb(133, 190, 49);
-    width: 750px;
-    height: 630px;
+    width: 94.5%;
+    height: 1630px;
     border-radius: 10px;
     border: 5px white;
     border-style: groove;
   }
 
   .sliderContainerInterhimHalp {
-    position: relative;
-    margin-top: 200px;
-    border-radius: 20px;
+    display: none;
+  }
+
+
+  .sliderContainerMobile {
+    display: block;
     border: 5px white;
     border-style: groove;
-    width: 600px;
-    height: 800px;
+    border-radius: 20px;
+    position: relative;
+    width: 365px;
+    height: 600px;
     overflow: hidden;
   }
   
-  .sliderInterhimHalp {
+  .sliderMobile {
     display: flex;
-    width: 6000px; /* 600px * 10 images */
+    width: 10950px; /* 600px * 3 images */
     transition: transform 0.5s ease-in-out;
   }
   
-  .sliderInterhimHalp img {
-    width: 600px;
-    height: 800px;
+  .sliderMobile img {
+    width: 365px;
+    height: 600px;
   }
   
-  .sliderNavigationInterhimHalp {
+  .sliderNavigationMobile {
     position: absolute;
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
   }
   
-  .sliderNavigationInterhimHalp span {
+  .sliderNavigationMobile span {
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -545,159 +1034,162 @@
     line-height: 20px;
   }
   
-  .prevArrowInterhimHalp,
-  .nextArrowInterhimHalp {
+  .prevArrowMobile,
+  .nextArrowMobile {
     border-radius: 10px;
     font-size: 14px;
     transition: all 600ms ease;
   }
 
-  .prevArrowInterhimHalp:hover,
-  .nextArrowInterhimHalp:hover {
+  .prevArrowMobile:hover,
+  .nextArrowMobile:hover {
     background-color: rgb(133, 190, 49);
     transform: scale(1.2);
   }
 
-  .fondOwnerTitle {
-    background-color: rgb(133, 190, 49);
-    color: white;
-    border: 5px white;
-    border-style: groove;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 70px;
-    margin: 110px 350px 40px;
-    margin-bottom: 100px;
-  }
+    .fondOwnerTitle {
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 4200px 350px 40px;
+      margin-bottom: 100px;
+    }
 
-  .backgroundBox {
-    position: absolute;
-    width: 100%;
-    background-color: gray;
-    opacity: .5;
-    height: 850px;
-    border-radius: 10px;
-  }
+    .backgroundBox {
+      position: absolute;
+      width: 96%;
+      background-color: gray;
+      opacity: .5;
+      height: 2250px;
+      border-radius: 10px;
+    }
 
-  .ownerPhoto {
-    position: absolute;
-    z-index: 2;
-    width: 600px;
-    height: 850px;
-    border-radius: 10px;
-  }
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 96%;
+      height: 500px;
+      border-radius: 10px;
+    }
 
-  .fondOwnerName {
-    position: absolute;
-    margin-left: 620px;
-    font-weight: 600;
-    font-size: 40px;
-  }
+    .fondOwnerName {
+      position: absolute;
+      margin-top: 520px;
+      width: 100%;
+      margin-left: 50px;
+      font-weight: 600;
+      font-size: 20px;
+    }
 
-  .ownerInformationMain {
-    position: absolute;
-    z-index: 2;
-    width: 800px;
-    height: 800ox;
-    margin-top: 90px;
-    margin-left: 620px;
-    font-weight: 600;
-  }
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      width: 95%;
+      height: 800ox;
+      margin-top: 600px;
+      margin-left: 5px;
+      font-weight: 600;
+    }
 
-  .ownerInformationMore {
-    display: none;
-    position: absolute;
-    z-index: 2;
-    width: 800px;
-    height: 800ox;
-    margin-top: 90px;
-    margin-left: 620px;
-    font-weight: 600;
-  }
+    .ownerInformationMore {
+      position: absolute;
+      z-index: 2;
+      width: 95%;
+      height: 800ox;
+      margin-top: 600px;
+      margin-left: 5px;
+      font-weight: 600;
+    }
 
-  .more {
-    cursor: pointer;
-    background-color: rgb(133, 190, 49);;
-    border-radius: 10px;
-    color: #fff;
-    border: 5px white;
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    margin-left: 950px;
-    margin-top: 250px;
-    transition: transform 600ms ease-in-out;
-  }
+    .more {
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 140px;
+      margin-top: 950px;
+      transition: transform 600ms ease-in-out;
+    }
 
-  .more:hover {
-    transform: scale(1.2);
-  }
+    .more:hover {
+      transform: scale(1.2);
+    }
+
 
   .vault {
-    background-color: black;
-    width: 100%;
-    height: 200px;
-    margin-top: 1000px;
-    border-radius: 10px;
-    opacity: .75;
-}
-
-.vault .telefoonNumer {
-    font-size: 25px;
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 40px;
-    color: white;
-}
-
-.vault .mail {
-    font-size: 25px;
-    position: absolute;
-    margin-top: 110px;
-    margin-left: 40px;
-    color: white;
-}
-
-.vault .vaultLogo {
-    border-radius: 500px;
-    border-color: black;
-    width: 220px;
-    height: 160px;
-    margin-left: 630px;
-    margin-top: 20px;
-}
-
-.vault #instagrammIcon {
-    position: absolute;
-    cursor: pointer;
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    border-radius: 30px;
-    margin-left: 300px;
-    margin-top: 50px;
-    transition: all 600ms ease;
-}
-
-.vault #facebookIcon {
-    position: absolute;
-    cursor: pointer;
-    background-color: white;
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin-left: 450px;
-    margin-top: 50px;
-    transition: all 600ms ease;
-
-}
-
-.vault #instagrammIcon:hover {
-    transform: scale(1.2);
-    background-color: green;
-}
-
-.vault #facebookIcon:hover {
-    transform: scale(1.2);
-    background-color: green;
+      background-color: black;
+      width: 100%;
+      height: 180px;
+      margin-top: 2350px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+  
+  .vault .telefoonNumer {
+      font-size: 10px;
+      position: absolute;
+      margin-top: 70px;
+      margin-left: 20px;
+      color: white;
+  }
+  
+  .vault .mail {
+      font-size: 10px;
+      position: absolute;
+      margin-top: 100px;
+      margin-left: 20px;
+      color: white;
+  }
+  
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 120px;
+      height: 100px;
+      margin-left: 150px;
+      margin-top: 30px;
+  }
+  
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 15px;
+      margin-left: 25px;
+      margin-top: 30px;
+      transition: all 600ms ease;
+  }
+  
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      margin-left: 25px;
+      margin-top: 90px;
+      transition: all 600ms ease;
+  
+  }
+  
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+  
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
 }

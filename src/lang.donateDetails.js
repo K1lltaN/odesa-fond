@@ -39,6 +39,22 @@ const langArr = {
         "ua": "Адресса компанії:",
         "en": "Company adress:",
     },
+    "dollarDonateDescrMobile": {
+        "ua": "В доларах - Реквізити компанії",
+        "en": "In dollars - Details of the company",
+    },
+    "dollarNameCompanyMobile": {
+        "ua": "Назва компанії:",
+        "en": "Company name:",
+    },
+    "dollarBankNameMobile": {
+        "ua": "Назва банку:",
+        "en": "Bank name:",
+    },
+    "dollarCompanyAdressMobile": {
+        "ua": "Адресса компанії:",
+        "en": "Company adress:",
+    },
     "euroDonateDescr": {
         "ua": "В євро - Реквізити компанії:",
         "en": "In euro - Details of the company",

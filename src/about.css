@@ -801,7 +801,7 @@
       display: none;
       position: absolute;
       z-index: 5;
-      margin-left: 60px;
+      margin-left: 65px;
       background-color: gray;
       border: white;
       border-style: groove;
@@ -868,20 +868,9 @@
     border: 5px #fff;
     border-style: groove;
     font-size: 70px;
-    margin: 200px 5px 10px;
-    margin-bottom: 100px;
+    margin: 200px 5px 100px;
 }
 
-  .reportBackground {
-    position: absolute;
-    z-index: 0;
-    width: 100%;
-    height: 5900px;
-    background-color: gray;
-    border-radius: 20px;
-    opacity: .5;
-  }
-  
   .slidersBackground {
     z-index: 0;
     border-radius: 20px;
@@ -994,24 +983,25 @@
 
 
   .sliderContainerMobile {
+    margin-left: 7px;
     display: block;
     border: 5px white;
     border-style: groove;
     border-radius: 20px;
     position: relative;
-    width: 365px;
+    width: 350px;
     height: 600px;
     overflow: hidden;
   }
   
   .sliderMobile {
     display: flex;
-    width: 10950px; /* 600px * 3 images */
+    width: 10500px; /* 350px * 30 images */
     transition: transform 0.5s ease-in-out;
   }
   
   .sliderMobile img {
-    width: 365px;
+    width: 350px;
     height: 600px;
   }
   
@@ -1064,7 +1054,7 @@
       width: 96%;
       background-color: gray;
       opacity: .5;
-      height: 2350px;
+      height: 2450px;
       border-radius: 10px;
     }
 
@@ -1128,7 +1118,7 @@
       background-color: black;
       width: 100%;
       height: 180px;
-      margin-top: 2500px;
+      margin-top: 2600px;
       border-radius: 10px;
       opacity: .75;
   }

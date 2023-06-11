@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let nextArrow = document.querySelector(".nextArrowMobile");
 
   let currentPosition = 0;
-  let imageWidth = 365;
+  let imageWidth = 350;
   let totalImages = slider.querySelectorAll("img").length;
 
   function slideLeft() {

@@ -33,6 +33,19 @@ document.getElementById('popUpCloseMobile').onclick = function() {
     document.getElementById('popUpMobile').style.display = "none";
 }
 
+document.getElementById("donateButtonZSU").addEventListener("click", function() {
+    window.open('https://www.liqpay.ua/uk/checkout/i13326270048', '_blank');
+});
+
+
+document.getElementById("donateButtonChild").addEventListener("click", function() {
+    window.open('https://www.liqpay.ua/uk/checkout/i13326270048', '_blank');
+});
+
+
+document.getElementById("donateButtonFund").addEventListener("click", function() {
+    window.open('https://www.liqpay.ua/uk/checkout/i13326270048', '_blank');
+});
 
 partners.onmousemove = handleMouseOver;
 partners.onmouseleave = handleMouseLeave;

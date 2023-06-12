@@ -25,10 +25,12 @@ document.getElementById('help').onclick = function() {
     var mail = mailInput.value;
     var halp = halpSelect.value;
     var ageChecked = ageCheck.checked;
-
     // Выполнение дополнительной валидации, если необходимо
     if (name === "" || familyname === "" || telefonnumber === "" || mail === "" || !ageChecked) {
-        alert("Будь ласка, заповніть усі поля форми та дайте згоду на обробку даних!");
+        document.getElementById('formError').style.display = "block"
+        document.getElementById('formErrorClose').onclick = function() {
+            document.getElementById('formError').style.display = "none";
+        }
         return;
     }
 
@@ -41,8 +43,12 @@ document.getElementById('help').onclick = function() {
     ageCheck.checked = false;
 
     // Дополнительные действия после отправки формы (например, показать сообщение об успешной отправке)
-    alert("Форму успішно відправлено!");
-
+    document.getElementById('formConfirmed').style.display = "block";
+    document.getElementById('formConfirmedClose').style.display = "block";
+    document.getElementById('formConfirmedClose').onclick = function() {
+        document.getElementById('formConfirmed').style.display = "none";
+        document.getElementById('formConfirmedClose').style.display = "none";
+    }
     form.style.display = "none";
     });
 

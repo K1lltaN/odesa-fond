@@ -251,6 +251,66 @@
         margin-top: 20px;
     }
     
+    .formError {
+        display: none;
+        -webkit-text-stroke: .4px black;
+        color: white;
+        text-align: center;
+        margin: 300px 200px;
+        border: 2px rgb(255, 255, 255);
+        border-style: groove;
+        border-radius: 10px;
+        background-color:green;
+        position: fixed;
+        z-index: 10;
+        height: 130px;
+    }
+
+    .formConfirmed {
+        display: none;
+        font-size: 40px;
+        -webkit-text-stroke: .4px black;
+        color: white;
+        text-align: center;
+        margin: 250px 300px;
+        border: 2px rgb(255, 255, 255);
+        border-style: groove;
+        border-radius: 10px;
+        background-color:green;
+        position: fixed;
+        z-index: 10;
+        height: 160px;
+    }
+
+    .formMessageClose {
+        font-size: 40px;
+        cursor: pointer;
+        border: 2px white;
+        border-style: groove;
+        color: #fff;
+        background-color:green;
+        margin: 0px 400px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .formConfirmedClose {
+        display: none;
+        position: fixed;
+        font-size: 40px;
+        cursor: pointer;
+        border: 2px white;
+        border-style: groove;
+        color: #fff;
+        background-color:green;
+        margin: 360px 675px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        z-index: 20;
+    }
+
     .fondName {
         position: absolute;
         display: inline-block;
@@ -1104,6 +1164,67 @@
         cursor: pointer;
         border-radius: 30px;
         margin-top: 20px;
+    }
+
+    .formError {
+        font-size: 15px;
+        display: none;
+        -webkit-text-stroke: .4px black;
+        color: white;
+        text-align: center;
+        margin: 300px 10px;
+        border: 2px rgb(255, 255, 255);
+        border-style: groove;
+        border-radius: 10px;
+        background-color:green;
+        position: fixed;
+        z-index: 10;
+        height: 200px;
+    }
+
+    .formConfirmed {
+        font-size: 35px;
+        display: none;
+        -webkit-text-stroke: .4px black;
+        color: white;
+        text-align: center;
+        margin: 250px 10px;
+        border: 2px rgb(255, 255, 255);
+        border-style: groove;
+        border-radius: 10px;
+        background-color:green;
+        position: fixed;
+        z-index: 10;
+        height: 210px;
+    }
+
+
+    .formMessageClose {
+        cursor: pointer;
+        border: 2px white;
+        border-style: groove;
+        color: #fff;
+        background-color:green;
+        margin: 0px 110px;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .formConfirmedClose {
+        display: none;
+        position: fixed;
+        font-size: 15px;
+        cursor: pointer;
+        border: 2px white;
+        border-style: groove;
+        color: #fff;
+        background-color:green;
+        margin: 420px 160px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        z-index: 20;
     }
     
     .fondName {

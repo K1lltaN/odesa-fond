@@ -621,6 +621,7 @@
     }
 
     .more {
+      text-align: center;
       cursor: pointer;
       background-color: rgb(133, 190, 49);;
       border-radius: 10px;
@@ -1098,6 +1099,7 @@
     }
 
     .more {
+      text-align: center;
       cursor: pointer;
       background-color: rgb(133, 190, 49);;
       border-radius: 10px;

@@ -48,8 +48,8 @@ const langArr = {
         "en": "Patron",
     },
     "otherSelect": {
-        "ua": "Інше",
-        "en": "Other",
+        "ua": "Представник у вашoму місті",
+        "en": "Representative in your city",
     },
     "TEXTageCheck": {
         "ua": "Мені є 18, та я даю згоду на обрробку персональних данних",

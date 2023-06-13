@@ -15,6 +15,50 @@ const langArr = {
         "ua": "Бажаю допомогти",
         "en": "I want to help",
     },
+    "TEXTformTitle": {
+        "ua": "Будь ласка заповніть форму",
+        "en": "Please fill out the form",
+    },
+    "TEXTlabelName": {
+        "ua": "Прізвище та Імʼя",
+        "en": "Name and Surname",
+    },
+    "TEXTlabelfamilyname": {
+        "ua": "По-батькові",
+        "en": "Second name",
+    },
+    "TEXTlabeltelefonnumber": {
+        "ua": "Номер телефону",
+        "en": "Phone number",
+    },
+    "TEXTselect": {
+        "ua": "Як би ви хотіли допомогати?",
+        "en": "How would you like to help?",
+    },
+    "volonterSelect": {
+        "ua": "Волонтер",
+        "en": "Volunteer",
+    },
+    "metsenatSelect": {
+        "ua": "Меценат",
+        "en": "Patron",
+    },
+    "otherSelect": {
+        "ua": "Представник у своєму місті",
+        "en": "Representative in my city",
+    },
+    "TEXTageCheck": {
+        "ua": "Мені є 18, та я даю згоду на обрробку персональних данних",
+        "en": "I am 18, and I consent to the processing of personal data",
+    },
+    "formButton": {
+        "ua": "Відправити форму",
+        "en": "Send form",
+    },
+    "formCansel": {
+        "ua": "Скасувати",
+        "en": "Censel",
+    },
     "home": {
         "ua": "На головну",
         "en": "Home page",

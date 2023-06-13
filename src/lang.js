@@ -24,12 +24,12 @@ const langArr = {
         "en": "Please fill out the form",
     },
     "TEXTlabelName": {
-        "ua": "Iм'я",
-        "en": "Name",
+        "ua": "Прізвище та Імʼя",
+        "en": "Name and Surname",
     },
     "TEXTlabelfamilyname": {
-        "ua": "Прізвище",
-        "en": "Surname",
+        "ua": "По-батькові",
+        "en": "Second name",
     },
     "TEXTlabeltelefonnumber": {
         "ua": "Номер телефону",
@@ -48,8 +48,8 @@ const langArr = {
         "en": "Patron",
     },
     "otherSelect": {
-        "ua": "Представник у вашoму місті",
-        "en": "Representative in your city",
+        "ua": "Представник у своєму місті",
+        "en": "Representative in my city",
     },
     "TEXTageCheck": {
         "ua": "Мені є 18, та я даю згоду на обрробку персональних данних",
@@ -62,22 +62,6 @@ const langArr = {
     "formCansel": {
         "ua": "Скасувати",
         "en": "Censel",
-    },
-    "formErrorText": {
-        "ua": "Будь ласка, заповніть усі поля форми та дайте згоду на обробку даних!",
-        "en": "Please fill in all fields of the form and give your consent to data processing!",
-    },
-    "formErrorClose": {
-        "ua": "Зрозуміло",
-        "en": "Clearly",
-    },
-    "formConfirmedText": {
-        "ua": "Форма успішно відправлена! Очікуйте, ми невдовзі звʼяжемося з вами!",
-        "en": "The form has been sent successfully! Wait, we will contact you soon!",
-    },
-    "formConfirmedClose": {
-        "ua": "Зрозуміло",
-        "en": "Clearly",
     },
     "odessaFond": {
         "ua": "Одеса фонд і ГО",

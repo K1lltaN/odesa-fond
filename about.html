@@ -44,6 +44,41 @@
             <img src="./src/img/partners/krainamasajuPartner.jpg" alt="krainamasajuPartner">
             <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
         </div>
+        <div class="donate" id="formDonate"> 
+            <form action="mail.php" method="POST" id="donameForm" class="formBody">
+                <h1 class="formTitle" id="TEXTformTitle">Будь ласка заповніть форму</h1>
+                <div class="formItem">
+                    <label for="labelName" class="formLabel" id="TEXTlabelName">Імʼя та прізвище</label>
+                    <input id="labelName"type="text" name="name" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labelFamilyname" class="formLabel" id="TEXTlabelfamilyname">По-батьков</label>
+                    <input id="labelFamilyname"type="text" name="fname" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labelTelefonnumber" class="formLabel" id="TEXTlabeltelefonnumber">Номер телефону</label>
+                    <input id="labelTelefonnumber"type="text" name="telefonnumber" class="formInput">
+                </div>
+                <div class="formItem">
+                    <label for="labelMail" class="formLabel">E-Mail</label>
+                    <input id="labelMail"type="text" name="mail" class="formInput">
+                </div>
+                <div class="formItem">
+                    <p class="formLabel" id="TEXTselect">Як би ви хотіли допомогати?</p>
+                    <select name="halp" id="selectHapl" class="selectHalp">
+                        <option value="волонтер" selected="selected" id="volonterSelect">Волонтер</option>
+                        <option value="меценат" id="metsenatSelect">Меценат</option>
+                        <option value="представник у своєму місті" id="otherSelect">Представник у своєму місті</option>
+                    </select>
+                </div>
+                <div class="checkBox">
+                    <input id="ageCheck" type="checkbox" name="ageCheck" class="ageCheck">
+                    <label for="ageCheck" class="labelAgeCheck" id="TEXTageCheck">Мені є 18, та я даю згоду на обрробку персональних данних</label>
+                </div>
+                <button type="submit" class="formButton" id="formButton">Відправити форму</button>
+                <p class="formButtonCansel" id="formCansel">Скасувати</p>
+            </fomm>
+        </div>
         <div class="descrBox">
             <h1 class="descrHeader" id="descrHeader">Опис нашої команії:</h1>
             <div class="descrBackground"></div>
@@ -233,5 +268,6 @@
         </div>
     </div>
     <script src="./src/about.js"></script>
+    <script src="./src/form.js"></script>
 </body>
 </html>

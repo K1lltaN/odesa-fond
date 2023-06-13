@@ -121,6 +121,140 @@
         transform: scale(1.1);
     }
 
+    .donate {
+    display: none;
+    position: absolute;
+    margin-left: 840px;
+    }
+
+    form {
+    opacity: .9;
+    position: absolute;
+    margin-left: 200px;
+    z-index: 6;
+    color: white;
+    width: 600px;
+    background-color: green;
+    border-radius: 20px;
+    border: white;
+    border-style: groove;
+    }
+
+    .formBody {
+        max-width: 550px;
+        margin: 0px auto;
+        padding: 30px 0;
+    }
+
+    .formTitle {
+        -webkit-text-stroke: .7px black;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 30px 0;
+    }
+
+    .formItem {
+        margin: 0 0 20px 0;
+    }
+
+    .formLabel {
+        -webkit-text-stroke: .3px black;
+        text-align: center;
+        font-size: 28px;
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .formInput {
+        height: 50px;
+        padding: 0px 20px;
+        border-radius: 50px;
+        width: 92%;
+        font-size: 18px;
+    }
+
+    .ageCheck {
+        display: none;
+    }
+
+    .ageCheck:checked + .labelAgeCheck::after {
+        transform: scale(1);
+    }
+
+    .labelAgeCheck {
+        font-size: 16px;
+        line-height: 140%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .labelAgeCheck::before {
+        content: "";
+        align-self: flex-start;
+        flex: 0 0 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 4px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .labelAgeCheck::after {
+        transition: transform 400ms ease-in-out;
+        content: "";
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 4px;
+        left: 14px;
+        background-color: green;
+        border-radius: 4px;
+        transform: scale(0);
+    }
+
+    .selectHalp {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .formButton {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: yellow;
+        background-color: rgb(0, 0, 255);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .formButtonCansel {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: blue;
+        background-color: rgb(255, 255, 0);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
     .donateInformation {
         margin-top: 30px;
         border-radius: 20px;
@@ -380,6 +514,140 @@
         transform: scale(1.1);
     }
 
+    .donate {
+    display: none;
+    position: absolute;
+    margin-left: 1px;
+    }
+
+    .form {
+        opacity: .9;
+        position: absolute;
+        margin-left: 200px;
+        z-index: 6;
+        color: white;
+        width: 370px;
+        background-color: green;
+        border-radius: 20px;
+        border: white;
+        border-style: groove;
+        }
+
+    .formBody {
+        max-width: 550px;
+        margin: 0px auto;
+        padding: 30px 0;
+    }
+
+    .formTitle {
+        -webkit-text-stroke: .7px black;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0 0 30px 0;
+    }
+
+    .formItem {
+        margin: 0 0 20px 0;
+    }
+
+    .formLabel {
+        -webkit-text-stroke: .3px black;
+        text-align: center;
+        font-size: 28px;
+        display: block;
+        margin: 0 0 10px 0;
+    }
+
+    .formInput {
+        height: 50px;
+        padding: 0px 20px;
+        border-radius: 50px;
+        width: 88%;
+        font-size: 18px;
+    }
+
+    .ageCheck {
+        display: none;
+    }
+
+    .ageCheck:checked + .labelAgeCheck::after {
+        transform: scale(1);
+    }
+
+    .labelAgeCheck {
+        font-size: 16px;
+        line-height: 140%;
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .labelAgeCheck::before {
+        content: "";
+        align-self: flex-start;
+        flex: 0 0 24px;
+        height: 24px;
+        background-color: white;
+        border-radius: 4px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .labelAgeCheck::after {
+        transition: transform 400ms ease-in-out;
+        content: "";
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 4px;
+        left: 14px;
+        background-color: green;
+        border-radius: 4px;
+        transform: scale(0);
+    }
+
+    .selectHalp {
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .formButton {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: yellow;
+        background-color: rgb(0, 0, 255);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .formButtonCansel {
+        -webkit-text-stroke: .7px black;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60px;
+        color: blue;
+        background-color: rgb(255, 255, 0);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        cursor: pointer;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    
     .donateInformation {
         margin-top: 30px;
         border-radius: 20px;

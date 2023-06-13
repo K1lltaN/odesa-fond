@@ -1,27 +1,27 @@
- <?php 
+<?php 
 
-require_once('./phpmailer/PHPMailerAutoload.php');
+require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
 $name = $_POST['name'];
-$familynmae = $_POST['familynmae'];
-$telefonnumber = $_POST['telefonnumber'];
-$mail = $_POST['mail'];
+$fname = $_POST['fname'];
+$phone = $_POST['telefonnumber'];
+$email = $_POST['mail'];
 $halp = $_POST['halp'];
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'mail.adm.tools';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'maxi31034@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
-$mail->Password = 'WANRLTW125436'; // Ваш пароль от почты с которой будут отправляться письма
+$mail->Username = 'bf@novihzmin.com.ua'; // Ваш логин от почты с которой будут отправляться письма
+$mail->Password = 'BFnovihzmin1'; // Ваш пароль от почты с которой будут отправляться письма
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465; // TCP port to connect to / этот порт может отличаться у других провайдеров
 
-$mail->setFrom('maxi31034@gmail.com'); // от кого будет уходить письмо?
-$mail->addAddress('syfamixe@afia.pro');     // Кому будет уходить письмо 
+$mail->setFrom('bf@novihzmin.com.ua'); // от кого будет уходить письмо?
+$mail->addAddress('maxi31034@gmail.com');     // Кому будет уходить письмо 
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -30,11 +30,13 @@ $mail->addAddress('syfamixe@afia.pro');     // Кому будет уходит�
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Новий помічник БФ "Нових змін!"';
-$mail->Body    = 'Доброго дня, мене звати ' .$name. ' ' .$familynmae. '<br>Мій номер телефону: ' .$telefonnumber. '<br>Моя електронна адреса: ' .$mail. '<br>Я хочу допомогати вам як: ' .$halp;
+$mail->Subject = 'Нова заявка до БФ Нових Змін!';
+$mail->Body    = 'Доброго дня! Мене звати ' . $name . '!' . '<br>Я хотів(ла) би долучитися до Благодійного фонду Нових Змін!' . '<br>Мій номер телефону: ' . $phone . '<br>Моя електронна адреса: ' .$email . '<br>Я хотів(ла) би вам допомогати як ' . $halp . '.';
 $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
+} else {
+    header('location: thank-you.html');
 }
 ?>

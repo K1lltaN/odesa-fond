@@ -44,18 +44,18 @@
                 <img src="./src/img/partners/lotosParter.jpg" alt="lotosParter">
             </div>
             <div class="donate" id="formDonate"> 
-                <form action="/mail.php" method="POST" id="donameForm" class="formBody">
+                <form action="mail.php" method="POST" id="donameForm" class="formBody">
                     <h1 class="formTitle" id="TEXTformTitle">Будь ласка заповніть форму</h1>
                     <div class="formItem">
-                        <label for="labelName" class="formLabel" id="TEXTlabelName">Імʼя</label>
+                        <label for="labelName" class="formLabel" id="TEXTlabelName">Імʼя та прізвище</label>
                         <input id="labelName"type="text" name="name" class="formInput">
                     </div>
                     <div class="formItem">
-                        <label for="labelfamilyname" class="formLabel" id="TEXTlabelfamilyname">Прізвище</label>
-                        <input id="labelFamilyname"type="text" name="familynmae" class="formInput">
+                        <label for="labelFamilyname" class="formLabel" id="TEXTlabelfamilyname">По-батьков</label>
+                        <input id="labelFamilyname"type="text" name="fname" class="formInput">
                     </div>
                     <div class="formItem">
-                        <label for="labeltelefonnumber" class="formLabel" id="TEXTlabeltelefonnumber">Номер телефону</label>
+                        <label for="labelTelefonnumber" class="formLabel" id="TEXTlabeltelefonnumber">Номер телефону</label>
                         <input id="labelTelefonnumber"type="text" name="telefonnumber" class="formInput">
                     </div>
                     <div class="formItem">
@@ -65,9 +65,9 @@
                     <div class="formItem">
                         <p class="formLabel" id="TEXTselect">Як би ви хотіли допомогати?</p>
                         <select name="halp" id="selectHapl" class="selectHalp">
-                            <option value="Волонтер" selected="selected" id="volonterSelect">Волонтер</option>
-                            <option value="Меценат" id="metsenatSelect">Меценат</option>
-                            <option value="Інша хуйня" id="otherSelect">Представник у вашему місті</option>
+                            <option value="волонтер" selected="selected" id="volonterSelect">Волонтер</option>
+                            <option value="меценат" id="metsenatSelect">Меценат</option>
+                            <option value="представник у своєму місті" id="otherSelect">Представник у своєму місті</option>
                         </select>
                     </div>
                     <div class="checkBox">
@@ -78,14 +78,6 @@
                     <p class="formButtonCansel" id="formCansel">Скасувати</p>
                 </fomm>
             </div>
-            <div class="formError" id="formError">
-                <h1 id="formErrorText">Будь ласка, заповніть усі поля форми та дайте згоду на обробку даних!</h1>
-                <p class="formMessageClose" id="formErrorClose">Зрозуміло</p>
-            </div>
-            <div class="formConfirmed" id="formConfirmed">
-                <h id="formConfirmedText">Форма успішно відправлена! Очікуйте, ми невдовзі звʼяжемося з вами!</h1>
-            </div>
-            <p class="formConfirmedClose" id="formConfirmedClose">Зрозуміло</p>
             <div class="fondName">
                 <h1 class="fondNameText" id="fondNameText">Благодійний фонд "НОВИХ ЗМIH"</h1>
                 <img class="logo" src="./src/img/logo/logo.png" alt="logo">

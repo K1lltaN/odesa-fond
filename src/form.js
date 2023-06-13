@@ -1,54 +1,56 @@
-// Получение ссылок на HTML-элементы формы
-document.getElementById('formCansel').onclick = function() {
-    document.getElementById('formDonate').style.display = "none";
-}
+// Получаем ссылку на форму
+const form = document.getElementById('formDonate');
 
-document.getElementById('help').onclick = function() {
-    document.getElementById('formDonate').style.display = "block";
-}
-    var form = document.getElementById("donameForm"); // Замените "donameForm" на ID вашей формы
-    var nameInput = document.getElementById("labelName"); // Замените "labelName" на ID вашего поля ввода имени
-    var familynameInput = document.getElementById("labelFamilyname"); // Замените "labelFamilyname" на ID вашего поля ввода прізвища
-    var telefonnumberInput = document.getElementById("labelTelefonnumber"); // Замените "labelTelefonnumber" на ID вашего поля ввода номера телефона
-    var mailInput = document.getElementById("labelMail"); // Замените "labelMail" на ID вашего поля ввода email
-    var halpSelect = document.getElementById("selectHapl"); // Замените "selectHapl" на ID вашего списка выбора "Як би ви хотіли допомогати?"
-    var ageCheck = document.getElementById("ageCheck"); // Замените "ageCheck" на ID вашего чекбокса согласия на обработку персональных данных
+document.getElementById('help').onclick = function () {
+    form.style.display = "block";
+};
 
-    // Обработчик события отправки формы
-    form.addEventListener("submit", function(event) {
-    event.preventDefault(); // Предотвращаем отправку формы
-
-    // Получение значений из полей ввода
-    var name = nameInput.value;
-    var familyname = familynameInput.value;
-    var telefonnumber = telefonnumberInput.value;
-    var mail = mailInput.value;
-    var halp = halpSelect.value;
-    var ageChecked = ageCheck.checked;
-    // Выполнение дополнительной валидации, если необходимо
-    if (name === "" || familyname === "" || telefonnumber === "" || mail === "" || !ageChecked) {
-        document.getElementById('formError').style.display = "block"
-        document.getElementById('formErrorClose').onclick = function() {
-            document.getElementById('formError').style.display = "none";
-        }
-        return;
-    }
-
-    // Очистка полей ввода
-    nameInput.value = "";
-    familynameInput.value = "";
-    telefonnumberInput.value = "";
-    mailInput.value = "";
-    halpSelect.value = "1";
-    ageCheck.checked = false;
-
-    // Дополнительные действия после отправки формы (например, показать сообщение об успешной отправке)
-    document.getElementById('formConfirmed').style.display = "block";
-    document.getElementById('formConfirmedClose').style.display = "block";
-    document.getElementById('formConfirmedClose').onclick = function() {
-        document.getElementById('formConfirmed').style.display = "none";
-        document.getElementById('formConfirmedClose').style.display = "none";
-    }
+document.getElementById('formCansel').onclick = function () {
     form.style.display = "none";
-    });
+};
 
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // Отменяем стандартное поведение формы
+
+    // Получаем значения полей формы
+    var name = document.getElementById('labelName').value;
+    var familyname = document.getElementById('labelFamilyname').value;
+    var telefonnumber = document.getElementById('labelTelefonnumber').value;
+    var mail = document.getElementById('labelMail').value;
+    var halp = document.getElementById('selectHapl').value;
+    var ageCheck = document.getElementById('ageCheck').checked;
+
+    // Проверяем, заполнены ли все поля
+    if (name === '' || familyname === '' || telefonnumber === '' || mail === '' || !ageCheck) {
+        alert('Заповніть усі поля та дайте згоду на обробку персональних даних. Fill in all the fields and give your consent to the processing of personal data.');
+    } else {
+        // Все поля заполнены, отправляем данные на mail.php с помощью AJAX
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/mail.php', true);
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    // Обработка успешного ответа от сервера (если необходимо)
+                    console.log('Форма успешно отправлена.');
+                } else {
+                    // Обработка ошибки при отправке формы
+                    console.error('Ошибка при отправке формы:', xhr.status);
+                }
+            }
+        };
+        // Очищаем значения полей формы
+        document.getElementById('labelName').value = '';
+        document.getElementById('labelFamilyname').value = '';
+        document.getElementById('labelTelefonnumber').value = '';
+        document.getElementById('labelMail').value = '';
+        document.getElementById('selectHapl').value = '';
+        document.getElementById('ageCheck').checked = false;
+
+        form.style.display = "none";
+        window.open('thank-you.html', '_blank');
+
+        const formData = `name=${encodeURIComponent(name)}&familyname=${encodeURIComponent(familyname)}&telefonnumber=${encodeURIComponent(telefonnumber)}&mail=${encodeURIComponent(mail)}&halp=${encodeURIComponent(halp)}`;
+        xhr.send(formData);
+    }
+});

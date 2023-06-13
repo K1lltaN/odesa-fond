@@ -24,21 +24,37 @@ form.addEventListener('submit', function(event) {
     if (name === '' || familyname === '' || telefonnumber === '' || mail === '' || !ageCheck) {
         alert('Заповніть усі поля та дайте згоду на обробку персональних даних. Fill in all the fields and give your consent to the processing of personal data.');
     } else {
-        // Все поля заполнены, отправляем данные на mail.php с помощью AJAX
-        const xhr = new XMLHttpRequest();
-        xhr.open('POST', '/mail.php', true);
-        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4) {
-                if (xhr.status === 200) {
-                    // Обработка успешного ответа от сервера (если необходимо)
-                    console.log('Форма успешно отправлена.');
+        // Все поля заполнены, отправляем данные на mail.php и telegram.php с помощью AJAX
+        const xhrMail = new XMLHttpRequest();
+        xhrMail.open('POST', '/mail.php', true);
+        xhrMail.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhrMail.onreadystatechange = function() {
+            if (xhrMail.readyState === 4) {
+                if (xhrMail.status === 200) {
+                    // Обработка успешного ответа от сервера mail.php (если необходимо)
+                    console.log('Форма успешно отправлена на mail.php.');
                 } else {
-                    // Обработка ошибки при отправке формы
-                    console.error('Ошибка при отправке формы:', xhr.status);
+                    // Обработка ошибки при отправке формы на mail.php
+                    console.error('Ошибка при отправке формы на mail.php:', xhrMail.status);
                 }
             }
         };
+
+        const xhrTelegram = new XMLHttpRequest();
+        xhrTelegram.open('POST', '/telegram.php', true);
+        xhrTelegram.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhrTelegram.onreadystatechange = function() {
+            if (xhrTelegram.readyState === 4) {
+                if (xhrTelegram.status === 200) {
+                    // Обработка успешного ответа от сервера telegram.php (если необходимо)
+                    console.log('Форма успешно отправлена на telegram.php.');
+                } else {
+                    // Обработка ошибки при отправке формы на telegram.php
+                    console.error('Ошибка при отправке формы на telegram.php:', xhrTelegram.status);
+                }
+            }
+        };
+
         // Очищаем значения полей формы
         document.getElementById('labelName').value = '';
         document.getElementById('labelFamilyname').value = '';
@@ -51,6 +67,11 @@ form.addEventListener('submit', function(event) {
         window.open('thank-you.html', '_blank');
 
         const formData = `name=${encodeURIComponent(name)}&familyname=${encodeURIComponent(familyname)}&telefonnumber=${encodeURIComponent(telefonnumber)}&mail=${encodeURIComponent(mail)}&halp=${encodeURIComponent(halp)}`;
-        xhr.send(formData);
+
+        // Отправляем данные на mail.php
+        xhrMail.send(formData);
+
+        // Отправляем данные на telegram.php
+        xhrTelegram.send(formData);
     }
 });

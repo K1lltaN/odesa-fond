@@ -17,244 +17,6 @@
         z-index: 1;
     }
 
-    .navBar {
-        width: 100%;
-        height: 70px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-
-    .navBar .conteiner {
-        height: inherit;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .navbarMenu{
-        margin-right: 70px;
-        list-style-type: none;
-        padding-left: 0;
-        margin-bottom: 0;
-    }
-
-    .navbarMenu li{
-        display: inline-block;
-    }
-
-    .navbarMenu li a{
-        border: white;
-        border-style: groove;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        display: inline-block;
-        cursor: pointer;
-        font-weight: 600;
-        border-width: 2px;
-        border-color: #fff;
-        color: rgb(255, 255, 255);
-        background-color: green;    
-        border-radius: 100px;
-        margin-left: 83px;
-        margin-right: 100px;
-        margin-bottom: 20px;
-        font-weight: 600;
-        font-size: 20px;
-        text-decoration: none;
-        padding: 10px;
-        transition: all 500ms ease;
-    }
-
-    .navbarMenu li a:hover {
-        transform: scale(1.2);
-    }
-
-    .navbarWrap {
-        flex-flow: row nowrap;
-    }
-
-    .navbarWrap .change {
-        cursor: pointer;
-        height: 60px;
-        width: 60px;
-        border: white;
-        border-style: groove;
-        margin-bottom: 25px;
-        border-radius: 50px;
-        font-weight: 600;
-        font-size: 20px;
-        color: white;
-        background-color: green;
-        text-align: center;
-        transition: all 500ms ease-in-out;
-    }
-
-    .navbarWrap .change:hover {
-        transform: scale(1.1);
-        opacity: 1;
-    }
-
-    .partnersBox {
-        display: none;
-        position: absolute;
-        z-index: 5;
-        margin-left: 314px;
-        background-color: gray;
-        border: white;
-        border-style: groove;
-        opacity: .9;
-        width: 260px;
-        height: 500px;
-        border-radius: 10px;
-    }
-
-    .partnersBox img{
-        display: inline-block;
-        position: inline;
-        cursor: pointer;
-        margin-top: 10px;
-        margin-left: 20px;
-        width: 217px;
-        height: 110px;
-        transition: all 500ms ease;
-    }
-
-    .partnersBox img:hover {
-        transform: scale(1.1);
-    }
-
-    .donate {
-    display: none;
-    position: absolute;
-    margin-left: 840px;
-    }
-
-    form {
-    opacity: .9;
-    position: absolute;
-    margin-left: 200px;
-    z-index: 6;
-    color: white;
-    width: 600px;
-    background-color: green;
-    border-radius: 20px;
-    border: white;
-    border-style: groove;
-    }
-
-    .formBody {
-        max-width: 550px;
-        margin: 0px auto;
-        padding: 30px 0;
-    }
-
-    .formTitle {
-        -webkit-text-stroke: .7px black;
-        text-align: center;
-        font-size: 40px;
-        font-weight: 700;
-        margin: 0 0 30px 0;
-    }
-
-    .formItem {
-        margin: 0 0 20px 0;
-    }
-
-    .formLabel {
-        -webkit-text-stroke: .3px black;
-        text-align: center;
-        font-size: 28px;
-        display: block;
-        margin: 0 0 10px 0;
-    }
-
-    .formInput {
-        height: 50px;
-        padding: 0px 20px;
-        border-radius: 50px;
-        width: 92%;
-        font-size: 18px;
-    }
-
-    .ageCheck {
-        display: none;
-    }
-
-    .ageCheck:checked + .labelAgeCheck::after {
-        transform: scale(1);
-    }
-
-    .labelAgeCheck {
-        font-size: 16px;
-        line-height: 140%;
-        display: inline-flex;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
-    }
-
-    .labelAgeCheck::before {
-        content: "";
-        align-self: flex-start;
-        flex: 0 0 24px;
-        height: 24px;
-        background-color: white;
-        border-radius: 4px;
-        margin: 0px 10px 0px 10px;
-    }
-
-    .labelAgeCheck::after {
-        transition: transform 400ms ease-in-out;
-        content: "";
-        width: 16px;
-        height: 16px;
-        position: absolute;
-        top: 4px;
-        left: 14px;
-        background-color: green;
-        border-radius: 4px;
-        transform: scale(0);
-    }
-
-    .selectHalp {
-        height: 50px;
-        width: 100%;
-        border-radius: 5px;
-        font-size: 18px;
-    }
-
-    .formButton {
-        -webkit-text-stroke: .7px black;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60px;
-        color: yellow;
-        background-color: rgb(0, 0, 255);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    .formButtonCansel {
-        -webkit-text-stroke: .7px black;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60px;
-        color: blue;
-        background-color: rgb(255, 255, 0);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
     .donateInformation {
         margin-top: 30px;
         border-radius: 20px;
@@ -395,7 +157,7 @@
         background-color: green;
     }
 }
-@media screen and (max-width: 390px){
+@media screen and (max-width: 844px){
     #myVideo {
         position: fixed;
         right: 0;
@@ -410,243 +172,159 @@
         z-index: 1;
       }
     
-    .navBar {
-        width: 100%;
-        height: 40px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .navBar .conteiner {
-         height: inherit;
-         display: flex;
-         justify-content: space-between;
-         align-items: center;
-    }
-    
-    .navbarMenu{
-        margin-right: 1px;
-        list-style-type: none;
-        padding-left: 0;
-        margin-bottom: 0;
-    }
-    
-    .navbarMenu li{
-        display: inline-block;
-    }
-    
-    .navbarMenu li a{
-        border: white;
-        border-style: groove;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        display: inline-block;
-        cursor: pointer;
-        font-weight: 600;
-        border-width: 2px;
-        border-color: #fff;
-        color: rgb(255, 255, 255);
-        background-color: green;    
-        border-radius: 100px;
-        margin-left: 6px;
-        margin-right: 14px;
-        margin-bottom: 20px;
-        font-weight: 600;
-        font-size: 5px;
-        text-decoration: none;
-        padding: 10px;
-        transition: all 500ms ease;
-    }
-    
-    .navbarMenu li a:hover {
-        transform: scale(1.2);
-    }
-    
-    .navbarWrap {
-        flex-flow: row nowrap;
-    }
-    
-    .navbarWrap .change {
-        cursor: pointer;
-        height: 30px;
-        width: 30px;
-        border: white;
-        border-style: groove;
-        margin-bottom: 25px;
-        border-radius: 50px;
-        font-weight: 600;
-        font-size: 5px;
-        color: white;
-        background-color: green;
-        text-align: center;
-        transition: all 500ms ease-in-out;
-    }
-    
-    .navbarWrap .change:hover {
-        transform: scale(1.1);
-        opacity: 1;
-    }
-    
-    .partnersBox {
-        display: none;
-        position: absolute;
-        z-index: 5;
-        margin-left: 60px;
-        background-color: gray;
-        border: white;
-        border-style: groove;
-        opacity: .9;
-        width: 82px;
-        height: 160px;
-        border-radius: 10px;
-    }
-    
-    .partnersBox img{
-        display: inline-block;
-        position: inline;
-        cursor: pointer;
-        margin-top: 5px;
-        margin-left: 6px;
-        width: 70px;
-        height: 30px;
-        transition: all 500ms ease;
-    }
-    
-    .partnersBox img:hover {
-        transform: scale(1.1);
-    }
-
-    .donate {
-    display: none;
-    position: absolute;
-    margin-left: 1px;
-    }
-
-    .form {
-        opacity: .9;
-        position: absolute;
-        margin-left: 200px;
-        z-index: 6;
-        color: white;
-        width: 370px;
-        background-color: green;
+    .donateInformation {
+        margin-top: 30px;
         border-radius: 20px;
-        border: white;
+        background-color: rgb(133, 190, 49);
+        border: 5px white;
         border-style: groove;
-        }
-
-    .formBody {
-        max-width: 550px;
-        margin: 0px auto;
-        padding: 30px 0;
+        width: 97.3%;
+        height: 500px;
     }
 
-    .formTitle {
+    .donateInformationMainText {
         -webkit-text-stroke: .7px black;
         text-align: center;
+        color: #fff;
         font-size: 40px;
-        font-weight: 700;
-        margin: 0 0 30px 0;
+        height: 100%;
     }
 
-    .formItem {
-        margin: 0 0 20px 0;
-    }
-
-    .formLabel {
-        -webkit-text-stroke: .3px black;
-        text-align: center;
-        font-size: 28px;
+    .informationConteiner {
         display: block;
-        margin: 0 0 10px 0;
+        justify-content: none;
+        position: absolute;
+        -webkit-text-stroke: .2px black;
+        color: #fff;
+
     }
 
-    .formInput {
-        height: 50px;
-        padding: 0px 20px;
-        border-radius: 50px;
-        width: 88%;
-        font-size: 18px;
-    }
-
-    .ageCheck {
+    .dollarDonate {
         display: none;
     }
 
-    .ageCheck:checked + .labelAgeCheck::after {
-        transform: scale(1);
+    .dollarDonateMobile {
+        display: block;
+        background-color: rgb(133, 190, 49);
+        border-radius: 20px;
+        border: 5px white;
+        width: 97.3%;
+        border-style: groove;
     }
 
-    .labelAgeCheck {
-        font-size: 16px;
-        line-height: 140%;
-        display: inline-flex;
-        align-items: center;
-        position: relative;
-        cursor: pointer;
+    .dollarDonateMobile h1 {
+        text-align: center;
+        font-size: 25px;
     }
 
-    .labelAgeCheck::before {
-        content: "";
-        align-self: flex-start;
-        flex: 0 0 24px;
-        height: 24px;
-        background-color: white;
-        border-radius: 4px;
-        margin: 0px 10px 0px 10px;
+    .dollarDonateMobile p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
     }
 
-    .labelAgeCheck::after {
-        transition: transform 400ms ease-in-out;
-        content: "";
-        width: 16px;
-        height: 16px;
+    .euroDonate {
+        background-color: rgb(133, 190, 49);
+        border-radius: 20px;
+        border: 5px white;
+        width: 95.3%;
+        border-style: groove;
+    }
+
+    .euroDonate h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .euroDonate p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .vault {
+        background-color: black;
+        margin-top: 1120px;
+        width: 100%;
+        height: 180px;
+        border-radius: 10px;
+        opacity: .75;
+    }
+    
+    .vault .telefoonNumer {
+        font-size: 15px;
         position: absolute;
-        top: 4px;
-        left: 14px;
+        margin-top: 70px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .vault .mail {
+        font-size: 15px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .vault .vaultLogo {
+        border-radius: 500px;
+        border-color: black;
+        width: 140px;
+        height: 120px;
+        margin-left: 350px;
+        margin-top: 30px;
+    }
+    
+    .vault #instagrammIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 18px;
+        margin-left: 145px;
+        margin-top: 50px;
+        transition: all 600ms ease;
+    }
+    
+    .vault #facebookIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 70px;
+        height: 70px;
+        border-radius: 50px;
+        margin-left: 245px;
+        margin-top: 50px;
+        transition: all 600ms ease;
+    
+    }
+    
+    .vault #instagrammIcon:hover {
+        transform: scale(1.2);
         background-color: green;
-        border-radius: 4px;
-        transform: scale(0);
     }
-
-    .selectHalp {
-        height: 50px;
-        width: 100%;
-        border-radius: 5px;
-        font-size: 18px;
+    
+    .vault #facebookIcon:hover {
+        transform: scale(1.2);
+        background-color: green;
     }
-
-    .formButton {
-        -webkit-text-stroke: .7px black;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60px;
-        color: yellow;
-        background-color: rgb(0, 0, 255);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
-
-    .formButtonCansel {
-        -webkit-text-stroke: .7px black;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 60px;
-        color: blue;
-        background-color: rgb(255, 255, 0);
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-weight: 600;
-        cursor: pointer;
-        border-radius: 30px;
-        margin-top: 20px;
-    }
+}
+@media screen and (max-width: 390px){
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform: translateX(0) translateY(120px);
+        min-width: 100%; 
+        min-height: 100%;
+      }
+    
+      .content {
+        position: relative;
+        z-index: 1;
+      }
     
     .donateInformation {
         margin-top: 30px;

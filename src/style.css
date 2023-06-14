@@ -3095,7 +3095,7 @@
         background-color: green;
     }
 }
-@media (max-width: 390px){
+@media (min-width: 1px) and (max-width: 390px){
     #myVideo {
         position: fixed;
         right: 0;

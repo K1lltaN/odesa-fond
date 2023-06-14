@@ -538,7 +538,7 @@
         transform: scale(1.1);
     }
 }
-@media (max-width: 390px){
+@media (min-width: 1px) and (max-width: 390px){
     .navBar {
         width: 100%;
         height: 40px;

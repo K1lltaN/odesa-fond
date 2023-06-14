@@ -3095,7 +3095,7 @@
         background-color: green;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 991px) {
     #myVideo {
         position: fixed;
         right: 0;
@@ -3715,7 +3715,7 @@
         background-color: green;
     }
 }
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
     #myVideo {
         position: fixed;
         right: 0;
@@ -4335,7 +4335,7 @@
         background-color: green;
     }
 }
-@media screen and (min-width: 481px) and (max-width: 766px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
     #myVideo {
         position: fixed;
         right: 0;

@@ -26,14 +26,6 @@ function handleMouseLeave() {
     partners.style.transform = "scale(1)";
 }
 
-document.getElementById('menu').onclick = function() {
-    document.getElementById('mobileMenu').style.display = "block";
-}
-
-document.getElementById('cansel').onclick = function() {
-    document.getElementById('mobileMenu').style.display = "none";
-}
-
 document.getElementById('odessaMobile').onclick = function() {
     document.getElementById('popUpMobile').style.display = "block";
 }

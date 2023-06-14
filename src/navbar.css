@@ -1,8 +1,4 @@
 @media (min-width: 1470px){
-    #menu {
-        display: none;
-    }
-   
     .navBar {
         width: 100%;
         height: 70px;
@@ -111,10 +107,6 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1469px){
-    #menu {
-        display: none;
-    }
-    
     .navBar {
         width: 100%;
         height: 70px;
@@ -223,10 +215,6 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-    #menu {
-        display: none;
-    }
-    
     .navBar {
         width: 100%;
         height: 70px;
@@ -335,10 +323,6 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    #menu {
-        display: none;
-    }
-    
     .navBar {
         width: 100%;
         height: 70px;
@@ -447,9 +431,6 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    #menu {
-        display: none;
-    }
     .navBar {
         width: 100%;
         height: 70px;
@@ -489,7 +470,7 @@
         margin-left: 1px;
         margin-right: 1px;
         margin-bottom: 15px;
-        font-size: 9px;
+        font-size: 8px;
         text-decoration: none;
         padding: 10px;
         transition: all 500ms ease;
@@ -557,7 +538,7 @@
         transform: scale(1.1);
     }
 }
-@media (min-width: 290px) and (max-width: 390px){
+@media (min-width: 391px) and (max-width: 480px) {
     .navBar {
         width: 100%;
         height: 40px;
@@ -582,7 +563,7 @@
         display: inline-block;
     }
 
-    .navbarMenu p {
+    .navbarMenu li a{
         border: white;
         border-style: groove;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -594,19 +575,14 @@
         color: rgb(255, 255, 255);
         background-color: green;    
         border-radius: 100px;
-        margin-left: 1px;
-        margin-right: 170px;
+        margin-left: 6px;
+        margin-right: 14px;
         margin-bottom: 20px;
         font-weight: 600;
-        font-size: 10px;
+        font-size: 5px;
         text-decoration: none;
         padding: 10px;
         transition: all 500ms ease;
-        cursor: pointer;
-}
-
-    .navbarMenu li a{
-        display: none;
     }
 
     .navbarMenu li a:hover {
@@ -638,41 +614,109 @@
         opacity: 1;
     }
 
-    .mobileMenu {
-        padding: 0;
-        right: 1px;
-        background-color: gray;
-        border-radius: 30px;
+    .partnersBox {
         display: none;
-        position: fixed;
-        width: 100%;
-        height: 420px;
-        z-index: 30;
-    }
-
-    .mobileMenu li{
-        background-color: green;
-        list-style: none;
-        margin-right: 40px;
-        direction: none;
-        border: 5x rgb(255, 255, 255);
+        position: absolute;
+        z-index: 5;
+        margin-left: 60px;
+        background-color: gray;
+        border: white;
         border-style: groove;
-        border-radius: 30px;
-        text-align: center;
-        color: #fff;
-        font-size: 30px;
-        font-weight: 600;
-        margin-bottom: 50px;
-        transition: transform 500ms ease ;
+        opacity: .9;
+        width: 82px;
+        height: 160px;
+        border-radius: 10px;
     }
 
-    .mobileMenu li:hover {
+    .partnersBox img{
+        display: inline-block;
+        position: inline;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 6px;
+        width: 70px;
+        height: 30px;
+        transition: all 500ms ease;
+    }
+
+    .partnersBox img:hover {
+        transform: scale(1.1);
+    }
+}
+@media (max-width: 390px){
+    .navBar {
+        width: 100%;
+        height: 40px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navBar .conteiner {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbarMenu{
+        margin-right: 1px;
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .navbarMenu li{
+        display: inline-block;
+    }
+
+    .navbarMenu li a{
+        border: white;
+        border-style: groove;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 600;
+        border-width: 2px;
+        border-color: #fff;
+        color: rgb(255, 255, 255);
+        background-color: green;    
+        border-radius: 100px;
+        margin-left: 6px;
+        margin-right: 14px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 5px;
+        text-decoration: none;
+        padding: 10px;
+        transition: all 500ms ease;
+    }
+
+    .navbarMenu li a:hover {
         transform: scale(1.2);
     }
 
-    .mobileMenu li a{
-        color: #fff;
-        text-decoration: none;
+    .navbarWrap {
+        flex-flow: row nowrap;
+    }
+
+    .navbarWrap .change {
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        border: white;
+        border-style: groove;
+        margin-bottom: 25px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 5px;
+        color: white;
+        background-color: green;
+        text-align: center;
+        transition: all 500ms ease-in-out;
+    }
+
+    .navbarWrap .change:hover {
+        transform: scale(1.1);
+        opacity: 1;
     }
 
     .partnersBox {

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1470px){
+@media (max-width: 1470px) and (max-width: 3000px){
   #myVideo {
     position: fixed;
     right: 0;
@@ -455,6 +455,7 @@
     }
 
     .fondOwnerTitle {
+      position: relative;
       background-color: rgb(133, 190, 49);
       color: white;
       border: 5px white;
@@ -468,7 +469,7 @@
 
     .backgroundBox {
       position: absolute;
-      width: 100%;
+      width: 99%;
       background-color: gray;
       opacity: .5;
       height: 850px;
@@ -599,7 +600,1966 @@
       background-color: green;
   }
 }
-@media screen and (max-width: 390px){
+@media (min-width: 1200px) and (max-width: 1469px) {
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .descrHeader {
+      background-color: rgb(133, 190, 49);
+      border: 5px #fff;
+      color: #fff;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 40px 350px;
+      margin-bottom: 100px;
+  }
+
+  .descrBackground {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    background-color: gray;
+    opacity: .8;
+  }
+
+  .logoAboutDescr {
+    position: absolute;
+    width: 500px;
+    margin-top: 100px;
+  }
+
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 600px;
+    color: #fff;
+    font-size: 28px;
+    margin-left: 530px;
+  }
+
+  .reportTitle {
+      background-color: rgb(133, 190, 49);
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      border: 5px #fff;
+      border-style: groove;
+      font-size: 70px;
+      margin: 200px 350px 10px;
+      margin-bottom: 100px;
+  }
+
+    .reportBackground {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 5900px;
+      background-color: gray;
+      border-radius: 20px;
+      opacity: .5;
+    }
+    
+    .slidersBackground {
+      z-index: 0;
+      border-radius: 20px;
+      position: absolute;
+      width: 100%;
+      height: 4851px;
+      background-color: gray;
+      opacity: .6;
+    }
+
+    .patrulText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 200px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 500px;
+      height: 340px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerPatrul {
+      border: 5px white;
+      border-style: groove;
+      border-radius: 20px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderPatrul {
+      display: flex;
+      width: 1800px; /* 600px * 3 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderPatrul img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationPatrul {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationPatrul span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowPatrul,
+    .nextArrowPatrul {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowPatrul:hover,
+    .nextArrowPatrul:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .helpToArmyText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 350px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 500px;
+      height: 520px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerHelpToArmy {
+      position: relative;
+      margin-top: 200px;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderHelpToArmy {
+      display: flex;
+      width: 3600px;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderHelpToArmy img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationHelpToArmy {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationHelpToArmy span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowHelpToArmy,
+    .nextArrowHelpToArmy {
+      font-size: 14px;
+      border-radius: 10px;
+      transition: all 600ms ease;
+    }
+    
+    .prevArrowHelpToArmy:hover,
+    .nextArrowHelpToArmy:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .armorText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 350px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 500px;
+      height: 200px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerArmor {
+      margin-top: 200px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderArmor {
+      display: flex;
+      width: 2400px; /* 600px * 4 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderArmor img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationArmor {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationArmor span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowArmor,
+    .nextArrowArmor {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowArmor:hover,
+    .nextArrowArmor:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .signalText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 350px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 500px;
+      height: 330px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    } 
+
+    .sliderContainerSignal {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderSignal {
+      display: flex;
+      width: 4200px; /* 600px * 7 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderSignal img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationSignal {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationSignal span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowSignal,
+    .nextArrowSignal {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowSignal:hover,
+    .nextArrowSignal:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .interhimHalpText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+      font-size: 35px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 500px;
+      height: 680px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerInterhimHalp {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderInterhimHalp {
+      display: flex;
+      width: 6000px; /* 600px * 10 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderInterhimHalp img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationInterhimHalp {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationInterhimHalp span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowInterhimHalp,
+    .nextArrowInterhimHalp {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowInterhimHalp:hover,
+    .nextArrowInterhimHalp:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .sliderContainerMobile {
+      display: none;
+    }
+
+    .fondOwnerTitle {
+      position: relative;
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 65px;
+      margin: 110px 350px 40px;
+      margin-bottom: 100px;
+    }
+
+    .backgroundBox {
+      position: absolute;
+      width: 99%;
+      background-color: gray;
+      opacity: .5;
+      height: 850px;
+      border-radius: 10px;
+    }
+
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 500px;
+      height: 850px;
+      border-radius: 10px;
+    }
+
+    .fondOwnerName {
+      position: absolute;
+      margin-left: 520px;
+      font-weight: 600;
+      font-size: 40px;
+    }
+
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      font-size: 15px;
+      width: 680px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 520px;
+      font-weight: 600;
+    }
+
+    .ownerInformationMore {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      font-size: 15px;
+      width: 680px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 520px;
+      font-weight: 600;
+    }
+
+    .more {
+      text-align: center;
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 830px;
+      margin-top: 250px;
+      transition: transform 600ms ease-in-out;
+    }
+
+    .more:hover {
+      transform: scale(1.2);
+    }
+
+    .vault {
+      background-color: black;
+      width: 100%;
+      height: 200px;
+      margin-top: 1000px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+
+  .vault .telefoonNumer {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .mail {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 220px;
+      height: 160px;
+      margin-left: 530px;
+      margin-top: 20px;
+  }
+
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      margin-left: 150px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+  }
+
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin-left: 300px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+
+  }
+
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .descrHeader {
+      background-color: rgb(133, 190, 49);
+      border: 5px #fff;
+      color: #fff;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 65px;
+      margin: 40px 300px;
+      margin-bottom: 100px;
+  }
+
+  .descrBackground {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    background-color: gray;
+    opacity: .8;
+  }
+
+  .logoAboutDescr {
+    position: absolute;
+    width: 450px;
+    margin-top: 140px;
+  }
+
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 510px;
+    color: #fff;
+    font-size: 26px;
+    margin-left: 470px;
+  }
+
+  .reportTitle {
+      background-color: rgb(133, 190, 49);
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      border: 5px #fff;
+      border-style: groove;
+      font-size: 65px;
+      margin: 200px 350px 10px;
+      margin-bottom: 100px;
+  }
+
+    .reportBackground {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 5900px;
+      background-color: gray;
+      border-radius: 20px;
+      opacity: .5;
+    }
+    
+    .slidersBackground {
+      z-index: 0;
+      border-radius: 20px;
+      position: absolute;
+      width: 100%;
+      height: 4851px;
+      background-color: gray;
+      opacity: .6;
+    }
+
+    .patrulText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 200px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 300px;
+      height: 350px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerPatrul {
+      border: 5px white;
+      border-style: groove;
+      border-radius: 20px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderPatrul {
+      display: flex;
+      width: 1800px; /* 600px * 3 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderPatrul img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationPatrul {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationPatrul span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowPatrul,
+    .nextArrowPatrul {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowPatrul:hover,
+    .nextArrowPatrul:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .helpToArmyText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 350px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 300px;
+      height: 520px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerHelpToArmy {
+      position: relative;
+      margin-top: 200px;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderHelpToArmy {
+      display: flex;
+      width: 3600px;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderHelpToArmy img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationHelpToArmy {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationHelpToArmy span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowHelpToArmy,
+    .nextArrowHelpToArmy {
+      font-size: 14px;
+      border-radius: 10px;
+      transition: all 600ms ease;
+    }
+    
+    .prevArrowHelpToArmy:hover,
+    .nextArrowHelpToArmy:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .armorText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 400px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 300px;
+      height: 150px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerArmor {
+      margin-top: 200px;
+      position: relative;
+      width: 600px;
+      height: 800px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      overflow: hidden;
+    }
+    
+    .sliderArmor {
+      display: flex;
+      width: 2400px; /* 600px * 4 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderArmor img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationArmor {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationArmor span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowArmor,
+    .nextArrowArmor {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowArmor:hover,
+    .nextArrowArmor:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .signalText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 400px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 300px;
+      height: 350px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    } 
+
+    .sliderContainerSignal {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderSignal {
+      display: flex;
+      width: 4200px; /* 600px * 7 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderSignal img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationSignal {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationSignal span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowSignal,
+    .nextArrowSignal {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowSignal:hover,
+    .nextArrowSignal:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+    
+    .interhimHalpText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 240px;
+      font-weight: 600;
+      font-size: 27px;
+      margin-left: 650px;
+      background-color: rgb(133, 190, 49);
+      width: 300px;
+      height: 700px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerInterhimHalp {
+      position: relative;
+      margin-top: 200px;
+      border-radius: 20px;
+      border: 5px white;
+      border-style: groove;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    
+    .sliderInterhimHalp {
+      display: flex;
+      width: 6000px; /* 600px * 10 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderInterhimHalp img {
+      width: 600px;
+      height: 800px;
+    }
+    
+    .sliderNavigationInterhimHalp {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationInterhimHalp span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowInterhimHalp,
+    .nextArrowInterhimHalp {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+
+    .prevArrowInterhimHalp:hover,
+    .nextArrowInterhimHalp:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .sliderContainerMobile {
+      display: none;
+    }
+
+    .fondOwnerTitle {
+      position: relative;
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 45px;
+      margin: 110px 320px 40px;
+      margin-bottom: 100px;
+    }
+
+    .backgroundBox {
+      position: absolute;
+      width: 98%;
+      background-color: gray;
+      opacity: .5;
+      height: 700px;
+      border-radius: 10px;
+    }
+
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 400px;
+      height: 700px;
+      border-radius: 10px;
+    }
+
+    .fondOwnerName {
+      position: absolute;
+      margin-left: 520px;
+      font-weight: 600;
+      font-size: 30px;
+    }
+
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      font-size: 15px;
+      width: 560px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 420px;
+      font-weight: 600;
+    }
+
+    .ownerInformationMore {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      font-size: 12px;
+      width: 540px;
+      height: 800ox;
+      margin-top: 90px;
+      margin-left: 420px;
+      font-weight: 600;
+    }
+
+    .more {
+      text-align: center;
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 630px;
+      margin-top: 270px;
+      transition: transform 600ms ease-in-out;
+    }
+
+    .more:hover {
+      transform: scale(1.2);
+    }
+
+    .vault {
+      background-color: black;
+      width: 100%;
+      height: 200px;
+      margin-top: 1000px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+
+  .vault .telefoonNumer {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .mail {
+      font-size: 25px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 220px;
+      height: 160px;
+      margin-left: 450px;
+      margin-top: 20px;
+  }
+
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 30px;
+      margin-left: 50px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+  }
+
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      margin-left: 180px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+
+  }
+
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .descrHeader {
+      background-color: rgb(133, 190, 49);
+      border: 5px #fff;
+      color: #fff;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 20px;
+      margin: 40px 250px;
+      margin-bottom: 50px;
+  }
+
+  .descrBackground {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    z-index: 0;
+    background-color: gray;
+    opacity: .8;
+  }
+
+  .logoAboutDescr {
+    position: absolute;
+    width: 300px;
+    margin-top: 200px;
+  }
+
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    color: #fff;
+    font-size: 23px;
+    margin-left: 330px;
+  }
+
+  .reportTitle {
+      background-color: rgb(133, 190, 49);
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      border: 5px #fff;
+      border-style: groove;
+      font-size: 50px;
+      margin: 200px 250px 10px;
+      margin-bottom: 100px;
+  }
+
+    .reportBackground {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 5900px;
+      background-color: gray;
+      border-radius: 20px;
+      opacity: .5;
+    }
+    
+    .slidersBackground {
+      z-index: 0;
+      border-radius: 20px;
+      position: absolute;
+      width: 100%;
+      height: 2070px;
+      background-color: gray;
+      opacity: .6;
+    }
+
+    .patrulText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 200px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 400px;
+      background-color: rgb(133, 190, 49);
+      width: 310px;
+      height: 320px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerPatrul {
+      display: none;
+    }
+    
+    .helpToArmyText {
+      text-align: center;
+      color: white;
+      margin-top: 650px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 720px;
+      height: 370px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerHelpToArmy {
+      display: none;
+    }
+
+    .armorText {
+      text-align: center;
+      color: white;
+      margin-top: 1050px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 720px;
+      height: 140px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerArmor {
+      display: none;
+    }
+    
+    .signalText {
+      text-align: center;
+      color: white;
+      margin-top: 1220px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 720px;
+      height: 240px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    } 
+
+    .sliderContainerSignal {
+      display: none;
+    }
+    
+    .interhimHalpText {
+      text-align: center;
+      color: white;
+      margin-top: 1490px;
+      font-weight: 600;
+      font-size: 40px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 720px;
+      height: 560px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerInterhimHalp {
+      display: none;
+    }
+
+    .sliderContainerMobile {
+      margin-left: 7px;
+      display: block;
+      border: 5px white;
+      border-style: groove;
+      border-radius: 20px;
+      position: relative;
+      width: 350px;
+      height: 600px;
+      overflow: hidden;
+    }
+    
+    .sliderMobile {
+      display: flex;
+      width: 10500px; /* 350px * 30 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderMobile img {
+      width: 350px;
+      height: 600px;
+    }
+    
+    .sliderNavigationMobile {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationMobile span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowMobile,
+    .nextArrowMobile {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+  
+    .prevArrowMobile:hover,
+    .nextArrowMobile:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .fondOwnerAllInformation {
+      margin-top: 1300px;
+    }
+
+    .fondOwnerTitle {
+      position: relative;
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 110px 350px 40px;
+      margin-bottom: 100px;
+    }
+
+    .backgroundBox {
+      position: absolute;
+      width: 98%;
+      background-color: gray;
+      opacity: .5;
+      height: 550px;
+      border-radius: 10px;
+    }
+
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 300px;
+      height: 550px;
+      border-radius: 10px;
+    }
+
+    .fondOwnerName {
+      position: absolute;
+      margin-left: 420px;
+      font-weight: 600;
+      font-size: 20px;
+    }
+
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      font-size: 10px;
+      width: 430px;
+      height: 800ox;
+      margin-top: 40px;
+      margin-left: 310px;
+      font-weight: 600;
+    }
+
+    .ownerInformationMore {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      font-size: 10px;
+      width: 430px;
+      height: 800ox;
+      margin-top: 40px;
+      margin-left: 310px;
+      font-weight: 600;
+    }
+
+    .more {
+      text-align: center;
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 500px;
+      margin-top: 150px;
+      transition: transform 600ms ease-in-out;
+    }
+
+    .more:hover {
+      transform: scale(1.2);
+    }
+
+    .vault {
+      background-color: black;
+      width: 100%;
+      height: 200px;
+      margin-top: 2000px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+
+  .vault .telefoonNumer {
+      font-size: 15px;
+      position: absolute;
+      margin-top: 50px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .mail {
+      font-size: 15px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 220px;
+      height: 160px;
+      margin-left: 300px;
+      margin-top: 20px;
+  }
+
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 80px;
+      height: 80px;
+      border-radius: 20px;
+      margin-left: 20px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+  }
+
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 80px;
+      height: 80px;
+      border-radius: 50px;
+      margin-left: 130px;
+      margin-top: 50px;
+      transition: all 600ms ease;
+
+  }
+
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
+  }
+
+  .body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .descrHeader {
+      background-color: rgb(133, 190, 49);
+      border: 5px #fff;
+      color: #fff;
+      border-style: groove;
+      text-align: center;
+      border-radius: 20px;
+      font-size: 19px;
+      margin: 40px 150px;
+      margin-bottom: 50px;
+  }
+
+  .descrBackground {
+    border-radius: 20px;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    z-index: 0;
+    background-color: gray;
+    opacity: .8;
+  }
+
+  .logoAboutDescr {
+    position: absolute;
+    width: 200px;
+    margin-top: 150px;
+  }
+
+  .descrBox p {
+    position: relative;
+    z-index: 1;
+    width: 250px;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 230px;
+  }
+
+  .reportTitle {
+      background-color: rgb(133, 190, 49);
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      border: 5px #fff;
+      border-style: groove;
+      font-size: 40px;
+      margin: 200px 150px 10px;
+      margin-bottom: 100px;
+  }
+
+    .reportBackground {
+      position: absolute;
+      z-index: 0;
+      width: 100%;
+      height: 5900px;
+      background-color: gray;
+      border-radius: 20px;
+      opacity: .5;
+    }
+    
+    .slidersBackground {
+      z-index: 0;
+      border-radius: 20px;
+      position: absolute;
+      width: 100%;
+      height: 2410px;
+      background-color: gray;
+      opacity: .6;
+    }
+
+    .patrulText {
+      position: absolute;
+      text-align: center;
+      color: white;
+      margin-top: 2075px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 450px;
+      height: 320px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerPatrul {
+      display: none;
+    }
+    
+    .helpToArmyText {
+      text-align: center;
+      color: white;
+      margin-top: 650px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 450px;
+      height: 370px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerHelpToArmy {
+      display: none;
+    }
+
+    .armorText {
+      text-align: center;
+      color: white;
+      margin-top: 1050px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 450px;
+      height: 140px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerArmor {
+      display: none;
+    }
+    
+    .signalText {
+      text-align: center;
+      color: white;
+      margin-top: 1220px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 450px;
+      height: 240px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    } 
+
+    .sliderContainerSignal {
+      display: none;
+    }
+    
+    .interhimHalpText {
+      text-align: center;
+      color: white;
+      margin-top: 1490px;
+      font-weight: 600;
+      font-size: 30px;
+      margin-left: 10px;
+      background-color: rgb(133, 190, 49);
+      width: 450px;
+      height: 560px;
+      border-radius: 10px;
+      border: 5px white;
+      border-style: groove;
+    }
+
+    .sliderContainerInterhimHalp {
+      display: none;
+    }
+
+    .sliderContainerMobile {
+      margin-left: 60px;
+      display: block;
+      border: 5px white;
+      border-style: groove;
+      border-radius: 20px;
+      position: relative;
+      width: 350px;
+      height: 600px;
+      overflow: hidden;
+    }
+    
+    .sliderMobile {
+      display: flex;
+      width: 10500px; /* 350px * 30 images */
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .sliderMobile img {
+      width: 350px;
+      height: 600px;
+    }
+    
+    .sliderNavigationMobile {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    
+    .sliderNavigationMobile span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      margin: 0 5px;
+      line-height: 20px;
+    }
+    
+    .prevArrowMobile,
+    .nextArrowMobile {
+      border-radius: 10px;
+      font-size: 14px;
+      transition: all 600ms ease;
+    }
+  
+    .prevArrowMobile:hover,
+    .nextArrowMobile:hover {
+      background-color: rgb(133, 190, 49);
+      transform: scale(1.2);
+    }
+
+    .fondOwnerAllInformation {
+      margin-top: 2000px;
+    }
+
+    .fondOwnerTitle {
+      position: absolute;
+      display: none;
+      background-color: rgb(133, 190, 49);
+      color: white;
+      border: 5px white;
+      border-style: groove;
+      text-align: center;
+      height: 100px;
+      border-radius: 20px;
+      font-size: 70px;
+      margin: 19px 50px 40px;
+      margin-bottom: 100px;
+    }
+
+    .backgroundBox {
+      position: absolute;
+      width: 98%;
+      background-color: gray;
+      opacity: .5;
+      height: 450px;
+      border-radius: 10px;
+    }
+
+    .ownerPhoto {
+      position: absolute;
+      z-index: 2;
+      width: 250px;
+      height: 450px;
+      border-radius: 10px;
+    }
+
+    .fondOwnerName {
+      position: absolute;
+      margin-left: 270px;
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .ownerInformationMain {
+      position: absolute;
+      z-index: 2;
+      font-size: 6px;
+      width: 220px;
+      margin-top: 40px;
+      margin-left: 260px;
+      font-weight: 600;
+    }
+
+    .ownerInformationMore {
+      display: none;
+      position: absolute;
+      z-index: 2;
+      font-size: 6px;
+      width: 220px;
+      margin-top: 40px;
+      margin-left: 260px;
+      font-weight: 600;
+    }
+
+    .more {
+      text-align: center;
+      cursor: pointer;
+      background-color: rgb(133, 190, 49);;
+      border-radius: 10px;
+      color: #fff;
+      border: 5px white;
+      position: absolute;
+      width: 100px;
+      height: 30px;
+      margin-left: 320px;
+      margin-top: 150px;
+      transition: transform 600ms ease-in-out;
+    }
+
+    .more:hover {
+      transform: scale(1.2);
+    }
+
+    .vault {
+      background-color: black;
+      width: 100%;
+      height: 200px;
+      margin-top: 2600px;
+      border-radius: 10px;
+      opacity: .75;
+  }
+
+  .vault .telefoonNumer {
+      font-size: 10px;
+      position: absolute;
+      margin-top: 80px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .mail {
+      font-size: 10px;
+      position: absolute;
+      margin-top: 110px;
+      margin-left: 40px;
+      color: white;
+  }
+
+  .vault .vaultLogo {
+      border-radius: 500px;
+      border-color: black;
+      width: 150px;
+      height: 120px;
+      margin-left: 200px;
+      margin-top: 40px;
+  }
+
+  .vault #instagrammIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 18px;
+      margin-left: 1px;
+      margin-top: 70px;
+      transition: all 600ms ease;
+  }
+
+  .vault #facebookIcon {
+      position: absolute;
+      cursor: pointer;
+      background-color: white;
+      width: 60px;
+      height: 60px;
+      border-radius: 50px;
+      margin-left: 70px;
+      margin-top: 70px;
+      transition: all 600ms ease;
+
+  }
+
+  .vault #instagrammIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+
+  .vault #facebookIcon:hover {
+      transform: scale(1.2);
+      background-color: green;
+  }
+}
+@media (min-width: 390px) and (max-width: 480px){
   #myVideo {
       position: fixed;
       right: 0;

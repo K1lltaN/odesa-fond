@@ -1,4 +1,8 @@
 @media (min-width: 1470px){
+    #menu {
+        display: none;
+    }
+   
     .navBar {
         width: 100%;
         height: 70px;
@@ -107,6 +111,10 @@
     }
 }
 @media (min-width: 1200px) and (max-width: 1469px){
+    #menu {
+        display: none;
+    }
+    
     .navBar {
         width: 100%;
         height: 70px;
@@ -215,6 +223,10 @@
     }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+    #menu {
+        display: none;
+    }
+    
     .navBar {
         width: 100%;
         height: 70px;
@@ -323,6 +335,10 @@
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    #menu {
+        display: none;
+    }
+    
     .navBar {
         width: 100%;
         height: 70px;
@@ -431,6 +447,9 @@
     }
 }
 @media (min-width: 481px) and (max-width: 767px) {
+    #menu {
+        display: none;
+    }
     .navBar {
         width: 100%;
         height: 70px;
@@ -467,7 +486,7 @@
         color: rgb(255, 255, 255);
         background-color: green;    
         border-radius: 100px;
-        margin-left: 4px;
+        margin-left: 1px;
         margin-right: 1px;
         margin-bottom: 15px;
         font-size: 9px;
@@ -538,7 +557,7 @@
         transform: scale(1.1);
     }
 }
-@media (min-width: 1px) and (max-width: 390px){
+@media (min-width: 290px) and (max-width: 390px){
     .navBar {
         width: 100%;
         height: 40px;
@@ -563,7 +582,7 @@
         display: inline-block;
     }
 
-    .navbarMenu li a{
+    .navbarMenu p {
         border: white;
         border-style: groove;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -575,14 +594,19 @@
         color: rgb(255, 255, 255);
         background-color: green;    
         border-radius: 100px;
-        margin-left: 6px;
-        margin-right: 14px;
+        margin-left: 1px;
+        margin-right: 170px;
         margin-bottom: 20px;
         font-weight: 600;
-        font-size: 5px;
+        font-size: 10px;
         text-decoration: none;
         padding: 10px;
         transition: all 500ms ease;
+        cursor: pointer;
+}
+
+    .navbarMenu li a{
+        display: none;
     }
 
     .navbarMenu li a:hover {
@@ -612,6 +636,43 @@
     .navbarWrap .change:hover {
         transform: scale(1.1);
         opacity: 1;
+    }
+
+    .mobileMenu {
+        padding: 0;
+        right: 1px;
+        background-color: gray;
+        border-radius: 30px;
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 420px;
+        z-index: 30;
+    }
+
+    .mobileMenu li{
+        background-color: green;
+        list-style: none;
+        margin-right: 40px;
+        direction: none;
+        border: 5x rgb(255, 255, 255);
+        border-style: groove;
+        border-radius: 30px;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 50px;
+        transition: transform 500ms ease ;
+    }
+
+    .mobileMenu li:hover {
+        transform: scale(1.2);
+    }
+
+    .mobileMenu li a{
+        color: #fff;
+        text-decoration: none;
     }
 
     .partnersBox {

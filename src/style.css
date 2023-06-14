@@ -3095,7 +3095,7 @@
         background-color: green;
     }
 }
-@media (min-width: 1px) and (max-width: 390px){
+@media (min-width: 240px) and (max-width: 390px){
     #myVideo {
         position: fixed;
         right: 0;
@@ -3268,9 +3268,9 @@
         cursor: pointer;
         font-weight: 800;
         color: white;
-        width: 50px;
-        height: 1px;
-        margin-top: 109px;
+        width: 110px;
+        height: 20px;
+        margin-top: 130px;
         border-radius: 10px;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
@@ -3278,7 +3278,7 @@
         background-size: 200% auto;
         box-shadow: 0 0 20px rgba(0, 0, 0, .1);
         transition: all .5s ease;
-        font-size: 5px;
+        font-size: 10px;
     }
     
     .doanteContainer div .donateButton:hover {

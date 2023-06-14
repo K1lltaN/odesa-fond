@@ -12,6 +12,7 @@ document.getElementById('odessa').onclick = function() {
         popUp.classList.remove('active')
     })
 }
+
 const partners = document.getElementById('partners');
 const partnersBox = document.getElementById('partnersBox');
 
@@ -23,6 +24,14 @@ function handleMouseOver() {
 function handleMouseLeave() {
     partnersBox.style.display = "none";
     partners.style.transform = "scale(1)";
+}
+
+document.getElementById('menu').onclick = function() {
+    document.getElementById('mobileMenu').style.display = "block";
+}
+
+document.getElementById('cansel').onclick = function() {
+    document.getElementById('mobileMenu').style.display = "none";
 }
 
 document.getElementById('odessaMobile').onclick = function() {

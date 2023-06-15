@@ -97,11 +97,11 @@ const langArr = {
     },
     "childDonate": {
         "ua": "Збір для хворої дитини",
-        "en": "Dodnate for ill children",
+        "en": "Donate for ill children",
     },
     "mainDonate": {
         "ua": "Допомогти нам",
-        "en": "Dotane for fund",
+        "en": "Donate for fund",
     },
     "donateButtonZSU": {
         "ua": "Задонатити",

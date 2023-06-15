@@ -76,8 +76,8 @@ const langArr = {
         "en": "Makhchkalynska st. 1",
     },
     "odessaHost": {
-        "ua": "Заїка Максим Петрович",
-        "en": "Zaika Maksym Petrovych",
+        "ua": "Мальцев Олександр",
+        "en": "Malcev Olexandr",
     },
     "victoryClockText": {
         "ua": "Ми єдині вже:",

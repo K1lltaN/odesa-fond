@@ -3236,7 +3236,7 @@
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 5px;
   margin-top: 700px;
   background-color: rgb(133, 190, 49);
@@ -3256,7 +3256,7 @@
   color: white;
   margin-top: 2350px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 5px;
   background-color: rgb(133, 190, 49);
   width: 94.5%;
@@ -3275,7 +3275,7 @@
   color: white;
   margin-top: 3160px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 5px;
   background-color: rgb(133, 190, 49);
   width: 94.5%;
@@ -3294,7 +3294,7 @@
   color: white;
   margin-top: 3360px;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 5px;
   background-color: rgb(133, 190, 49);
   width: 94.5%;
@@ -3313,7 +3313,7 @@
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 34px;
   margin-left: 5px;
   margin-top: 1200px;
   background-color: rgb(133, 190, 49);
@@ -3391,7 +3391,7 @@
     border-style: groove;
     text-align: center;
     border-radius: 20px;
-    font-size: 70px;
+    font-size: 40px;
     margin-top: 3400px;
     margin-left: 1px;
     margin-right: 1px;
@@ -3427,7 +3427,7 @@
   .ownerInformationMain {
     position: absolute;
     z-index: 2;
-    width: 95%;
+    width: 90%;
     height: 800ox;
     margin-top: 600px;
     margin-left: 5px;
@@ -3437,7 +3437,7 @@
   .ownerInformationMore {
     position: absolute;
     z-index: 2;
-    width: 95%;
+    width: 90%;
     height: 800ox;
     margin-top: 600px;
     margin-left: 5px;

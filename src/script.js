@@ -13,6 +13,14 @@ document.getElementById('odessa').onclick = function() {
     })
 }
 
+document.getElementById('odessaMobile').onclick = function() {
+    document.getElementById('popUpMobile').style.display = "block";
+}
+
+document.getElementById('popUpCloseMobile').onclick = function() {
+    document.getElementById('popUpMobile').style.display = "none";
+}
+
 const partners = document.getElementById('partners');
 const partnersBox = document.getElementById('partnersBox');
 
@@ -24,14 +32,6 @@ function handleMouseOver() {
 function handleMouseLeave() {
     partnersBox.style.display = "none";
     partners.style.transform = "scale(1)";
-}
-
-document.getElementById('odessaMobile').onclick = function() {
-    document.getElementById('popUpMobile').style.display = "block";
-}
-
-document.getElementById('popUpCloseMobile').onclick = function() {
-    document.getElementById('popUpMobile').style.display = "none";
 }
 
 document.getElementById("donateButtonZSU").addEventListener("click", function() {

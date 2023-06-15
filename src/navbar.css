@@ -604,7 +604,7 @@
         margin-left: 1px;
         border-radius: 50px;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         background-color: green;
         text-align: center;
@@ -620,12 +620,11 @@
         display: none;
         position: absolute;
         z-index: 5;
-        margin-left: 60px;
         background-color: gray;
         border: white;
         border-style: groove;
         opacity: .9;
-        width: 82px;
+        width: 100%;
         height: 160px;
         border-radius: 10px;
     }
@@ -710,7 +709,7 @@
         margin-left: 1px;
         border-radius: 50px;
         font-weight: 600;
-        font-size: 15px;
+        font-size: 10px;
         color: white;
         background-color: green;
         text-align: center;
@@ -731,7 +730,7 @@
         border: white;
         border-style: groove;
         opacity: .9;
-        width: 82px;
+        width: 100%;
         height: 160px;
         border-radius: 10px;
     }

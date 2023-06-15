@@ -827,10 +827,11 @@
     }
 
     .donateInformationMainText {
+        padding-top: 70px;
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
-        font-size: 29px;
+        font-size: 23px;
         height: 100%;
     }
 

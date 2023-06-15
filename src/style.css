@@ -3713,7 +3713,7 @@
         background-color: green;
     }
 }
-@media (max-width: 390px){
+@media (max-width: 390px) {
     #myVideo {
         position: fixed;
         right: 0;
@@ -3748,26 +3748,233 @@
         font-weight: 700;
         font-size: 20px;
     }
-
-    .ukrMapMobile {
-        display: block;
-        width: 360px;
-        margin-top: 139px;
-    }
-    
     
     .ukrMap {
-        display: none;
+        transform: scale(0.25);
         position: relative;
-        margin-top: 40px;
-        margin-left: 40px;
+        text-align: center;
+        margin-top: 130px;
+        margin-left: 1px;
+        margin-right: 350px;
     }
     
-    .odessaMobile {
+    .ukrMap img {
         position: absolute;
-        width: 65px;
-        top: 321px;
-        left: 121px;
+    }
+    
+    .lutsk {
+        width: 170px;
+        left: 150px;
+        top: 100px;
+        transition: all 500ms ease;
+    }
+    
+    .lutsk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .rivne {
+        width: 190px;
+        top: 107px;
+        left: 241px;
+        transition: all 500ms ease;
+    }
+    
+    .rivne:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .zhytomyr {
+        width: 181px;
+        top: 146px;
+        left: 378px;
+        transition: all 500ms ease;
+    }
+    
+    .zhytomyr:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kiev {
+        width: 207px;
+        top: 162px;
+        left: 519px;
+        transition: all 500ms ease;
+    }
+    
+    .kiev:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .chernihiv {
+        width: 204px;
+        top: 74px;
+        left: 610px;
+        transition: all 500ms ease;
+    }
+    
+    .chernihiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .sumy {
+        width: 188px;
+        top: 77px;
+        left: 778px;
+        transition: all 500ms ease;
+    }
+    
+    .sumy:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kharkiv {
+        width: 238px;
+        top : 270px;
+        left: 907px;
+        transition: all 500ms ease;
+    }
+    
+    .kharkiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .luhansk {
+        width: 178px;
+        top: 309px;
+        left: 1125px;
+        transition: all 500ms ease;
+    }
+    
+    .luhansk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .poltava {
+        width: 242px;
+        top: 273px;
+        left: 717px;
+        transition: all 500ms ease;
+    }
+    
+    .poltava:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .cherkasy {
+        z-index: 1;
+        width: 235px;
+        top: 311px;
+        left: 540px;
+        transition: all 500ms ease;
+    }
+    
+    .cherkasy:hover {
+        z-index: 2;
+        transform: scale(1.3);
+    }
+    
+    .donetsk {
+        z-index: 1;
+        width: 203px;
+        height: 264px;
+        top: 404px;
+        left: 1035px;
+        transition: all 500ms ease;
+    }
+    
+    .donetsk:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kirovohrad {
+        z-index: 1;
+        width: 300px;
+        top: 429px;
+        left: 546px;
+        transition: all 500ms ease;
+    }
+    
+    .kirovohrad:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .dnipro {
+        width: 296px;
+        top: 415px;
+        left: 776px;
+        transition: all 500ms ease;
+    }
+    
+    .dnipro:hover {
+        z-index: 2;
+        transform: scale(1.2);
+    }
+    
+    .zaporishia {
+        width: 228px;
+        top: 528px;
+        left: 872px;
+        transition: all 500ms ease;
+    }
+    
+    .zaporishia:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .kherson {
+        width: 242px;
+        top: 598px;
+        left: 703px;
+        transition: all 500ms ease;
+    }
+    
+    .kherson:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .mykolaiv {
+        width: 220px;
+        top: 521px;
+        left: 574px;
+        transition: all 500ms ease;
+    }
+    
+    .mykolaiv:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .odessa {
+        display: none;
+        width: 237px;
+        top: 520px;
+        left: 418px;
+        transition: all 500ms ease;
+    }
+    
+    .odessa:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+
+    .odessaMobile {
+        width: 237px;
+        top: 520px;
+        left: 418px;
         transition: all 500ms ease;
     }
     
@@ -3776,8 +3983,117 @@
         transform: scale(1.2);
     }
     
+    .vinnysia {
+        width: 192px;
+        top: 340px;
+        left: 377px;
+        transition: all 500ms ease;
+    }
+    
+    .vinnysia:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .khmelnytskyi {
+        width: 126px;
+        top: 259px;
+        left: 297px;
+        transition: all 500ms ease;
+    }
+    
+    .khmelnytskyi:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
+    
+    .chernivtsi {
+        width: 200px;
+        top: 463px;
+        left: 196px;
+        transition: all 500ms ease;
+    }
+    
+    .chernivtsi:hover {
+        z-index: 3;
+        transform: scale(1.3);
+    }
+    
+    .ternopil {
+        width: 122px;
+        top: 285px;
+        left: 197px;
+        transition: all 500ms ease;
+    }
+    
+    .ternopil:hover {
+        z-index: 3;
+        transform: scale(1.3);
+    }
+    
+    .lviv {
+        width: 203px;
+        top: 235px;
+        left: 61px;
+        transition: all 500ms ease;
+    }
+    
+    .lviv:hover {
+        z-index: 2;
+        transform: scale(1.3);
+    }
+    
+    .ivano-frankivsk {
+        z-index: 2;
+        width: 140px;
+        height: 210px;
+        top: 353px;
+        left: 117px;
+        transition: all 500ms ease;
+    }
+    
+    .ivano-frankivsk:hover {
+        z-index: 4;
+        transform: scale(1.3);
+    }
+    
+    .uzhhorod {
+        width: 175px;
+        top: 382px;
+        left: 20px;
+        transition: all 500ms ease;
+    }
+    
+    .uzhhorod:hover {
+        z-index: 5;
+        transform: scale(1.3);
+    }
+    
+    .crimea {
+        width: 300px;
+        top: 744px;
+        left: 753px;
+        transition: all 500ms ease;
+    }
+    
+    .crimea:hover {
+        z-index: 1;
+        transform: scale(1.3);
+    }
+    
+    .popUp {
+        display: none;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 1px;
+        right: 0;
+        z-index: 10;
+    }
+
     .popUpMobile {
         display: none;
+        position: fixed;
         width: 100%;
         height: 100%;
         position: fixed;
@@ -3849,7 +4165,7 @@
         width: 100%;
         height: 175px;
         border-radius: 10px;;
-        margin-top: 380px;
+        margin-top: 420px;
         opacity: .4;
     }
     
@@ -3857,7 +4173,7 @@
         position: relative;
         display: flex;
         justify-content: space-between;
-        margin-top: 340px;
+        margin-top: 515px;
         border-radius: 10px;
     }
     
@@ -3947,6 +4263,7 @@
     }
     
     .vault {
+
         background-color: black;
         width: 100%;
         height: 180px;

@@ -264,6 +264,19 @@
         z-index: 1;
         transform: scale(1.2);
     }
+
+    .odessaMobile {
+        display: none;
+        width: 237px;
+        top: 520px;
+        left: 418px;
+        transition: all 500ms ease;
+    }
+    
+    .odessaMobile:hover {
+        z-index: 1;
+        transform: scale(1.2);
+    }
     
     .vinnysia {
         width: 192px;
@@ -372,6 +385,10 @@
         z-index: 10;
         transform: translate(-7%, 25%) scale(0);
         transition: .4s ease-in-out ;
+    }
+
+    .popUpMobile {
+        display: none;
     }
     
     .popUp.active {
@@ -883,6 +900,10 @@
         z-index: 1;
         transform: scale(1.2);
     }
+
+    .odessaMobile {
+        display: none;
+    }
     
     .vinnysia {
         width: 192px;
@@ -992,6 +1013,10 @@
         z-index: 10;
         transform: translate(-7%) scale(0);
         transition: .4s ease-in-out ;
+    }
+
+    .popUpMobile {
+        display: none;
     }
     
     .popUp.active {
@@ -1503,6 +1528,10 @@
         z-index: 1;
         transform: scale(1.2);
     }
+
+    .odessaMobile {
+        display: none;
+    }
     
     .vinnysia {
         width: 192px;
@@ -1614,6 +1643,10 @@
         transition: .4s ease-in-out ;
     }
     
+    .popUpMobile {
+        display: none;
+    }
+
     .popUp.active {
         transform: translateY(0) scale(100%);
     }
@@ -2123,6 +2156,10 @@
         z-index: 1;
         transform: scale(1.2);
     }
+
+    .odessaMobile {
+        display: none;
+    }
     
     .vinnysia {
         width: 192px;
@@ -2232,6 +2269,10 @@
         z-index: 10;
         transform: translate(-7%, 25%) scale(0);
         transition: .4s ease-in-out ;
+    }
+
+    .popUpMobile {
+        display: none;
     }
     
     .popUp.active {
@@ -2738,6 +2779,10 @@
         left: 418px;
         transition: all 500ms ease;
     }
+
+    .odessaMobile {
+        display: none;
+    }
     
     .odessa:hover {
         z-index: 1;
@@ -2852,6 +2897,10 @@
         z-index: 10;
         transform: translate(-7%, 25%) scale(0);
         transition: .4s ease-in-out ;
+    }
+
+    .popUpMobile {
+        display: none;
     }
     
     .popUp.active {

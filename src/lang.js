@@ -79,6 +79,22 @@ const langArr = {
         "ua": "Мальцев Олександр",
         "en": "Malcev Olexandr",
     },
+    "odessaFondMobile": {
+        "ua": "Одеса фонд і ГО",
+        "en": "Odessa fond",
+    },
+    "odessaRegionMobile": {
+        "ua": "Суворовский р-н",
+        "en": "Suvorskyi r-n",
+    },
+    "odessaSteetMobile": {
+        "ua": "Махачкалинская, 1",
+        "en": "Makhchkalynska st. 1",
+    },
+    "odessaHostMobile": {
+        "ua": "Мальцев Олександр",
+        "en": "Malcev Olexandr",
+    },
     "victoryClockText": {
         "ua": "Ми єдині вже:",
         "en": "Ukraine united:",

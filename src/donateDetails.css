@@ -1111,3 +1111,159 @@
         background-color: green;
     }
 }
+@media (min-width: 300px) and (max-width: 389px) {
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform: translateX(0) translateY(120px);
+        min-width: 100%; 
+        min-height: 100%;
+      }
+    
+      .content {
+        position: relative;
+        z-index: 1;
+      }
+    
+    .donateInformation {
+        margin-top: 30px;
+        border-radius: 20px;
+        background-color: rgb(133, 190, 49);
+        border: 5px white;
+        border-style: groove;
+        width: 97.3%;
+        height: 500px;
+    }
+
+    .donateInformationMainText {
+        padding-top: 50px;
+        -webkit-text-stroke: .5px black;
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+        height: 100%;
+    }
+
+    .informationConteiner {
+        display: block;
+        justify-content: none;
+        position: absolute;
+        -webkit-text-stroke: .2px black;
+        color: #fff;
+
+    }
+
+    .dollarDonate {
+        display: none;
+    }
+
+    .dollarDonateMobile {
+        display: block;
+        background-color: rgb(133, 190, 49);
+        border-radius: 20px;
+        border: 5px white;
+        width: 95.3%;
+        border-style: groove;
+    }
+
+    .dollarDonateMobile h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .dollarDonateMobile p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .euroDonate {
+        background-color: rgb(133, 190, 49);
+        border-radius: 20px;
+        border: 5px white;
+        width: 95.3%;
+        border-style: groove;
+    }
+
+    .euroDonate h1 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .euroDonate p {
+        font-size: 15px;
+        text-align: center;
+        font-weight: 600;
+    }
+    
+    .vault {
+        background-color: black;
+        width: 100%;
+        margin-top: 1300px;
+        height: 180px;
+        border-radius: 10px;
+        opacity: .75;
+    }
+    
+    .vault .telefoonNumer {
+        font-size: 10px;
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .vault .mail {
+        font-size: 10px;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 20px;
+        color: white;
+    }
+    
+    .vault .vaultLogo {
+        position: absolute;
+        border-radius: 500px;
+        border-color: black;
+        width: 90px;
+        height: 80px;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    
+    .vault #instagrammIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        margin-left: 135px;
+        margin-top: 110px;
+        transition: all 600ms ease;
+    }
+    
+    .vault #facebookIcon {
+        position: absolute;
+        cursor: pointer;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-left: 195px;
+        margin-top: 110px;
+        transition: all 600ms ease;
+    
+    }
+    
+    .vault #instagrammIcon:hover {
+        transform: scale(1.2);
+        background-color: green;
+    }
+    
+    .vault #facebookIcon:hover {
+        transform: scale(1.2);
+        background-color: green;
+    }
+}

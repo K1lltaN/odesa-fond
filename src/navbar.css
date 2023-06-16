@@ -620,13 +620,12 @@
         display: none;
         position: absolute;
         z-index: 5;
-        margin-left: 60px;
         background-color: gray;
         border: white;
         border-style: groove;
         opacity: .9;
-        width: 82px;
-        height: 160px;
+        width: 100%;
+        height: 560px;
         border-radius: 10px;
     }
 
@@ -636,8 +635,8 @@
         cursor: pointer;
         margin-top: 5px;
         margin-left: 6px;
-        width: 70px;
-        height: 30px;
+        width: 95%;
+        height: 115px;
         transition: all 500ms ease;
     }
 
@@ -726,13 +725,12 @@
         display: none;
         position: absolute;
         z-index: 5;
-        margin-left: 60px;
         background-color: gray;
         border: white;
         border-style: groove;
         opacity: .9;
-        width: 100;
-        height: 160px;
+        width: 100%;
+        height: 500px;
         border-radius: 10px;
     }
 
@@ -742,8 +740,113 @@
         cursor: pointer;
         margin-top: 5px;
         margin-left: 6px;
-        width: 70px;
-        height: 30px;
+        width: 95%;
+        height: 115px;
+        transition: all 500ms ease;
+    }
+
+    .partnersBox img:hover {
+        transform: scale(1.1);
+    }
+}
+@media (min-width: 300px) and (max-width: 389px) {
+    .navBar {
+        width: 100%;
+        height: 120px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .navBar .conteiner {
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbarMenu{
+        margin-right: 1px;
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+
+    .navbarMenu li{
+        display: inline-block;
+    }
+
+    .navbarMenu li a{
+        border: white;
+        border-style: groove;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: inline-block;
+        cursor: pointer;
+        font-weight: 600;
+        border-width: 2px;
+        border-color: #fff;
+        color: rgb(255, 255, 255);
+        background-color: green;    
+        border-radius: 100px;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 20px;
+        font-weight: 600;
+        font-size: 10px;
+        text-decoration: none;
+        padding: 10px;
+        transition: all 500ms ease;
+    }
+
+    .navbarMenu li a:hover {
+        transform: scale(1.2);
+    }
+
+    .navbarWrap {
+        flex-flow: row nowrap;
+    }
+
+    .navbarWrap .change {
+        cursor: pointer;
+        height: 40px;
+        width: 40px;
+        border: white;
+        border-style: groove;
+        margin-bottom: 25px;
+        margin-left: 1px;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 10px;
+        color: white;
+        background-color: green;
+        text-align: center;
+        transition: all 500ms ease-in-out;
+    }
+
+    .navbarWrap .change:hover {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+
+    .partnersBox {
+        display: none;
+        position: absolute;
+        z-index: 5;
+        background-color: gray;
+        border: white;
+        border-style: groove;
+        opacity: .9;
+        width: 100;
+        height: 560px;
+        border-radius: 10px;
+    }
+
+    .partnersBox img{
+        display: inline-block;
+        position: inline;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 6px;
+        width: 95%;
+        height: 115px;
         transition: all 500ms ease;
     }
 

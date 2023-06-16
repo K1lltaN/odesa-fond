@@ -1216,7 +1216,7 @@
       border-style: groove;
       text-align: center;
       border-radius: 20px;
-      font-size: 70px;
+      font-size: 47px;
       margin: 40px 350px;
       margin-bottom: 100px;
   }
@@ -1799,7 +1799,7 @@
       border-style: groove;
       text-align: center;
       border-radius: 20px;
-      font-size: 65px;
+      font-size: 40px;
       margin: 40px 300px;
       margin-bottom: 100px;
   }
@@ -2769,7 +2769,7 @@
       border-style: groove;
       text-align: center;
       border-radius: 20px;
-      font-size: 19px;
+      font-size: 15px;
       margin: 40px 150px;
       margin-bottom: 50px;
   }
@@ -2806,7 +2806,7 @@
       color: #fff;
       border: 5px #fff;
       border-style: groove;
-      font-size: 40px;
+      font-size: 30px;
       margin: 200px 150px 10px;
       margin-bottom: 100px;
   }
@@ -3018,14 +3018,14 @@
       position: absolute;
       margin-left: 270px;
       font-weight: 600;
-      font-size: 15px;
+      font-size: 12px;
     }
 
     .ownerInformationMain {
       position: absolute;
       z-index: 2;
       font-size: 6px;
-      width: 220px;
+      width: 200px;
       margin-top: 40px;
       margin-left: 260px;
       font-weight: 600;
@@ -3035,8 +3035,8 @@
       display: none;
       position: absolute;
       z-index: 2;
-      font-size: 6px;
-      width: 220px;
+      font-size: 5px;
+      width: 190px;
       margin-top: 40px;
       margin-left: 260px;
       font-weight: 600;
@@ -3103,7 +3103,7 @@
       height: 60px;
       border-radius: 18px;
       margin-left: 1px;
-      margin-top: 70px;
+      margin-top: 25px;
       transition: all 600ms ease;
   }
 
@@ -3114,8 +3114,8 @@
       width: 60px;
       height: 60px;
       border-radius: 50px;
-      margin-left: 70px;
-      margin-top: 70px;
+      margin-left: 1px;
+      margin-top: 105px;
       transition: all 600ms ease;
 
   }
@@ -3498,371 +3498,367 @@
 }
 @media (max-width: 390px){
   #myVideo {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      transform: translateX(0) translateY(120px);
-      min-width: 100%; 
-      min-height: 100%;
-    }
-
-    .content {
-      position: relative;
-      z-index: 1;
-    }
-
-  .descrHeader {
-    background-color: rgb(133, 190, 49);
-    border: 5px #fff;
-    color: #fff;
-    border-style: groove;
-    text-align: center;
-    border-radius: 20px;
-    font-size: 45px;
-    margin: 40px 5px;
-    margin-bottom: 100px;
-}
-
-  .logoAboutDescr {
-    position: absolute;
-    width: 300px;
-    margin-left: 50px;
-    margin-top: 20px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transform: translateX(0) translateY(120px);
+    min-width: 100%; 
+    min-height: 100%;
   }
 
-  .descrBoxText {
-    position: relative;
-    width: 350px;
-    margin-top: 400px;
-  }
-
-  .descrBox p {
+  .content {
     position: relative;
     z-index: 1;
-    width: 100%;
-    color: #fff;
-    font-size: 15px;
-    margin-left: 10px;
   }
-  
-  .reportTitle {
-    background-color: rgb(133, 190, 49);
-    text-align: center;
-    border-radius: 30px;
-    color: #fff;
-    border: 5px #fff;
-    border-style: groove;
-    font-size: 70px;
-    margin: 200px 5px 100px;
+
+.descrHeader {
+  background-color: rgb(133, 190, 49);
+  border: 5px #fff;
+  color: #fff;
+  border-style: groove;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 20px;
+  margin: 40px 5px;
+  margin-bottom: 100px;
 }
 
-  .slidersBackground {
-    z-index: 0;
+.logoAboutDescr {
+  position: absolute;
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.descrBoxText {
+  position: relative;
+  width: 350px;
+  margin-top: 400px;
+}
+
+.descrBox p {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.reportTitle {
+  background-color: rgb(133, 190, 49);
+  text-align: center;
+  border-radius: 30px;
+  color: #fff;
+  border: 5px #fff;
+  border-style: groove;
+  font-size: 20px;
+  margin: 200px 5px 100px;
+}
+
+.slidersBackground {
+  z-index: 0;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  height: 3800px;
+  background-color: gray;
+  opacity: .6;
+}
+
+.patrulText {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 31px;
+  margin-left: 5px;
+  margin-top: 700px;
+  background-color: rgb(133, 190, 49);
+  width: 94.5%;
+  border-radius: 10px;
+  border: 5px white;
+  border-style: groove;
+}
+
+.sliderContainerPatrul {
+  display: none;
+}
+
+.helpToArmyText {
+  text-align: center;
+  color: white;
+  margin-top: 2350px;
+  font-weight: 600;
+  font-size: 31px;
+  margin-left: 5px;
+  background-color: rgb(133, 190, 49);
+  width: 94.5%;
+  border-radius: 10px;
+  border: 5px white;
+  border-style: groove;
+}
+
+.sliderContainerHelpToArmy {
+  display: none;
+}
+
+.armorText {
+  text-align: center;
+  color: white;
+  margin-top: 3160px;
+  font-weight: 600;
+  font-size: 29px;
+  margin-left: 5px;
+  background-color: rgb(133, 190, 49);
+  width: 94.5%;
+  border-radius: 10px;
+  border: 5px white;
+  border-style: groove;
+}
+
+.sliderContainerArmor {
+  display: none;
+}
+
+.signalText {
+  text-align: center;
+  color: white;
+  margin-top: 3360px;
+  font-weight: 600;
+  font-size: 31px;
+  margin-left: 5px;
+  background-color: rgb(133, 190, 49);
+  width: 94.5%;
+  border-radius: 10px;
+  border: 5px white;
+  border-style: groove;
+} 
+
+.sliderContainerSignal {
+  display: none;
+}
+
+.interhimHalpText {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 31px;
+  margin-left: 5px;
+  margin-top: 1200px;
+  background-color: rgb(133, 190, 49);
+  width: 94.5%;
+  border-radius: 10px;
+  border: 5px white;
+  border-style: groove;
+}
+
+.sliderContainerInterhimHalp {
+  display: none;
+}
+
+
+.sliderContainerMobile {
+  margin-left: 7px;
+  display: block;
+  border: 5px white;
+  border-style: groove;
+  border-radius: 20px;
+  position: relative;
+  width: 350px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.sliderMobile {
+  display: flex;
+  width: 10500px; /* 350px * 30 images */
+  transition: transform 0.5s ease-in-out;
+}
+
+.sliderMobile img {
+  width: 350px;
+  height: 600px;
+}
+
+.sliderNavigationMobile {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sliderNavigationMobile span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 5px;
+  line-height: 20px;
+}
+
+.prevArrowMobile,
+.nextArrowMobile {
+  border-radius: 10px;
+  font-size: 14px;
+  transition: all 600ms ease;
+}
+
+.prevArrowMobile:hover,
+.nextArrowMobile:hover {
+  background-color: rgb(133, 190, 49);
+  transform: scale(1.2);
+}
+
+  .fondOwnerTitle {
+    background-color: rgb(133, 190, 49);
+    color: white;
+    border: 5px white;
+    border-style: groove;
+    text-align: center;
     border-radius: 20px;
+    font-size: 40px;
+    margin-top: 3400px;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 100px;
+  }
+
+  .backgroundBox {
     position: absolute;
-    width: 100%;
-    height: 4990px;
+    width: 96%;
     background-color: gray;
-    opacity: .6;
-  }
-
-  .patrulText {
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-    font-size: 37px;
-    margin-left: 5px;
-    margin-top: 700px;
-    background-color: rgb(133, 190, 49);
-    width: 94.5%;
+    opacity: .5;
+    height: 2450px;
     border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
   }
 
-  .sliderContainerPatrul {
-    display: none;
-  }
-  
-  .helpToArmyText {
+  .ownerPhoto {
     position: absolute;
-    text-align: center;
-    color: white;
-    margin-top: 2850px;
-    font-weight: 600;
-    font-size: 49px;
-    margin-left: 5px;
-    background-color: rgb(133, 190, 49);
-    width: 94.5%;
+    z-index: 2;
+    width: 96%;
+    height: 500px;
     border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
   }
 
-  .sliderContainerHelpToArmy {
-    display: none;
-  }
-
-  .armorText {
+  .fondOwnerName {
     position: absolute;
-    text-align: center;
-    color: white;
-    margin-top: 4160px;
+    margin-top: 520px;
+    width: 100%;
+    margin-left: 50px;
     font-weight: 600;
-    font-size: 43px;
-    margin-left: 5px;
-    background-color: rgb(133, 190, 49);
-    width: 94.5%;
-    border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
+    font-size: 20px;
   }
 
-  .sliderContainerArmor {
-    display: none;
-  }
-  
-  .signalText {
+  .ownerInformationMain {
     position: absolute;
-    text-align: center;
-    color: white;
-    margin-top: 4460px;
+    z-index: 2;
+    width: 90%;
+    height: 800ox;
+    margin-top: 600px;
+    margin-left: 5px;
     font-weight: 600;
-    font-size: 39px;
-    margin-left: 5px;
-    background-color: rgb(133, 190, 49);
-    width: 94.5%;
-    border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
-  } 
-
-  .sliderContainerSignal {
-    display: none;
   }
 
-  .interhimHalpText {
+  .ownerInformationMore {
     position: absolute;
-    text-align: center;
-    color: white;
+    z-index: 2;
+    width: 90%;
+    height: 800ox;
+    margin-top: 600px;
+    margin-left: 5px;
     font-weight: 600;
-    font-size: 43px;
-    margin-left: 5px;
-    margin-top: 1200px;
-    background-color: rgb(133, 190, 49);
-    width: 94.5%;
-    border-radius: 10px;
-    border: 5px white;
-    border-style: groove;
   }
 
-  .sliderContainerInterhimHalp {
-    display: none;
-  }
-
-
-  .sliderContainerMobile {
-    margin-left: 7px;
-    display: block;
-    border: 5px white;
-    border-style: groove;
-    border-radius: 20px;
-    position: relative;
-    width: 350px;
-    height: 600px;
-    overflow: hidden;
-  }
-  
-  .sliderMobile {
-    display: flex;
-    width: 10500px; /* 350px * 30 images */
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .sliderMobile img {
-    width: 350px;
-    height: 600px;
-  }
-  
-  .sliderNavigationMobile {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-  
-  .sliderNavigationMobile span {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
-    color: #fff;
+  .more {
     text-align: center;
     cursor: pointer;
-    margin: 0 5px;
-    line-height: 20px;
-  }
-  
-  .prevArrowMobile,
-  .nextArrowMobile {
+    background-color: rgb(133, 190, 49);;
     border-radius: 10px;
-    font-size: 14px;
-    transition: all 600ms ease;
+    color: #fff;
+    border: 5px white;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin-left: 140px;
+    margin-top: 950px;
+    transition: transform 600ms ease-in-out;
   }
 
-  .prevArrowMobile:hover,
-  .nextArrowMobile:hover {
-    background-color: rgb(133, 190, 49);
+  .more:hover {
     transform: scale(1.2);
   }
 
-    .fondOwnerTitle {
-      background-color: rgb(133, 190, 49);
-      color: white;
-      border: 5px white;
-      border-style: groove;
-      text-align: center;
-      border-radius: 20px;
-      font-size: 70px;
-      margin-top: 4200px;
-      margin-left: 1px;
-      margin-right: 1px;
-      margin-bottom: 100px;
-    }
 
-    .backgroundBox {
-      position: absolute;
-      width: 96%;
-      background-color: gray;
-      opacity: .5;
-      height: 2450px;
-      border-radius: 10px;
-    }
+.vault {
+    background-color: black;
+    width: 100%;
+    height: 180px;
+    margin-top: 2600px;
+    border-radius: 10px;
+    opacity: .75;
+}
 
-    .ownerPhoto {
-      position: absolute;
-      z-index: 2;
-      width: 96%;
-      height: 500px;
-      border-radius: 10px;
-    }
+.vault .telefoonNumer {
+    font-size: 10px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 20px;
+    color: white;
+}
 
-    .fondOwnerName {
-      position: absolute;
-      margin-top: 520px;
-      width: 100%;
-      margin-left: 50px;
-      font-weight: 600;
-      font-size: 20px;
-    }
+.vault .mail {
+    font-size: 10px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 20px;
+    color: white;
+}
 
-    .ownerInformationMain {
-      position: absolute;
-      z-index: 2;
-      width: 95%;
-      height: 800ox;
-      margin-top: 600px;
-      margin-left: 5px;
-      font-weight: 600;
-    }
+.vault .vaultLogo {
+    border-radius: 500px;
+    border-color: black;
+    width: 120px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
 
-    .ownerInformationMore {
-      position: absolute;
-      z-index: 2;
-      width: 95%;
-      height: 800ox;
-      margin-top: 600px;
-      margin-left: 5px;
-      font-weight: 600;
-    }
+.vault #instagrammIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 25px;
+    margin-top: 30px;
+    transition: all 600ms ease;
+}
 
-    .more {
-      text-align: center;
-      cursor: pointer;
-      background-color: rgb(133, 190, 49);;
-      border-radius: 10px;
-      color: #fff;
-      border: 5px white;
-      position: absolute;
-      width: 100px;
-      height: 30px;
-      margin-left: 140px;
-      margin-top: 950px;
-      transition: transform 600ms ease-in-out;
-    }
+.vault #facebookIcon {
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 90px;
+    transition: all 600ms ease;
 
-    .more:hover {
-      transform: scale(1.2);
-    }
+}
 
+.vault #instagrammIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
+}
 
-  .vault {
-      background-color: black;
-      width: 100%;
-      height: 180px;
-      margin-top: 2600px;
-      border-radius: 10px;
-      opacity: .75;
-  }
-  
-  .vault .telefoonNumer {
-      font-size: 10px;
-      position: absolute;
-      margin-top: 70px;
-      margin-left: 20px;
-      color: white;
-  }
-  
-  .vault .mail {
-      font-size: 10px;
-      position: absolute;
-      margin-top: 100px;
-      margin-left: 20px;
-      color: white;
-  }
-  
-  .vault .vaultLogo {
-      border-radius: 500px;
-      border-color: black;
-      width: 120px;
-      height: 100px;
-      margin-left: 150px;
-      margin-top: 30px;
-  }
-  
-  .vault #instagrammIcon {
-      position: absolute;
-      cursor: pointer;
-      background-color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 15px;
-      margin-left: 25px;
-      margin-top: 30px;
-      transition: all 600ms ease;
-  }
-  
-  .vault #facebookIcon {
-      position: absolute;
-      cursor: pointer;
-      background-color: white;
-      width: 50px;
-      height: 50px;
-      border-radius: 50px;
-      margin-left: 25px;
-      margin-top: 90px;
-      transition: all 600ms ease;
-  
-  }
-  
-  .vault #instagrammIcon:hover {
-      transform: scale(1.2);
-      background-color: green;
-  }
-  
-  .vault #facebookIcon:hover {
-      transform: scale(1.2);
-      background-color: green;
-  }
+.vault #facebookIcon:hover {
+    transform: scale(1.2);
+    background-color: green;
+}
 }

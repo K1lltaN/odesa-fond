@@ -103,10 +103,6 @@ const langArr = {
         "ua": "Вибір мови:",
         "en": "Language change:",
     },
-    "fondNameText": {
-        "ua": "Благодійний фонд ʼНОВИХ ЗМIHʼ",
-        "en": "Charitable Foundation of New Changes",
-    },
     "ZSUdonate": {
         "ua": "Збір для ЗСУ",
         "en": "Donate for ZSU",

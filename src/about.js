@@ -41,6 +41,15 @@ partners.onmouseleave = handleMouseLeave;
 partnersBox.onmousemove = handleMouseOver;
 partnersBox.onmouseleave = handleMouseLeave;
 
+document.getElementById('interhimPartner').onclick = function() {
+  window.open('https://interchem.ua/', '_blank');
+}
+
+document.getElementById('korydoruPartner').onclick = function() {
+  window.open('https://koridorua.cz/ua/', '_blank');
+}
+
+
 document.addEventListener("DOMContentLoaded", function() {
   let slider = document.querySelector(".sliderPatrul");
   let prevArrow = document.querySelector(".prevArrowPatrul");

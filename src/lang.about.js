@@ -72,8 +72,8 @@ const langArr = {
         "en": "Description of our company:",
     },
     "descrTitle_1": {
-        "ua": "З 2014 року Олександ Мальцев як приватна особа займався волонтерською допомогою українській армії та переселенцям с Донецкої та Луганскої областей. У 2020 році він разом з командою cтворив благодійний фонд для надання допомоги людям з інвалідністю, хворим дітям та тваринам.",
-        "en": "Since 2014, Oleksand Maltsev, as a private individual, has been engaged in volunteer assistance to the Ukrainian army and displaced persons from the Donetsk and Luhansk regions. In 2020, together with his team, he created a charity fund to help people with disabilities, sick children and animals.",
+        "ua": "З 2014 року Олександр Мальцев як приватна особа займався волонтерською допомогою українській армії та переселенцям с Донецкої та Луганскої областей. У 2020 році він разом з командою cтворив благодійний фонд для надання допомоги людям з інвалідністю, хворим дітям та тваринам.",
+        "en": "Since 2014, Oleksandr Maltsev, as a private individual, has been engaged in volunteer assistance to the Ukrainian army and displaced persons from the Donetsk and Luhansk regions. In 2020, together with his team, he created a charity fund to help people with disabilities, sick children and animals.",
     },
     "descrTitle_2": {
         "ua": "Після початку повномасштабного вторгнення росії, спротив ворогу став основним завданням всієї країни. Тож благодійний фонд сфокусувався на допомозі Силам Оборони України та цивільним, які постраждали від російської агресії. Наразі фонд веде роботу за двома напрямами:",
@@ -108,7 +108,7 @@ const langArr = {
         "en": "In order to improve the signal and the possibility of listening to enemy negotiations, we purchased and transferred a Motorola radio signal amplifier",
     },
     "interhimHalpText": {
-        "ua": "Завдяки нашому партнеру компанії 'ІНТЕРХІМ' ми змогли забезпечити наших захисників високоякісними препаратами для підтримки імунітету та боротьби з простудних та вірусними захворюваннями. Наші співвітчизники за кордоном не сиділи склавши руки, звичайні небайдужі люди та  Європейські партнери допомогли  перев'язочними матеріалами военним госпіталям Миколаївської та Одеської областей.",
+        "ua": "Завдяки нашому партнеру компанії 'ІНТЕРХІМ' ми змогли забезпечити наших захисників високоякісними препаратами для підтримки імунітету та боротьби з простудних та вірусними захворюваннями. Наші співвітчизники за кордоном не сиділи склавши руки, звичайні небайдужі люди та  Європейські партнери допомогли  перев'язочними матеріалами військовим госпіталям Миколаївської та Одеської областей.",
         "en": "Thanks to our partner 'INTERCHEM' company, we were able to provide our defenders with high-quality drugs to support immunity and fight against colds and viral diseases. Our compatriots abroad did not sit idly by, ordinary caring people and European partners helped with dressing materials to the military hospitals of the Mykolaiv and Odesa regions.",
     },
     "fondOwnerTitle": {

@@ -1,4 +1,4 @@
-@media (min-width: 1471px) and (max-width: 2000px){
+@media (min-width: 1471px) and (max-width: 4000px){
   #myVideo {
     position: fixed;
     right: 0;
@@ -18,14 +18,14 @@
   }
 
   .descrHeader {
-      background-color: rgb(133, 190, 49);
+    background-color: rgb(133, 190, 49);
       border: 5px #fff;
       color: #fff;
       border-style: groove;
       text-align: center;
       border-radius: 20px;
       font-size: 70px;
-      margin: 40px 350px;
+      margin: 40px 250px;
       margin-bottom: 100px;
   }
 
@@ -55,7 +55,7 @@
   }
 
   .reportTitle {
-      background-color: rgb(133, 190, 49);
+    background-color: rgb(133, 190, 49);
       text-align: center;
       border-radius: 30px;
       color: #fff;
@@ -93,7 +93,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -149,7 +149,7 @@
 
     .prevArrowPatrul:hover,
     .nextArrowPatrul:hover {
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       transform: scale(1.2);
     }
     
@@ -161,7 +161,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -176,7 +176,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -245,7 +245,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -314,7 +314,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -383,7 +383,7 @@
       font-weight: 600;
       font-size: 44px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 750px;
       border-radius: 10px;
       border: 5px white;
@@ -509,7 +509,7 @@
     .more {
       text-align: center;
       cursor: pointer;
-      background-color: rgb(133, 190, 49);;
+      background-color: rgba(133, 190, 49, .7);
       border-radius: 10px;
       color: #fff;
       border: 5px white;
@@ -614,14 +614,14 @@
   }
 
   .descrHeader {
-      background-color: rgb(133, 190, 49);
+    background-color: rgb(133, 190, 49);
       border: 5px #fff;
       color: #fff;
       border-style: groove;
       text-align: center;
       border-radius: 20px;
       font-size: 70px;
-      margin: 40px 350px;
+      margin: 40px 250px;
       margin-bottom: 100px;
   }
 
@@ -651,7 +651,7 @@
   }
 
   .reportTitle {
-      background-color: rgb(133, 190, 49);
+    background-color: rgb(133, 190, 49);
       text-align: center;
       border-radius: 30px;
       color: #fff;
@@ -689,7 +689,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -745,7 +745,7 @@
 
     .prevArrowPatrul:hover,
     .nextArrowPatrul:hover {
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       transform: scale(1.2);
     }
     
@@ -757,7 +757,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -772,7 +772,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -841,7 +841,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -910,7 +910,7 @@
       font-weight: 600;
       font-size: 50px;
       margin-left: 750px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 600px;
       border-radius: 10px;
       border: 5px white;
@@ -979,7 +979,7 @@
       font-weight: 600;
       font-size: 44px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 750px;
       border-radius: 10px;
       border: 5px white;
@@ -1105,7 +1105,7 @@
     .more {
       text-align: center;
       cursor: pointer;
-      background-color: rgb(133, 190, 49);;
+      background-color: rgba(133, 190, 49, .7);
       border-radius: 10px;
       color: #fff;
       border: 5px white;
@@ -1286,7 +1286,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 500px;
       border-radius: 10px;
       border: 5px white;
@@ -1354,7 +1354,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 500px;
       border-radius: 10px;
       border: 5px white;
@@ -1423,7 +1423,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 500px;
       border-radius: 10px;
       border: 5px white;
@@ -1492,7 +1492,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 500px;
       border-radius: 10px;
       border: 5px white;
@@ -1560,7 +1560,7 @@
       font-weight: 600;
       font-size: 35px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 500px;
       border-radius: 10px;
       border: 5px white;
@@ -1643,7 +1643,7 @@
       width: 99%;
       background-color: gray;
       opacity: .5;
-      height: 850px;
+      height: 750px;
       border-radius: 10px;
     }
 
@@ -1651,7 +1651,7 @@
       position: absolute;
       z-index: 2;
       width: 500px;
-      height: 850px;
+      height: 750px;
       border-radius: 10px;
     }
 
@@ -1665,7 +1665,7 @@
     .ownerInformationMain {
       position: absolute;
       z-index: 2;
-      font-size: 15px;
+      font-size: 14px;
       width: 680px;
       height: 800ox;
       margin-top: 90px;
@@ -1677,7 +1677,7 @@
       display: none;
       position: absolute;
       z-index: 2;
-      font-size: 15px;
+      font-size: 14px;
       width: 680px;
       height: 800ox;
       margin-top: 90px;
@@ -1708,7 +1708,7 @@
       background-color: black;
       width: 100%;
       height: 200px;
-      margin-top: 1000px;
+      margin-top: 900px;
       border-radius: 10px;
       opacity: .75;
   }
@@ -1869,7 +1869,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 300px;
       border-radius: 10px;
       border: 5px white;
@@ -1937,7 +1937,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 300px;
       border-radius: 10px;
       border: 5px white;
@@ -2006,7 +2006,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 300px;
       border-radius: 10px;
       border: 5px white;
@@ -2075,7 +2075,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 300px;
       border-radius: 10px;
       border: 5px white;
@@ -2144,7 +2144,7 @@
       font-weight: 600;
       font-size: 27px;
       margin-left: 650px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 300px;
       border-radius: 10px;
       border: 5px white;
@@ -2227,7 +2227,7 @@
       width: 98%;
       background-color: gray;
       opacity: .5;
-      height: 700px;
+      height: 600px;
       border-radius: 10px;
     }
 
@@ -2235,7 +2235,7 @@
       position: absolute;
       z-index: 2;
       width: 400px;
-      height: 700px;
+      height: 600px;
       border-radius: 10px;
     }
 
@@ -2249,10 +2249,10 @@
     .ownerInformationMain {
       position: absolute;
       z-index: 2;
-      font-size: 15px;
+      font-size: 11px;
       width: 560px;
       height: 800ox;
-      margin-top: 90px;
+      margin-top: 60px;
       margin-left: 420px;
       font-weight: 600;
     }
@@ -2261,10 +2261,10 @@
       display: none;
       position: absolute;
       z-index: 2;
-      font-size: 12px;
+      font-size: 11px;
       width: 540px;
       height: 800ox;
-      margin-top: 90px;
+      margin-top: 60px;
       margin-left: 420px;
       font-weight: 600;
     }
@@ -2292,7 +2292,7 @@
       background-color: black;
       width: 100%;
       height: 200px;
-      margin-top: 1000px;
+      margin-top: 900px;
       border-radius: 10px;
       opacity: .75;
   }
@@ -2453,7 +2453,7 @@
       font-weight: 600;
       font-size: 28px;
       margin-left: 400px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 310px;
       border-radius: 10px;
       border: 5px white;
@@ -2471,7 +2471,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 720px;
       border-radius: 10px;
       border: 5px white;
@@ -2489,7 +2489,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 720px;
       border-radius: 10px;
       border: 5px white;
@@ -2507,7 +2507,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 720px;
       border-radius: 10px;
       border: 5px white;
@@ -2525,7 +2525,7 @@
       font-weight: 600;
       font-size: 40px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 720px;
       border-radius: 10px;
       border: 5px white;
@@ -2613,7 +2613,7 @@
       width: 98%;
       background-color: gray;
       opacity: .5;
-      height: 550px;
+      height: 450px;
       border-radius: 10px;
     }
 
@@ -2621,7 +2621,7 @@
       position: absolute;
       z-index: 2;
       width: 300px;
-      height: 550px;
+      height: 450px;
       border-radius: 10px;
     }
 
@@ -2647,7 +2647,7 @@
       display: none;
       position: absolute;
       z-index: 2;
-      font-size: 10px;
+      font-size: 8px;
       width: 430px;
       height: 800ox;
       margin-top: 40px;
@@ -2658,7 +2658,7 @@
     .more {
       text-align: center;
       cursor: pointer;
-      background-color: rgb(133, 190, 49);;
+      background-color: rgb(133, 190, 49);
       border-radius: 10px;
       color: #fff;
       border: 5px white;
@@ -2678,7 +2678,7 @@
       background-color: black;
       width: 100%;
       height: 200px;
-      margin-top: 2000px;
+      margin-top: 1900px;
       border-radius: 10px;
       opacity: .75;
   }
@@ -2840,7 +2840,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 450px;
       border-radius: 10px;
       border: 5px white;
@@ -2858,7 +2858,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 450px;
       border-radius: 10px;
       border: 5px white;
@@ -2876,7 +2876,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 450px;
       border-radius: 10px;
       border: 5px white;
@@ -2894,7 +2894,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 450px;
       border-radius: 10px;
       border: 5px white;
@@ -2912,7 +2912,7 @@
       font-weight: 600;
       font-size: 30px;
       margin-left: 10px;
-      background-color: rgb(133, 190, 49);
+      background-color: rgba(133, 190, 49, .7);
       width: 450px;
       border-radius: 10px;
       border: 5px white;
@@ -3010,7 +3010,7 @@
       position: absolute;
       z-index: 2;
       width: 250px;
-      height: 450px;
+      height: 350px;
       border-radius: 10px;
     }
 
@@ -3207,7 +3207,7 @@
   font-size: 31px;
   margin-left: 5px;
   margin-top: 700px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3225,7 +3225,7 @@
   font-weight: 600;
   font-size: 31px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3243,7 +3243,7 @@
   font-weight: 600;
   font-size: 29px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3261,7 +3261,7 @@
   font-weight: 600;
   font-size: 31px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3280,7 +3280,7 @@
   font-size: 31px;
   margin-left: 5px;
   margin-top: 1200px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3575,7 +3575,7 @@
   font-size: 31px;
   margin-left: 5px;
   margin-top: 700px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3593,7 +3593,7 @@
   font-weight: 600;
   font-size: 31px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3611,7 +3611,7 @@
   font-weight: 600;
   font-size: 29px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3629,7 +3629,7 @@
   font-weight: 600;
   font-size: 31px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3648,7 +3648,7 @@
   font-size: 31px;
   margin-left: 5px;
   margin-top: 1200px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3763,6 +3763,7 @@
     margin-top: 600px;
     margin-left: 5px;
     font-weight: 600;
+    font-size: 14px;
   }
 
   .ownerInformationMore {
@@ -3773,6 +3774,7 @@
     margin-top: 600px;
     margin-left: 5px;
     font-weight: 600;
+    font-size: 14px;
   }
 
   .more {
@@ -3948,10 +3950,10 @@
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 31px;
+  font-size: 28px;
   margin-left: 5px;
   margin-top: 500px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3967,9 +3969,9 @@
   color: white;
   margin-top: 2250px;
   font-weight: 600;
-  font-size: 31px;
+  font-size: 28px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -3985,9 +3987,9 @@
   color: white;
   margin-top: 2960px;
   font-weight: 600;
-  font-size: 29px;
+  font-size: 28px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -4003,9 +4005,9 @@
   color: white;
   margin-top: 3260px;
   font-weight: 600;
-  font-size: 31px;
+  font-size: 28px;
   margin-left: 5px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -4021,10 +4023,10 @@
   text-align: center;
   color: white;
   font-weight: 600;
-  font-size: 31px;
+  font-size: 28px;
   margin-left: 5px;
   margin-top: 1100px;
-  background-color: rgb(133, 190, 49);
+  background-color: rgba(133, 190, 49, .7);
   width: 94.5%;
   border-radius: 10px;
   border: 5px white;
@@ -4110,7 +4112,7 @@
     width: 96%;
     background-color: gray;
     opacity: .5;
-    height: 2450px;
+    height: 2370px;
     border-radius: 10px;
   }
 
@@ -4118,13 +4120,13 @@
     position: absolute;
     z-index: 2;
     width: 96%;
-    height: 500px;
+    height: 420px;
     border-radius: 10px;
   }
 
   .fondOwnerName {
     position: absolute;
-    margin-top: 520px;
+    margin-top: 440px;
     width: 100%;
     margin-left: 2px;
     font-weight: 600;
@@ -4136,10 +4138,10 @@
     z-index: 2;
     width: 90%;
     height: 800ox;
-    margin-top: 560px;
+    margin-top: 480px;
     margin-left: 5px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .ownerInformationMore {
@@ -4147,10 +4149,10 @@
     z-index: 2;
     width: 90%;
     height: 800ox;
-    margin-top: 560px;
+    margin-top: 480px;
     margin-left: 5px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .more {
@@ -4164,7 +4166,7 @@
     width: 100px;
     height: 30px;
     margin-left: 100px;
-    margin-top: 900px;
+    margin-top: 820px;
     transition: transform 600ms ease-in-out;
   }
 
@@ -4175,7 +4177,7 @@
 
   .vault {
     background-color: black;
-    margin-top: 2600px;
+    margin-top: 2520px;
     width: 100%;
     height: 180px;
     border-radius: 10px;

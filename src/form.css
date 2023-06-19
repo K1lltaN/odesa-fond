@@ -814,6 +814,7 @@
         display: none;
         position: absolute;
         margin-left: 1px;
+        width: 99%;
     }
 
     form {
@@ -822,7 +823,7 @@
         margin-left: 200px;
         z-index: 6;
         color: white;
-        width: 370px;
+        width: 95%;
         background-color: green;
         border-radius: 20px;
         border: white;
@@ -960,6 +961,7 @@
         color: white;
         background-color: green;
         border-radius: 20px;
+        width: 90%;
         border: white;
         border-style: groove;
     }
@@ -973,7 +975,7 @@
     .formTitle {
         -webkit-text-stroke: .7px black;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
         margin: 0 0 30px 0;
     }
@@ -985,7 +987,7 @@
     .formLabel {
         -webkit-text-stroke: .3px black;
         text-align: center;
-        font-size: 28px;
+        font-size: 25px;
         display: block;
         margin: 0 0 10px 0;
     }
@@ -994,7 +996,7 @@
         height: 50px;
         padding: 0px 20px;
         border-radius: 50px;
-        width: 84%;
+        width: 82%;
         font-size: 18px;
     }
 

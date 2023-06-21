@@ -2409,7 +2409,7 @@
     z-index: 1;
     width: 400px;
     color: #fff;
-    font-size: 20px;
+    font-size: 19px;
     margin-left: 330px;
   }
 
@@ -2421,7 +2421,7 @@
       border: 5px #fff;
       border-style: groove;
       font-size: 50px;
-      margin: 200px 250px 10px;
+      margin: 250px 250px 10px;
       margin-bottom: 100px;
   }
 
@@ -2451,7 +2451,7 @@
       color: white;
       margin-top: 200px;
       font-weight: 600;
-      font-size: 28px;
+      font-size: 27px;
       margin-left: 400px;
       background-color: rgba(133, 190, 49, .7);
       width: 310px;
@@ -2469,7 +2469,7 @@
       color: white;
       margin-top: 650px;
       font-weight: 600;
-      font-size: 40px;
+      font-size: 38px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
       width: 720px;
@@ -2487,7 +2487,7 @@
       color: white;
       margin-top: 1050px;
       font-weight: 600;
-      font-size: 40px;
+      font-size: 38px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
       width: 720px;
@@ -2505,7 +2505,7 @@
       color: white;
       margin-top: 1220px;
       font-weight: 600;
-      font-size: 40px;
+      font-size: 38px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
       width: 720px;
@@ -2523,7 +2523,7 @@
       color: white;
       margin-top: 1490px;
       font-weight: 600;
-      font-size: 40px;
+      font-size: 38px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
       width: 720px;
@@ -2591,10 +2591,6 @@
       transform: scale(1.2);
     }
 
-    .fondOwnerAllInformation {
-      margin-top: 1300px;
-    }
-
     .fondOwnerTitle {
       position: relative;
       background-color: rgb(133, 190, 49);
@@ -2603,8 +2599,8 @@
       border-style: groove;
       text-align: center;
       border-radius: 20px;
-      font-size: 70px;
-      margin: 110px 350px 40px;
+      font-size: 50px;
+      margin: 1600px 35px 40px;
       margin-bottom: 100px;
     }
 
@@ -2678,7 +2674,6 @@
       background-color: black;
       width: 100%;
       height: 200px;
-      margin-top: 1900px;
       border-radius: 10px;
       opacity: .75;
   }
@@ -2795,7 +2790,7 @@
     z-index: 1;
     width: 220px;
     color: #fff;
-    font-size: 14.5px;
+    font-size: 12.5px;
     margin-left: 230px;
   }
 
@@ -2838,10 +2833,10 @@
       color: white;
       margin-top: 2075px;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 28px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
-      width: 450px;
+      width: 435px;
       border-radius: 10px;
       border: 5px white;
       border-style: groove;
@@ -2856,10 +2851,10 @@
       color: white;
       margin-top: 650px;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 28px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
-      width: 450px;
+      width: 435px;
       border-radius: 10px;
       border: 5px white;
       border-style: groove;
@@ -2874,10 +2869,10 @@
       color: white;
       margin-top: 1050px;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 28px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
-      width: 450px;
+      width: 435px;
       border-radius: 10px;
       border: 5px white;
       border-style: groove;
@@ -2892,10 +2887,10 @@
       color: white;
       margin-top: 1220px;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 28px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
-      width: 450px;
+      width: 435px;
       border-radius: 10px;
       border: 5px white;
       border-style: groove;
@@ -2910,10 +2905,10 @@
       color: white;
       margin-top: 1490px;
       font-weight: 600;
-      font-size: 30px;
+      font-size: 28px;
       margin-left: 10px;
       background-color: rgba(133, 190, 49, .7);
-      width: 450px;
+      width: 435px;
       border-radius: 10px;
       border: 5px white;
       border-style: groove;
@@ -2978,22 +2973,15 @@
       transform: scale(1.2);
     }
 
-    .fondOwnerAllInformation {
-      margin-top: 2000px;
-    }
-
     .fondOwnerTitle {
-      position: absolute;
-      display: none;
       background-color: rgb(133, 190, 49);
       color: white;
       border: 5px white;
       border-style: groove;
       text-align: center;
-      height: 100px;
       border-radius: 20px;
-      font-size: 70px;
-      margin: 19px 50px 40px;
+      font-size: 30px;
+      margin: 1900px 50px 40px;
       margin-bottom: 100px;
     }
 
@@ -3065,7 +3053,6 @@
       background-color: black;
       width: 100%;
       height: 200px;
-      margin-top: 2600px;
       border-radius: 10px;
       opacity: .75;
   }

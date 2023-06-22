@@ -17,17 +17,13 @@
         z-index: 1;
     }
 
-    .donateInformation {
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
         width: 99.3%;
-        height: 500px;
-    }
-
-    .donateInformationMainText {
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
@@ -176,17 +172,13 @@
         z-index: 1;
     }
 
-    .donateInformation {
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
         width: 99.3%;
-        height: 650px;
-    }
-
-    .donateInformationMainText {
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
@@ -335,17 +327,13 @@
         z-index: 1;
     }
 
-    .donateInformation {
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
         width: 99.3%;
-        height: 780px;
-    }
-
-    .donateInformationMainText {
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
@@ -494,21 +482,17 @@
         z-index: 1;
     }
 
-    .donateInformation {
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
-        width: 99.3%;
-        height: 980px;
-    }
-
-    .donateInformationMainText {
+        width: 99%;
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
-        font-size: 60px;
+        font-size: 50px;
         height: 100%;
         margin: auto;
     }
@@ -657,17 +641,13 @@
         z-index: 1;
     }
 
-    .donateInformation {
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
         width: 99.3%;
-        height: 1080px;
-    }
-
-    .donateInformationMainText {
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
@@ -815,23 +795,19 @@
         position: relative;
         z-index: 1;
       }
-    
-    .donateInformation {
+
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
-        width: 97.3%;
-        height: 500px;
-    }
-
-    .donateInformationMainText {
-        padding-top: 50px;
+        width: 91.3%;
+        padding: 1px 10px;
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
-        font-size: 23px;
+        font-size: 30px;
         height: 100%;
     }
 
@@ -970,23 +946,19 @@
         position: relative;
         z-index: 1;
       }
-    
-    .donateInformation {
+
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
-        width: 97.3%;
-        height: 500px;
-    }
-
-    .donateInformationMainText {
-        padding-top: 50px;
+        width: 91.3%;
+        padding: 1px 10px;
         -webkit-text-stroke: .7px black;
         text-align: center;
         color: #fff;
-        font-size: 23px;
+        font-size: 30px;
         height: 100%;
     }
 
@@ -1125,23 +1097,19 @@
         position: relative;
         z-index: 1;
       }
-    
-    .donateInformation {
+
+    .donateInformationMainText {
         margin-top: 30px;
         border-radius: 20px;
         background-color: rgba(133, 190, 49, .7);
         border: 5px white;
         border-style: groove;
-        width: 97.3%;
-        height: 500px;
-    }
-
-    .donateInformationMainText {
-        padding-top: 50px;
+        width: 91.3%;
+        padding: 1px 10px;
         -webkit-text-stroke: .5px black;
         text-align: center;
         color: #fff;
-        font-size: 20px;
+        font-size: 25px;
         height: 100%;
     }
 
